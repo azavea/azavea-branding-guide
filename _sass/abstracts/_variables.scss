@@ -41,7 +41,14 @@
  * 1) Main identifiable colors involved in creating the UI
  *    Feel free to add your brand's color palette here.
  */
-
+ $brand-primary-01: #4ba6dd; // Light blue from logo
+ $brand-primary-02: #3773a1; // Med. blue from logo
+ $brand-primary-03: #204f72; // Dark blue from logo
+ $brand-secondary-01: #0e4266; // Blog's Company section
+ $brand-secondary-02: #53ae52; // Blog's Spatial Analysis section
+ $brand-secondary-03: #d45db0; // Blog's Events section
+ $brand-secondary-04: #f1b210; // Blog's Software Dev section 
+ $brand-semitransparent: rgba($brand-primary-01, 0.15);
 /**
  * Neutral Colors
  * 1) Neutral colors are grayscale values used throughout the application
@@ -142,6 +149,8 @@ $font-size-sm-2: 0.85rem;
 $font-size-med: 1rem;
 $font-size-med-2: 1.2rem;
 $font-size-large: 1.4375rem;
+$font-size-display: 2.25rem;
+$font-size-jumbo: 2.75rem;
 
 
 
@@ -172,10 +181,12 @@ $l-max-width-narrow: 36rem;
  */
 
 $space: 1rem;
-
+$pad-tiny: 2px;
 $pad-compact: 0.3rem;
 $pad-normal: 1rem; /* 1 */
 $pad-comfortable: 1.4rem;
+$pad-spacious: 2rem;
+$pad-spacious: 2rem;
 
 $space-bullet-offset: 1.6rem; /* 2 */
 
@@ -191,6 +202,7 @@ $space-bullet-offset: 1.6rem; /* 2 */
  * Border variables
  */
 $border-radius: 4px;
+$focus-outline: 3px solid rgba($brand-primary-01, 0.3);
 
 
 

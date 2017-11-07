@@ -5,13 +5,13 @@
 /**
  * Link base styles
  */
-a {
-	color: $color-gray-73;
-	text-decoration: none;
-	outline: 0;
-	transition: color $fade-quick ease-out, box-shadow $fade-quick ease-out;
+ a {
+  text-decoration: none;
+  outline: 0;
+ }
+.l-page-layout__main a {
 
 	&:hover, &:focus {
-		color: $color-gray-50;
+    outline: 0;
 	}
 }

@@ -19,7 +19,7 @@
  *    kinds of displays
  */
 .l-container--narrow {
-    max-width: $l-max-width-narrow;
+  max-width: $l-max-width-narrow;
 }
 
 /**
@@ -29,7 +29,7 @@
  *    kinds of displays
  */
 .l-linelength-container {
-    max-width: 35rem;
+  max-width: 35rem;
 }
 
 
@@ -44,23 +44,20 @@
  * Main section
  * 1) The main section is the primary content container
  */
+ .l-page-layout--two-column-fixed {
+    display: flex;
+ }
+ /**
+ * Main section of 2 column fixed layout
+ * 1) Margin left equals width of the fixed positioned sidebar
+ */
 .l-page-layout__main {
 	display: flex;
-	height: 100vh;
+  flex: 1 0 auto;
+  align-items: flex-start;
+  overflow-y: scroll;
 	-ms-flex-direction: column;
 	flex-direction: column;
-
-    /**
-	 * Main section of 2 column fixed layout
-	 * 1) Margin left equals width of the fixed positioned sidebar
-	 */
-    .l-page-layout--two-column-fixed > & {
-        height: 100vh;
-
-        @media all and (min-width: $bp-xl) {
-            margin-left: 18rem; /* 1 */
-        }
-    }
 }
 
 /**
@@ -68,21 +65,18 @@
  * 1) The secondary section is an auxiliary container
  *    Otherwise known as "sidebar", but we try to
  *    avoid that term to be mindful of the fact in
- *    responsive environments "sidebar"
+ *    responsive environments "sidebar" is poop
  */
 .l-page-layout__secondary {
-
 	/**
 	 * Secondary section in a two-column fixed layout
 	 * 1) This is a fixed element
 	 */
     .l-page-layout--two-column-fixed > & {
         @media all and (min-width: $bp-xl) {
-            position: fixed;
     	    z-index: 2;
-            overflow: auto;
-			width: 18rem;
-            height: 100vh;
+          overflow: auto;
+			    width: 18rem;
         }
     }
 }
@@ -155,10 +149,10 @@
 		 *    of grid__items to 100% to fill space
 		 *    automatically
 		 */
-		@supports (display: grid) {
-			width: 100%; /* 1 */
-			padding: 0;
-		}
+  		@supports (display: grid) {
+  			width: 100%; /* 1 */
+  			padding: 0;
+		  }
     }
 
 	/**

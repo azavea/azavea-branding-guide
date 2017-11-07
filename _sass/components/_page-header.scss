@@ -9,15 +9,16 @@
  * Page header title
  */
 .c-page-header__title {
-	margin-bottom: 0.2rem;
+	margin-bottom: $pad-normal;
+  font-size: $font-size-display;
+  color: $brand-primary-03;
 }
 
 /**
  * Page description
  */
 .c-page-header__desc {
-    margin-bottom: 2rem;
-    font-size: $font-size-med-2;
-    color: $color-gray-50;
-    max-width: $l-max-width-narrow;
+  margin-bottom: $pad-spacious;
+  font-size: $font-size-med-2;
+  max-width: $l-max-width-narrow;
 }

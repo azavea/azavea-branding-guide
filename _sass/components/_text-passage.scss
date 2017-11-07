@@ -6,7 +6,6 @@
  * 1) A passage of text, including various components (i.e. article, blog post)
  */
 .c-text-passage {
-
 	p {
 		margin-bottom: 1rem;
 	}
@@ -15,11 +14,25 @@
 	 * Link within the text passage
 	 */
 	a:not(.c-btn) {
-		color: $color-gray-50;
-        text-decoration: underline;
+		color: $brand-primary-03;
+  	border-bottom: 1px solid $brand-primary-03;
+  	transition: color $fade-quick ease-out, border-bottom $fade-quick ease-out;
 
-		&:hover, &:focus {
-			color: $color-gray-73;
+		&:hover, &:hover:focus {
+			color: $brand-primary-02;
+	    border-bottom: 1px solid $brand-primary-02;
+	    outline: none;
+		}
+
+		&:active, &:active:focus {
+			color: $brand-primary-03;
+	    border-bottom: 1px solid $brand-primary-03;
+	    outline: none;
+		}
+
+		&:focus {
+			outline: $focus-outline;
+			outline-offset: $pad-tiny;
 		}
 	}
 
@@ -37,44 +50,43 @@
 	  * First-level heading within text passage
 	  */
 	 h1 {
-		 margin-bottom: 1rem;
+		margin-bottom: $pad-normal;
 	 }
 
 	/**
 	 * Second-level heading within text passage
 	 */
 	h2 {
-		margin: 2rem 0 0.5rem;
-		color: $color-gray-73;
-		font-weight: bold;
+		margin: $pad-spacious 0 $pad-compact;
+		color: $brand-primary-03;
 	}
 
 	/**
 	 * Third-level heading within text passage
 	 */
 	h3 {
-		margin: 1rem 0 1rem;
+		margin: $pad-spacious 0 $pad-compact;
 	}
 
 	/**
 	 * Fourth-level heading within text passage
 	 */
 	h4 {
-		margin: 1rem 0 1rem;
+		margin: $pad-normal 0 $pad-normal;
 	}
 
 	/**
 	 * Fifth-level heading within text passage
 	 */
 	h5 {
-		margin: 1rem 0 1rem;
+		margin: $pad-normal 0 $pad-normal;
 	}
 
 	/**
 	 * Sixth-level heading within text passage
 	 */
 	h6 {
-		margin: 1rem 0 1rem;
+		margin: $pad-normal 0 $pad-normal;
 	}
 
 
