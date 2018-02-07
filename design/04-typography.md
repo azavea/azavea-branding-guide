@@ -8,4 +8,7 @@ description: Typography style description
 
 ---
 
-For inspiration, check out [Material Design's typography styles](https://material.io/guidelines/style/typography.html#typography-styles)
+- Proxima Nova for digital documents
+- Libre Franklin for print
+- Graphik Web for azavea.com
+
