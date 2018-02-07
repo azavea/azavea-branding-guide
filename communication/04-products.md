@@ -9,19 +9,18 @@ description: Azavea actively develops, maintains, and commercializes several Saa
 
 ![Cicero logo](../images/logo-cicero.png "Cicero")
 ## Cicero
-Cicero is a comprehensive database of elected officials and legislative districts. Cicero enables you to match constituents with their representatives based on address-level data, leading to endless possibilities. Always capitalize the first letter of "Cicero". [Go to website](https://www.cicerodata.com/)
+Legislative district and elected officials database for batch geocoding, district assignment, advocacy, and district mapping to support citizen engagement in the US and other countries. Always capitalize the first letter of "Cicero". [Go to website](https://www.cicerodata.com/)
 
 ![GeoTrellis logo](../images/logo-geotrellis.png "GeoTrellis")
 ## GeoTrellis
-GeoTrellis is a geographic data processing engine for high performance applications. [Go to website](https://geotrellis.io/)
+An open source software toolkit based on Apache Spark that supports fast geospatial data processing by distributing tasks across computer clusters. When writing its name, it should always be in upper camel case. [Go to website](https://geotrellis.io/)
 
 ![Raster Foundry logo](../images/logo-rasterfoundry.png "Raster Foundry")
-## Raster Foundry
-We help you find, combine and analyze earth imagery at any scale, and share it on the web. Always capitalize the first letter of each word in "Raster Foundry". It should never be written in upper camel case. [Go to website](https://www.rasterfoundry.com/)
+Raster Foundry helps users find, combine and analyze earth imagery at any scale, and share it on the web. Always capitalize the first letter of each word in "Raster Foundry". It should never be written in upper camel case. [Go to website](https://www.rasterfoundry.com/)
 
 ![HunchLab logo](../images/logo-hunchlab.png "HunchLab")
 ## HunchLab
-HunchLab is a web-based proactive patrol management system. When writing its name, it should always be in upper camel case. [Go to website](https://www.hunchlab.com/)
+Advanced predictive policing application built into a unified forecast of crime risk for sophisticated prevention analysis. When writing its name, it should always be in upper camel case. [Go to website](https://www.hunchlab.com/)
 
 ![DistrictBuilder logo](../images/logo-districtbuilder.png "DistrictBuilder")
 ## DistrictBuilder
@@ -33,8 +32,8 @@ Fuel your grassroots advocacy campaign, update records in your CRM, or complete 
 
 ![Temperate logo](../images/logo-temperate.png "Temperate")
 ## Temperate
-Azavea's app for city-based climate change adaptation planners. Always capitalize the first letter of "Temperate". [Go to website](https://www.temperate.io/)
+Temperate is a guided app for city-based climate change adaptation planners. Always capitalize the first letter of "Temperate". [Go to website](https://www.temperate.io/)
 
 ![OpenTreeMap logo](../images/logo-opentreemap.png "OpenTreeMap")
 ## OpenTreeMap
-Map ecosystem resources like rain barrels, rain gardens, or bioswales, and specify the custom attributes or stewardship activities you want to track. Future development on OpenTreeMap has been suspended. When writing the name, it should always be in upper camel case. [Go to website](https://www.opentreemap.org/)
+Open source collaborative urban ecosystem tools for tree inventory, community engagement, ecosystem services calculations, and urban forestry analysis. Future development on OpenTreeMap has been suspended. When writing the name, it should always be in upper camel case. [Go to website](https://www.opentreemap.org/)

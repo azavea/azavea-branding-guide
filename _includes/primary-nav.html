@@ -11,9 +11,9 @@
 				<span class="c-primary-nav__text">Communication</span>
 				<i class="c-icon c-primary-nav__icon icon-right-open"></i>
 			</a>
-			<ul class="c-primary-nav__sublist js-nav-dropdownn {% if page.url contains '/communication' %} is-active{% endif %}">
+			<ul class="c-primary-nav__sublist js-nav-dropdown {% if page.url contains '/communication' %} is-active{% endif %}">
 			{% for my_page in site.pages %}
-				{% if my_page.group == "communication" %}
+				{% if my_page.group == "communication" and my_page.subgroup == nil %}
 				<li class="c-primary-nav__item">
 					<a class="c-primary-nav__link {% if my_page.url == page.url %}is-active is-current{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">
             {% if my_page.title == "Communication" %}
@@ -30,7 +30,7 @@
 
 		<li class="c-primary-nav__item {% if page.url contains '/design' %}is-active{% endif %}">
 			<a href="{{ "/design/index.html" | prepend: site.baseurl }}" class="c-primary-nav__link c-primary-nav__link--has-children js-nav-dropdown-trigger {% if page.url contains '/design' %} is-active  is-current{% endif %}">
-				<span class="c-primary-nav__span">Design</span>
+				<span class="c-primary-nav__text">Design</span>
 				<i class="c-icon c-primary-nav__icon icon-right-open"></i>
 			</a>
 			<ul class="c-primary-nav__sublist js-nav-dropdown {% if page.url contains '/design' %} is-active{% endif %}">
@@ -82,10 +82,20 @@
 				{% endif %}
 			{% endfor %}
 		</li><!-- end c-nav__list__item -->
+
+		<li class="c-primary-nav__item">
+			{% for my_page in site.pages %}
+				{% if my_page.url == "/resources.html" %}
+				<a href="{{ "/resources.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/resources.html' %}is-active is-current{% endif %}">
+					<span class="c-primary-nav__text">Resources</span>
+				</a>
+				{% endif %}
+			{% endfor %}
+		</li><!-- end c-nav__list__item -->
 	</ul><!-- end c-nav__list -->
 
-	<div class="">
-		<a href="{{ "/release-history.html" | prepend: site.baseurl}}" class="c-primary-nav__link {% if page.url == '/release-history.html' %}is-active is-current{% endif %}">Release History</a>
+	<div class="c-guide-info">
+		<a href="{{ "/release-history.html" | prepend: site.baseurl}}" class="c-guide-info__link {% if page.url == '/release-history.html' %}is-active is-current{% endif %}">Release History</a>
 	</div>
 
 </nav><!-- end c-nav -->
