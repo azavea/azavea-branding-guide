@@ -1,5 +1,31 @@
 /*------------------------------------*\
-    #TEXT
+    # ADDING FONTELLO
+\*------------------------------------*/
+@import url('../fonts/fontello/css/fontello.css');
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello/font/fontello.eot?61624353');
+  src: url('../fonts/fontello/font/fontello.eot?61624353#iefix') format('embedded-opentype'),
+       url('../fonts/fontello/font/fontello.woff?61624353') format('woff'),
+       url('../fonts/fontello/font/fontello.ttf?61624353') format('truetype'),
+       url('../fonts/fontello/font/fontello.svg?61624353#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.c-icon {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*------------------------------------*\
+    # TEXT
 \*------------------------------------*/
 
 /**
@@ -14,8 +40,8 @@ p {
  */
 blockquote {
   font-style:italic;
-  border-left: 1px solid $color-gray-50;
-  color: $color-gray-50;
+  border-left: 1px solid $color-gray-200;
+  color: $color-gray-600;
 	padding-left: 1rem;
 	margin-bottom: $space;
 }
@@ -26,7 +52,7 @@ blockquote {
 hr {
 	border: 0;
     height: 1px;
-    background: $color-gray-13;
+    background: $color-gray-200;
     margin: 1rem 0;
 }
 
@@ -34,10 +60,10 @@ hr {
  * Selection styles
  */
 ::-moz-selection {
-  background: $color-gray-13; /* Gecko Browsers */
+  background: $color-gray-200; /* Gecko Browsers */
 }
 ::selection {
-  background: $color-gray-13; /* WebKit/Blink Browsers */
+  background: $color-gray-200; /* WebKit/Blink Browsers */
 }
 
 /**
@@ -45,8 +71,8 @@ hr {
  */
 code {
 	display: inline-block;
-	background: $color-gray-02;
-	border: 1px solid $color-gray-13;
+	background: $color-gray-200;
+	border: 1px solid $color-gray-200;
 	padding: .2rem .5rem;
     line-height: 1.2;
     font-size: .85rem;
@@ -56,8 +82,8 @@ code {
  * Preformatted text base styles
  */
 pre {
-	background: $color-gray-02;
-	border: 1px solid $color-gray-13;
+	background: $color-gray-200;
+	border: 1px solid $color-gray-300;
 	font-size: $font-size-med;
 	padding: 1rem;
     overflow-x: auto;

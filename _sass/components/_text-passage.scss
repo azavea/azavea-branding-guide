@@ -31,7 +31,7 @@
 		}
 
 		&:focus {
-			outline: $focus-outline;
+			@include focus-outline();
 			outline-offset: $pad-tiny;
 		}
 	}
@@ -41,8 +41,8 @@
 	 */
 	blockquote {
 		padding-left: 0.8rem;
-		border-left: 3px solid $color-gray-73;
-		color: $color-gray-50;
+		border-left: 3px solid $color-gray-400;
+		color: $color-gray-400;
 		font-size: 1rem;
 	 }
 

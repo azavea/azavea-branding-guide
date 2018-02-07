@@ -7,7 +7,9 @@
  */
 .c-footer-nav {
 	display: flex;
-	font-size: $font-size-sm;
+	flex: 1 0 100%;
+	justify-content: space-between;
+	font-size: $font-size-sm-2;
 }
 
 /**
@@ -15,11 +17,20 @@
  */
 .c-footer-nav__link {
 	display: block;
-	padding: 1rem 1rem 0.5rem;
+	padding: 1rem;
 	line-height: 1;
-	color: $color-gray-60;
+	color: $brand-primary-03;
+	font-weight: 600;
+	border-radius: $border-radius;
 
-	&:hover, &:focus {
-		color: $color-gray-73;
+	&:hover, &:hover:focus {
+		color: $color-gray-900;
+		background-color: $color-gray-200;
+	}
+	&:focus {
+		@include focus-outline();
+	}
+	&:active {
+
 	}
 }

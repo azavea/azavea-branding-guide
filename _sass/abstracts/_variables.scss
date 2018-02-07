@@ -53,15 +53,14 @@
  * Neutral Colors
  * 1) Neutral colors are grayscale values used throughout the application
  */
-$color-white: #fff;
-$color-gray-02: #f9f9f9;
-$color-gray-07: #eee;
-$color-gray-13: #ddd;
-$color-gray-27: #bbb;
-$color-gray-50: #808080;
-$color-gray-60: #666;
-$color-gray-73: #444;
-$color-gray-93: #131313;
+$color-white: #ffffff;
+$color-gray-100: #F4F6F8;
+$color-gray-200: #E5EAEE;
+$color-gray-300: #D0D9E1;
+$color-gray-400: #B8C5D2;
+$color-gray-500: #7C94AC;
+$color-gray-600: #4D6379;
+$color-gray-900: #27323D;
 $color-black: #000;
 
 /**
@@ -79,6 +78,15 @@ $color-utility-warning: #a59b15;
 $color-utility-warning-light: #fffecf;
 
 
+/**
+ * Applied colors 
+ * 
+ */
+$color-header-text: $color-black;
+$color-body-text: $color-gray-900;
+$color-secondary-text: $color-gray-600;
+$color-page-background: $color-gray-100;
+$color-border: $color-gray-300;
 
 
 
@@ -186,7 +194,6 @@ $pad-compact: 0.3rem;
 $pad-normal: 1rem; /* 1 */
 $pad-comfortable: 1.4rem;
 $pad-spacious: 2rem;
-$pad-spacious: 2rem;
 
 $space-bullet-offset: 1.6rem; /* 2 */
 
@@ -202,7 +209,6 @@ $space-bullet-offset: 1.6rem; /* 2 */
  * Border variables
  */
 $border-radius: 4px;
-$focus-outline: 3px solid rgba($brand-primary-01, 0.3);
 
 
 

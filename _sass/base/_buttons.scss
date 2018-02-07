@@ -10,6 +10,7 @@ button, input[type=submit] {
 	cursor: pointer;
 
 	&:focus {
-		outline: 1px solid $color-gray-27;
+    outline: none;
+		box-shadow: 0 0 4px rgba($color-gray-100,0.15);
 	}
 }

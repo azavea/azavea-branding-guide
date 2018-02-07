@@ -20,13 +20,13 @@
  */
 .c-tabs__list {
 	display: flex;
-	border-bottom: 1px solid $color-gray-27;
+	border-bottom: 1px solid $color-gray-400;
 
 	/**
 	 * Tabs list within vertical tabs
 	 */
 	.c-tabs--vertical & {
-		border: 1px solid $color-gray-27;
+		border: 1px solid $color-gray-400;
 		display: block;
 		order: 1;
 	}
@@ -48,7 +48,7 @@
 	 * Active tabs link
 	 */
 	&.is-active {
-		border: 1px solid $color-gray-27;
+		border: 1px solid $color-gray-400;
 		border-bottom: 1px solid $color-white;
 	}
 
@@ -57,7 +57,7 @@
 	 */
 	.c-tabs--vertical & {
 		border: 0;
-		border-bottom: 1px solid $color-gray-27;
+		border-bottom: 1px solid $color-gray-400;
 
 		/**
 		 * Last tabs item link within vertical tabs
@@ -70,7 +70,7 @@
 		 * Active tabs link within vertical tabs
 		 */
 		&.is-active {
-			background: $color-gray-13;
+			background: $color-gray-300;
 		}
 	}
 }
@@ -89,7 +89,7 @@
 	 */
 	.c-tabs--vertical & {
 		flex: 1; /* 1 */
-		border: 1px solid $color-gray-27;
+		border: 1px solid $color-gray-400;
 		border-right: 0;
 	}
 
