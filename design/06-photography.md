@@ -1,9 +1,9 @@
 ---
 layout: page
 type: detail
-title: Imagery
+title: Photography
 group: design
-permalink: /design/imagery.html
+permalink: /design/photography.html
 description: Styles for treating pictures and graphics
 
 ---

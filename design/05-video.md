@@ -1,9 +1,9 @@
 ---
 layout: page
 type: detail
-title: Iconography
+title: Video
 group: design
-permalink: /design/iconography.html
+permalink: /design/video.html
 description: How to style or construct icons for the design system
 
 ---
