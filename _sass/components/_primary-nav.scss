@@ -7,8 +7,8 @@
  */
 .c-primary-nav {
   background: linear-gradient(to bottom, $brand-primary-03 10%, darken($brand-primary-03,5%) 90%);
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
@@ -18,9 +18,6 @@
  * Primary navigation list
  */
 .c-primary-nav__list {
-  display: flex;
-  flex: 0 auto;
-  flex-direction: column;
   margin: 0 0.5rem;
   padding-top: $pad-normal;
 }
@@ -306,6 +303,33 @@
     @media all and (min-width: $bp-xl) {
       margin-left: 0;
       width: 100%;
+    }
+  }
+}
+
+
+/**
+ * Guide info
+ * 1) Information about the guide version and
+ * a link to the version history
+ */
+.c-guide-info {
+  font-size: $font-size-sm;
+  border-top: 1px solid $color-gray-600;
+  margin: $pad-compact $pad-normal $pad-spacious;
+  padding: $pad-compact 0 0;
+
+  a {
+    color: $color-gray-300;
+    padding: $pad-normal 0 0 0;
+
+    &:hover {
+      color: $color-gray-200;
+      text-decoration: underline;
+    }
+
+    &:hover, &:focus {
+      outline: 0;
     }
   }
 }
