@@ -1,0 +1,72 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "1d35198f5190ec004dd4ec742fbe19ca",
+      "css": "right",
+      "code": 59408,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "c21d309f797d3644dc8d28c4617738ce",
+      "css": "left",
+      "code": 59407,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "d9be617b7f2fe7843118ca2d3a1b8cca",
+      "css": "down-open",
+      "code": 61444,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "440e148d0e21100118eae7036bcd2067",
+      "css": "up-open",
+      "code": 61445,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "c55fdf978f617992b43ee7cbaa6ef87e",
+      "css": "menu",
+      "code": 61448,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "06301c50d89b5d3e651bd07ebd6d7de7",
+      "css": "cancel",
+      "code": 59392,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "37910a1398001a5ccb541cb2a253a2c7",
+      "css": "right-open",
+      "code": 61446,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "b714be5a812a474811604f700dfc87ce",
+      "css": "left-open",
+      "code": 61447,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "780f1e00ef7c663b8ca7d0d691c3a473",
+      "css": "artboard-1",
+      "code": 59397,
+      "src": "custom_icons",
+      "selected": false,
+      "svg": {
+        "path": "M883.3 187.3A64.2 64.2 0 0 0 862.3 137.1 64.2 64.2 0 0 0 812.7 116.7H187.3A64.2 64.2 0 0 0 137.1 137.7 64.2 64.2 0 0 0 116.7 187.3V812.7A64.2 64.2 0 0 0 137.7 862.9 64.2 64.2 0 0 0 187.9 883.9H812.7A71.2 71.2 0 0 0 883.3 813.3ZM1000 187.3V812.7A187.9 187.9 0 0 1 812.7 1000H187.3A180.9 180.9 0 0 1 54.8 945.2 180.9 180.9 0 0 1 0 812.7V187.3A180.9 180.9 0 0 1 54.8 54.8 180.9 180.9 0 0 1 187.3 0H812.7A180.9 180.9 0 0 1 945.2 54.8 180.9 180.9 0 0 1 1000 187.3Z",
+        "width": 1000
+      },
+      "search": [
+        "artboard-1"
+      ]
+    }
+  ]
+}

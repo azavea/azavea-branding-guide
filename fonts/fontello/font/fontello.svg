@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cancel" unicode="&#xe800;" d="M0 90q0 36 26 62l195 195-195 196q-26 25-26 61t26 61 61 25 61-25l196-196 195 196q25 25 61 25t61-25 25-61-25-61l-195-196 195-195q25-26 25-62t-25-61q-25-25-61-25t-61 25l-195 195-196-195q-25-25-61-25t-61 25q-26 26-26 61z" horiz-adv-x="686.5" />
+
+<glyph glyph-name="left" unicode="&#xe80f;" d="M0 353l390 391q19 18 44 18 25 0 43-18t18-44-18-43l-243-243h642q25 0 43-18t18-43-18-43-43-18h-642l243-243q18-18 18-44t-18-43-43-18-44 18z" horiz-adv-x="938" />
+
+<glyph glyph-name="right" unicode="&#xe810;" d="M0 347q0 26 18 43t43 17h642l-242 244q-19 18-19 44t19 42q17 19 42 19t44-19l390-390-390-391q-20-18-44-18t-42 18-19 44 19 43l242 242h-642q-25 0-43 18t-18 44z" horiz-adv-x="938" />
+
+<glyph glyph-name="down-open" unicode="&#xf004;" d="M0 533q0 25 18 43t44 18 42-18l305-303 304 303q18 18 43 18t43-18q18-18 18-43t-18-43l-390-391-391 391q-18 19-18 43z" horiz-adv-x="817.4" />
+
+<glyph glyph-name="up-open" unicode="&#xf005;" d="M0 167q0 26 18 43l391 391 390-391q17-17 17-43 0-26-17-44-18-17-44-17t-43 17l-303 305-305-305q-18-17-43-17t-43 17q-18 18-18 44z" horiz-adv-x="816.9" />
+
+<glyph glyph-name="right-open" unicode="&#xf006;" d="M0 0q0 25 18 43l305 304-305 304q-18 18-18 44t18 43 44 18 43-18l390-391-390-391q-19-18-43-18t-44 18q-18 18-18 44z" horiz-adv-x="495.1" />
+
+<glyph glyph-name="left-open" unicode="&#xf007;" d="M0 353l391 391q18 18 43 18 24 0 43-18 18-18 18-44t-18-43l-304-304 304-305q18-17 18-43t-18-43q-18-18-43-18t-43 18z" horiz-adv-x="495.1" />
+
+<glyph glyph-name="menu" unicode="&#xf008;" d="M68 62q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z" horiz-adv-x="1073.2" />
+</font>
+</defs>
+</svg>

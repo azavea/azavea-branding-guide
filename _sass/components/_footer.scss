@@ -6,10 +6,11 @@
  * 1) Global block at the bottom of each page that contains a navigation and other information
  */
 .c-footer {
-	text-align: center;
+  background: $color-white;
 	display: flex;
 	flex-shrink: 0;
-    border-top: 1px solid $color-gray-07;
-    padding: 1rem 0;
-    margin-top: 1rem;
+  border-top: 1px solid $color-gray-300;
+  padding: 2px;
+  margin-top: 1rem;
+  align-self: stretch;
 }

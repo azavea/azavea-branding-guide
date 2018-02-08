@@ -8,9 +8,9 @@
 [role=main] {
 	display: block;
 	flex: 1 0 auto;
-	padding: 1rem;
+	padding: $pad-spacious $pad-spacious;
 
-    @media all and (min-width: $bp-xl) {
-        padding-top: 1.5rem;
-    }
+  @media all and (min-width: $bp-xl) {
+    padding-top: $pad-spacious;
+  }
 }

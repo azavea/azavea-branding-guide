@@ -10,10 +10,11 @@ title: Azavea Branding Guide
 email: info@azavea.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the branding guide for Azavea: a certified B Corporation, who builds advanced geospatial applications for civic and social impact while advancing the state-of-the-art through research.
-baseurl: "/azavea-design-system" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: azavea
 github_username: azavea
+highlighter: rouge
 
 # Build settings
 markdown: kramdown

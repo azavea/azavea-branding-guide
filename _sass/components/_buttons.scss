@@ -8,7 +8,7 @@
  */
 .c-btn {
 	display: inline-block;
-	background: $color-gray-73;
+	background: $brand-primary-02;
 	border-radius: $border-radius;
 	cursor: pointer;
 	color: $color-white;
@@ -19,6 +19,9 @@
 	box-shadow: none; /* 2 */
 	text-align: center;
 	transition: all $fade-quick ease-out;
+	
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale;
 
 	&:hover, &:focus {
 		background: $color-black;
@@ -94,7 +97,7 @@
 .c-btn__icon {
 	width: 16px;
 	height: 16px;
-	fill: $color-gray-50;
+	fill: $color-gray-200;
 	position: relative;
 	transition: fill $fade-quick $anim-ease;
 
@@ -102,7 +105,7 @@
 	 * Button icon within button hover
 	 */
 	.c-btn:hover &, .c-btn:focus & {
-		fill: $color-gray-73;
+		fill: $color-gray-200;
 	}
 
 	/*
@@ -133,6 +136,6 @@
 	transition: background $fade-quick $anim-ease;
 
 	&:hover, &:focus {
-		color: $color-gray-50;
+		color: $color-gray-200;
 	}
 }
