@@ -5,20 +5,24 @@
  * 1) Container that consists of of a page header title and description
  */
 
-/**
- * Page header title
- */
-.c-page-header__title {
-	margin-bottom: $pad-normal;
-  font-size: $font-size-display;
-  color: $brand-primary-03;
+
+.c-page-header__parent-title {
+  color: $color-gray-500;
+  font-size: $font-size-sm-2;
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: $pad-compact;
 }
 
-/**
- * Page description
- */
+.c-page-header__title {
+  color: $brand-primary-03;
+  font-size: $font-size-display;
+  margin-bottom: $pad-normal;
+}
+
 .c-page-header__desc {
-  margin-bottom: $pad-spacious;
   font-size: $font-size-med-2;
+  margin-bottom: $pad-spacious;
   max-width: $l-max-width-narrow;
 }
