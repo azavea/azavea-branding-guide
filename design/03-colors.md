@@ -17,7 +17,7 @@ The three main colors that make up Azavea's logo are the basis of color use in o
 
 {% include color-patch.html
   type = "card"
-  name = "Light blue"
+  name = "Sky"
   hex = "4ba6dd"
   rgb = "75, 166, 221"
   cmyk = "66, 25, 0, 13"
@@ -25,7 +25,7 @@ The three main colors that make up Azavea's logo are the basis of color use in o
 
 {% include color-patch.html
   type = "card"
-  name = "Medium blue"
+  name = "Denim"
   hex = "3773a1"
   rgb = "55, 115, 161"
   cmyk = "66, 29, 0, 37"
@@ -33,7 +33,7 @@ The three main colors that make up Azavea's logo are the basis of color use in o
 
 {% include color-patch.html
   type = "card"
-  name = "Dark blue"
+  name = "Midnight"
   hex = "204f72"
   rgb = "32, 79, 114"
   cmyk = "72, 31, 0, 55"
@@ -44,7 +44,7 @@ Colors from our secondary palette should be used sparingly. They are for categor
 
 {% include color-patch.html
   type = "row"
-  name = "Company"
+  name = "Sapphire"
   hex = "0e4266"
   rgb = "14, 66, 102"
   cmyk = "86, 35, 0, 60"
@@ -52,7 +52,7 @@ Colors from our secondary palette should be used sparingly. They are for categor
 
 {% include color-patch.html
   type = "row"
-  name = "Spatial analysis"
+  name = "Light forest"
   hex = "53ae52"
   rgb = "83, 174, 82"
   cmyk = "52, 0, 53, 32"
@@ -60,7 +60,7 @@ Colors from our secondary palette should be used sparingly. They are for categor
 
 {% include color-patch.html
   type = "row"
-  name = "Events"
+  name = "Medium orchid"
   hex = "d45db0"
   rgb = "212, 93, 176"
   cmyk = "0, 56, 17, 17"
@@ -68,7 +68,7 @@ Colors from our secondary palette should be used sparingly. They are for categor
 
 {% include color-patch.html
   type = "row"
-  name = "Software development"
+  name = "Medium gold"
   hex = "f1b210"
   rgb = "241, 178, 16"
   cmyk = "0, 26, 93, 5"

@@ -3,19 +3,60 @@
 \*------------------------------------*/
 
 /**
- * Block Containing Title and List
+ * Visible color block
  */
-.c-color-patch__containe {
-  display: flex;
+.c-color-patch__block {
+  border-radius: $border-radius;
+  width: 100%;
+  
+  &:after {
+    content: "";
+    display: block;
+  }
 }
 
+/**
+ * Card is a square
+ */
+.c-color-patch__card {
+  .c-color-patch__block {
+
+    &:after {
+      padding-bottom: 100%;
+    }
+  }
+}
+
+/**
+ * Row is a rectangle
+ */
+.c-color-patch__row {
+  .c-color-patch__block {
+
+    &:after {
+      padding-bottom: 50%;
+    }
+  }
+}
+
+/**
+ * General block styles
+ */
 .c-color-patch {
   background-color: $color-white;
   border: 1px solid $color-gray-200;
-	padding: 1rem;
-  margin-bottom: 2rem;
+	padding: $pad-normal;
+  font-weight: $font-weight-medium;
 }
 
+.c-color-patch__type {
+  color: $color-gray-500;
+  font-size: $font-size-sm;
+}
+
+/**
+ * Card-style color patch styles
+ */
 .c-color-patch__card {
   display: inline-block;
   margin-right: 0.33%;
@@ -48,40 +89,30 @@
   }
 }
 
-.c-color-patch__type {
-  color: $color-gray-500;
-  font-size: $font-size-sm;
-  font-weight: $font-weight-medium;
-}
-
+/**
+ * Row-style color patch styles
+ */
 .c-color-patch__row {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  margin-bottom: $pad-compact;
 
   .c-color-patch__block {
-    flex: 0 1 45px;
-
+    flex: 0 0 85px;
+    margin-right: $pad-normal;
   }
 
-}
+  .c-color-patch__column {
+    margin-right: $pad-normal;
+    flex: 1;
 
-/**
- * Visible color block
- */
-.c-color-patch__block {
-  width: 100%;
-
-  &:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+    &:last-child {
+      margin-right: 0;
+    }
   }
-}
-
-.c-color-patch__type {
-	// list-style: disc;
-	// margin-left: 1em;
-}
-.c-block__link {
-	 // text-decoration: underline;
+  .c-color-patch__name {
+    @media all and (51.250em) {
+      flex: 1 20%;
+    }
+  }
 }
