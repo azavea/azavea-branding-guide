@@ -8,24 +8,71 @@ description: Azavea's color scheme helps perpetuate our personality. We try to u
 
 ---
 
-As a company, Azavea is committed to complying with (WGAC 2.0 AA contrast ratios.)[] Refer to the (Accessibility)[] page for more information and helpful tools.
+As a company, Azavea is committed to complying with [WGAC 2.0 AA contrast ratios.]() Refer to the [Resources](/resources.html) page for helpful tools.
 
 ## Color Usage
 
 ### Primary Palette
 The three main colors that make up Azavea's logo are the basis of color use in our website and print materials.
 
-[primary color palette components here]
+{% include color-patch.html
+  type = "card"
+  name = "Light blue"
+  hex = "4ba6dd"
+  rgb = "75, 166, 221"
+  cmyk = "66, 25, 0, 13"
+%}
+
+{% include color-patch.html
+  type = "card"
+  name = "Medium blue"
+  hex = "3773a1"
+  rgb = "55, 115, 161"
+  cmyk = "66, 29, 0, 37"
+%}
+
+{% include color-patch.html
+  type = "card"
+  name = "Dark blue"
+  hex = "204f72"
+  rgb = "32, 79, 114"
+  cmyk = "72, 31, 0, 55"
+%}
 
 ### Supporting colors
 Colors from our secondary palette should be used sparingly. They are for categorical differentiation (e.g. in the blog) or as a contrasting color to the Azavean blues.
 
-[secondary color palette components here]
+{% include color-patch.html
+  type = "row"
+  name = "Company"
+  hex = "0e4266"
+  rgb = "14, 66, 102"
+  cmyk = "86, 35, 0, 60"
+%}
 
-### Grayscale
-Our grayscale is based upon the Azavean tertiary color. All grays have a blue tint. Use these grays in print and web whereever possible.
+{% include color-patch.html
+  type = "row"
+  name = "Spatial analysis"
+  hex = "53ae52"
+  rgb = "83, 174, 82"
+  cmyk = "52, 0, 53, 32"
+%}
 
-[grayscale color palette components here]
+{% include color-patch.html
+  type = "row"
+  name = "Events"
+  hex = "d45db0"
+  rgb = "212, 93, 176"
+  cmyk = "0, 56, 17, 17"
+%}
+
+{% include color-patch.html
+  type = "row"
+  name = "Software development"
+  hex = "f1b210"
+  rgb = "241, 178, 16"
+  cmyk = "0, 26, 93, 5"
+%}
 
 ## Assets
 

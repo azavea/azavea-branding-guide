@@ -1,0 +1,87 @@
+/*------------------------------------*\
+    #COLOR PATCH
+\*------------------------------------*/
+
+/**
+ * Block Containing Title and List
+ */
+.c-color-patch__containe {
+  display: flex;
+}
+
+.c-color-patch {
+  background-color: $color-white;
+  border: 1px solid $color-gray-200;
+	padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.c-color-patch__card {
+  display: inline-block;
+  margin-right: 0.33%;
+  width: 32.33%;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .c-color-patch__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: $pad-compact 0;
+  }
+
+  .c-color-patch__name {
+    border-bottom: 1px solid $color-gray-200;
+    margin-top: $pad-compact;
+
+    .c-color-patch__type {
+      display: none;
+    }
+
+    .c-color-patch__value {
+      color: $color-black;
+      font-size: $font-size-med;
+      font-weight: $font-weight-medium;
+    }
+  }
+}
+
+.c-color-patch__type {
+  color: $color-gray-500;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+}
+
+.c-color-patch__row {
+  display: flex;
+  justify-content: space-between;
+
+  .c-color-patch__block {
+    flex: 0 1 45px;
+
+  }
+
+}
+
+/**
+ * Visible color block
+ */
+.c-color-patch__block {
+  width: 100%;
+
+  &:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.c-color-patch__type {
+	// list-style: disc;
+	// margin-left: 1em;
+}
+.c-block__link {
+	 // text-decoration: underline;
+}

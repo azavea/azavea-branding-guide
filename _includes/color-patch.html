@@ -1,0 +1,19 @@
+<div class="c-color-patch c-color-patch__{{ include.type }}">
+  <div class="c-color-patch__block" style="background: #{{ include.hex }};"></div>
+  <div class="c-color-patch__name c-color-patch__column">
+    <div class="c-color-patch__type">Color name</div>
+    <div class="c-color-patch__value">{{ include.name }}</div>
+  </div>
+  <div class="c-color-patch__hex c-color-patch__column">
+    <div class="c-color-patch__type">HEX</div>
+    <div class="c-color-patch__value">&#35;{{ include.hex }}</div>
+  </div>
+  <div class="c-color-patch__rgb c-color-patch__column">
+    <div class="c-color-patch__type">RGB</div>
+    <div class="c-color-patch__value">{{ include.rgb }}</div>
+  </div>
+  <div class="c-color-patch__cmyk c-color-patch__column">
+    <div class="c-color-patch__type">CMYK</div>
+    <div class="c-color-patch__value">{{ include.cmyk }}</div>
+  </div>
+</div>
