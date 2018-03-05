@@ -41,26 +41,44 @@
  * 1) Main identifiable colors involved in creating the UI
  *    Feel free to add your brand's color palette here.
  */
- $brand-primary-01: #4ba6dd; // Light blue from logo
- $brand-primary-02: #3773a1; // Med. blue from logo
- $brand-primary-03: #204f72; // Dark blue from logo
- $brand-secondary-01: #0e4266; // Blog's Company section
- $brand-secondary-02: #53ae52; // Blog's Spatial Analysis section
- $brand-secondary-03: #d45db0; // Blog's Events section
- $brand-secondary-04: #f1b210; // Blog's Software Dev section 
+$brand-sky: #4ba6dd; // Light blue from logo
+$brand-denim: #3773a1; // Med. blue from logo
+$brand-midnight: #204f72; // Dark blue from logo
+
+$brand-sapphire: #0e4266; // Blog's Company section
+$brand-light-forest: #53ae52; // Blog's Spatial Analysis section
+$brand-med-orchid: #d45db0; // Blog's Events section
+$brand-med-gold: #f1b210; // Blog's Software Dev section 
+
+ $brand-primary-01: $brand-sky;
+ $brand-primary-02: $brand-denim;
+ $brand-primary-03: $brand-midnight;
+ $brand-secondary-01: $brand-sapphire;
+ $brand-secondary-02: $brand-light-forest;
+ $brand-secondary-03: $brand-med-orchid;
+ $brand-secondary-04: $brand-med-gold;
  $brand-semitransparent: rgba($brand-primary-01, 0.15);
 /**
  * Neutral Colors
  * 1) Neutral colors are grayscale values used throughout the application
  */
+$brand-ink: #27323D;
+$brand-granite: #4D6379;
+$brand-slate: #7C94AC;
+$brand-pewter: #B8C5D2;
+$brand-steel: #D0D9E1;
+$brand-porcelain: #E5EAEE;
+$brand-off-white: #F4F6F8;
+
+
 $color-white: #ffffff;
-$color-gray-100: #F4F6F8;
-$color-gray-200: #E5EAEE;
-$color-gray-300: #D0D9E1;
-$color-gray-400: #B8C5D2;
-$color-gray-500: #7C94AC;
-$color-gray-600: #4D6379;
-$color-gray-900: #27323D;
+$color-gray-100: $brand-off-white;
+$color-gray-200: $brand-porcelain;
+$color-gray-300: $brand-steel;
+$color-gray-400: $brand-pewter;
+$color-gray-500: $brand-slate;
+$color-gray-600: $brand-granite;
+$color-gray-900: $brand-ink;
 $color-black: #000;
 
 /**

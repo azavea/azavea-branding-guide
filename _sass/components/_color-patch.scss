@@ -54,6 +54,12 @@
   font-size: $font-size-sm;
 }
 
+.c-color-patch__hex {
+  .c-color-patch__value {
+    text-transform: lowercase;
+  }
+}
+
 /**
  * Card-style color patch styles
  */
