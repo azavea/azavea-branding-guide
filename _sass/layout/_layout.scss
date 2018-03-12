@@ -29,7 +29,9 @@
  *    kinds of displays
  */
 .l-linelength-container {
-  max-width: 35rem;
+  @media all and (min-width:87.500em) {
+    width: $l-max-width;
+  }
 }
 
 
@@ -54,10 +56,14 @@
 .l-page-layout__main {
   display: flex;
   flex: 1;
-  align-items: center;
+  align-items: stretch;
   overflow-y: scroll;
   -ms-flex-direction: column;
   flex-direction: column;
+
+  @media all and (min-width:87.500em) {
+    align-items: center;
+  }
 }
 
 /**

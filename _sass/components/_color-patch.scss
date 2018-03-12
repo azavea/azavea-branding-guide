@@ -1,0 +1,124 @@
+/*------------------------------------*\
+    #COLOR PATCH
+\*------------------------------------*/
+
+/**
+ * Visible color block
+ */
+.c-color-patch__block {
+  border-radius: $border-radius;
+  width: 100%;
+  
+  &:after {
+    content: "";
+    display: block;
+  }
+}
+
+/**
+ * Card is a square
+ */
+.c-color-patch__card {
+  .c-color-patch__block {
+
+    &:after {
+      padding-bottom: 100%;
+    }
+  }
+}
+
+/**
+ * Row is a rectangle
+ */
+.c-color-patch__row {
+  .c-color-patch__block {
+
+    &:after {
+      padding-bottom: 50%;
+    }
+  }
+}
+
+/**
+ * General block styles
+ */
+.c-color-patch {
+  background-color: $color-white;
+  border: 1px solid $color-gray-200;
+	padding: $pad-normal;
+  font-weight: $font-weight-medium;
+}
+
+.c-color-patch__type {
+  color: $color-gray-500;
+  font-size: $font-size-sm;
+}
+
+.c-color-patch__hex {
+  .c-color-patch__value {
+    text-transform: lowercase;
+  }
+}
+
+/**
+ * Card-style color patch styles
+ */
+.c-color-patch__card {
+  display: inline-block;
+  margin-right: 0.33%;
+  width: 32.33%;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .c-color-patch__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: $pad-compact 0;
+  }
+
+  .c-color-patch__name {
+    border-bottom: 1px solid $color-gray-200;
+    margin-top: $pad-compact;
+
+    .c-color-patch__type {
+      display: none;
+    }
+
+    .c-color-patch__value {
+      color: $color-black;
+      font-size: $font-size-med;
+      font-weight: $font-weight-medium;
+    }
+  }
+}
+
+/**
+ * Row-style color patch styles
+ */
+.c-color-patch__row {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: $pad-compact;
+
+  .c-color-patch__block {
+    flex: 0 0 85px;
+    margin-right: $pad-normal;
+  }
+
+  .c-color-patch__column {
+    margin-right: $pad-normal;
+    flex: 1;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .c-color-patch__name {
+    @media all and (51.250em) {
+      flex: 1 20%;
+    }
+  }
+}
