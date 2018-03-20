@@ -1,21 +1,20 @@
 ---
 layout: page
 type: detail
-title: Newsletters
+title: Website
 group: communication
-permalink: /communication/newsletters.html
-description: Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.
+permalink: /communication/website.html
+description: Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.
+
 
 
 ---
 
-## Lorem ipsum
+## Authentic voice
 Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.
 
-## Lorem ipsum
+## Simplicity
 Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.
 
-## Lorem ipsum
+## Gender neutrality
 Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.
-
-

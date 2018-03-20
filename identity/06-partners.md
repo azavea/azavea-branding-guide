@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Products
-group: communication
-permalink: /communication/products.html
+title: Partners
+group: identity
+permalink: /identity/partners.html
 description: Azavea actively develops, maintains, and commercializes several SaaS products. Products should have the first letter capitalized. Some of our products have multiple words and should be written in Upper Camel Case.
 
 ---

@@ -1,8 +1,8 @@
 ---
 layout: landing
 type: landing
-group: communication
-permalink: /communication/
+group: identity
+permalink: /identity/
 
 title: Overview
 description: Includes information on objectives, etiquette, and procedures related to writing for Azavea. Our audience is frequently technologists for civic, social and environmental good or geospatial software developers.

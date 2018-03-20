@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Fellowships
-group: communication
-permalink: /communication/fellowships.html
+group: identity
+permalink: /identity/fellowships.html
 description: lorem ipsum.
 
 ---

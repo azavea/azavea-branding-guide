@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Meetups
-group: communication
-permalink: /communication/meetups.html
+title: Community Groups
+group: identity
+permalink: /identity/community-groups.html
 description: lorem ipsum.
 
 ---
