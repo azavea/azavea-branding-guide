@@ -4,7 +4,7 @@ type: landing
 group: communication
 permalink: /communication/
 
-title: Communication
+title: Overview
 description: Includes information on objectives, etiquette, and procedures related to writing for Azavea. Our audience is frequently technologists for civic, social and environmental good or geospatial software developers.
 
 

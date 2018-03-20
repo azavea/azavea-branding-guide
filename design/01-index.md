@@ -4,7 +4,7 @@ type: landing
 group: design
 permalink: /design/
 
-title: Design
+title: Overview
 description: The attributes of the brand
 ---
 
