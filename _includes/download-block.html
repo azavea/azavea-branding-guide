@@ -1,0 +1,15 @@
+<div class="c-download-block">
+  <header class="c-download-block__header">
+    <p class="c-download-block__app-name">{{ include.app-name }}</p>
+  </header>
+  <div class="c-download-block__image-container">
+    {% if include.img %}
+      <img src="{{ include.img }}" class="c-download-block__image" alt="{{ include.app-name }} logo" />
+    {% else %}
+      <span class="icon icon-doc c-download-block__generic-icon"></span>
+    {% endif %}
+  </div>
+  {% if include.file %}
+    <a href="{{ include.file }}" download class="c-btn c-btn--small c-download-block__link">Download</a>
+  {% endif %}
+</div>

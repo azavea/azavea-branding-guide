@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
 <defs>
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
@@ -21,6 +21,8 @@
 <glyph glyph-name="left-open" unicode="&#xf007;" d="M0 353l391 391q18 18 43 18 24 0 43-18 18-18 18-44t-18-43l-304-304 304-305q18-17 18-43t-18-43q-18-18-43-18t-43 18z" horiz-adv-x="495.1" />
 
 <glyph glyph-name="menu" unicode="&#xf008;" d="M68 62q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z" horiz-adv-x="1073.2" />
+
+<glyph glyph-name="doc" unicode="&#xf04a;" d="M0-31v761q0 37 26 62t61 26h356q3 0 6 0h0q38-3 61-26l255-245q10-12 16-24 2-5 2-7 1-1 2-5t3-6q2-11 2-21v-515q0-36-25-62t-62-26h-616q-36 0-61 26t-26 62z m87 0h616v465h-133q-73 0-124 52t-52 124v120h-307v-761z m396 641q0-36 25-62t62-25h118l-205 194v-107z" horiz-adv-x="790.5" />
 </font>
 </defs>
 </svg>

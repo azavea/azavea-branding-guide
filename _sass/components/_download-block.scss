@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    #Download block
+\*------------------------------------*/
+
+/**
+ * Visible color block
+ */
+.c-download__container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+/**
+ * Visible download block
+ */
+.c-download-block {
+  border-radius: $border-radius;
+  width: 100%;
+}
+
+/**
+ * General block styles
+ */
+.c-download-block {
+  background-color: $color-white;
+  border: 1px solid $color-gray-200;
+	padding: $pad-normal;
+  font-weight: $font-weight-medium;
+}
+
+/**
+ * Card-style layout styles
+ */
+.c-download-block {
+  flex: 0 1 24%;
+  margin: $pad-tiny;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.c-download-block__header {
+  font-size: $font-size-sm-2;
+}
+
+.c-download-block__image-container {
+  margin-bottom: $pad-normal;
+}
+
+.c-download-block__image {
+  width: 4rem;
+  margin: 0 auto;
+}
+
+.c-download-block__generic-icon {
+  color: $color-gray-400;
+  font-size: 4rem;
+  line-height: 0;
+}
