@@ -8,7 +8,7 @@ description: Azavea's color scheme helps perpetuate our personality. We try to u
 
 ---
 
-As a company, Azavea is committed to complying with [WGAC 2.0 AA contrast ratios.]() Refer to the [Resources](/resources.html) page for helpful tools.
+As a company, Azavea is committed to complying with [WGAC 2.0 AA contrast ratios.](http://www.w3.org/TR/WCAG/) Refer to the [Resources](/resources.html) page for helpful tools.
 
 ## Color Usage
 
@@ -138,6 +138,36 @@ Our grayscale is based upon the Azavea <strong>Midnight</strong> color. These co
 ## Assets
 
 ### Download color palettes
-Download color palettes in some popular programs.
+Download the Azavea color palette for use in some popular programs below.
+<div class="c-download__container" markdown="1">
+  
+{% include download-block.html
+  app-name = "Adobe Illustrator"
+  img = "../../images/adobe-illustrator-file-logo.png"
+  file =  "/downloads/azavea_brand_colors.ai"
+%}
 
-[ Adobe, Sketch, SCSS ] 
+{% include download-block.html
+  app-name = "Adobe Photoshop"
+  img = "../../images/adobe-photoshop-file-logo.png"
+  file =  "/downloads/azavea_brand_colors.ase"
+%}
+
+{% include download-block.html
+  app-name = "Adobe InDesign"
+  img = "../../images/adobe-indesign-file-logo.png"
+  file =  "/downloads/azavea_brand_colors.ase"
+%}
+
+{% include download-block.html
+  app-name = "Sketch"
+  img = "../../images/sketch-logo.png"
+  file = "/downloads/azavea_brand_colors.sketchpalette"
+%}
+
+{% include download-block.html
+  app-name = "SCSS"
+  file = "/downloads/azavea_brand_colors.scss.zip"
+%}
+
+</div>
