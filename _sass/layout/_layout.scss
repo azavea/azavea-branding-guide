@@ -36,8 +36,6 @@
 
 
 
-
-
 /*------------------------------------*\
     #LAYOUT SECTIONS
 \*------------------------------------*/
@@ -64,6 +62,19 @@
   @media all and (min-width:87.500em) {
     align-items: center;
   }
+}
+
+ /**
+ * Main section of the home page
+ * 1) Vertical centering
+ */
+.l-home-layout {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.l-home-layout__main {
+
 }
 
 /**

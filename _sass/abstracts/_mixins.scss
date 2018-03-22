@@ -9,3 +9,8 @@
 @mixin drop-shadow() {
   box-shadow: 0 0 12px 5px rgba($color-border, 0.25);
 }
+
+@mixin anti-alias() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
