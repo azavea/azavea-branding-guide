@@ -117,7 +117,15 @@
 	</ul><!-- end c-nav__list -->
 
 	<div class="c-guide-info">
-		<a href="{{ "/release-history.html" | prepend: site.baseurl}}" class="c-guide-info__link {% if page.url == '/release-history.html' %}is-active is-current{% endif %}">Release History</a>
+		{% for post in site.posts limit:1 %}
+		  <a href="{{ post.url }}" 
+		  	 class="c-guide-info__link {% if post.url == page.url %}is-current{% endif %}">
+		  	 {{ post.title }}
+		  	</a>
+		{% endfor %}
+		<a href="{{ "/release-history.html" | prepend: site.baseurl}}" 
+			 class="c-guide-info__link {% if page.url == '/release-history.html' %}is-current{% endif %}">
+			 Release History</a>
 	</div>
 
 </nav><!-- end c-nav -->
