@@ -9,7 +9,8 @@
   background: linear-gradient(to bottom, $brand-primary-03 10%, darken($brand-primary-03,5%) 90%);
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  justify-content: space-between;
+  height: calc(100vh - #{$header-height});
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
 }
@@ -318,18 +319,27 @@
   border-top: 1px solid $color-gray-600;
   margin: $pad-compact $pad-normal $pad-spacious;
   padding: $pad-compact 0 0;
+}
 
-  a {
-    color: $color-gray-300;
-    padding: $pad-normal 0 0 0;
+.c-guide-info__link {
+  display: block;
+  color: $color-gray-300;
 
-    &:hover {
-      color: $color-gray-200;
-      text-decoration: underline;
-    }
-
-    &:hover, &:focus {
-      outline: 0;
-    }
+  &:hover {
+    color: $color-gray-200;
+    text-decoration: underline;
   }
+
+  &:hover, &:focus {
+    outline: 0;
+  }
+}
+
+.c-guide-info__link:first-child {
+  padding: $pad-normal 0 0 0;
+}
+
+.c-guide-info__link.is-current {
+  color: $color-gray-100;
+  text-decoration: underline;
 }
