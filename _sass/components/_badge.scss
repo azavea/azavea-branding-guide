@@ -1,0 +1,24 @@
+/*------------------------------------*\
+  #BADGES
+\*------------------------------------*/
+.c-badge {
+  background: $badge-background;
+  border-radius: $border-radius;
+  color: $badge-color;
+  font-size: $badge-font-size;
+  margin-left: 4px;
+  padding: $badge-padding;
+  vertical-align: middle;
+}
+
+.c-badge--negative {
+  background-color: $color-utility-error;
+}
+
+.c-badge--positive {
+  background-color: $color-utility-success;
+}
+
+.c-badge--caution {
+  background-color: $color-utility-warning;
+}

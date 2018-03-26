@@ -272,3 +272,22 @@ $bp-xl: 62em;
     #HEADER
 \*------------------------------------*/
 $header-height: 4rem;
+
+
+/*------------------------------------*\
+    #IMAGE CONTAINER
+\*------------------------------------*/
+$ic-background: $color-white;
+$ic-background-inverted: $color-gray-900;
+$ic-border: 1px solid $color-gray-200;
+$ic-border-color-inverted: $color-gray-400;
+$ic-image-width: 25rem;
+
+
+/*------------------------------------*\
+    #BADGE
+\*------------------------------------*/
+$badge-color: $color-white;
+$badge-font-size: $font-size-tiny;
+$badge-background: $color-gray-500;
+$badge-padding: 4px;
