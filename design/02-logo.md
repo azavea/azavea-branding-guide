@@ -3,6 +3,7 @@ layout: page
 type: detail
 title: Logo
 group: design
+status: in_progress
 permalink: /design/logo.html
 description: Azavea's name is derived from the word &ldquo;zavea&rdquo;, which means &ldquo;perspective&rdquo; in [Urdu](https://en.wikipedia.org/wiki/Urdu).
 

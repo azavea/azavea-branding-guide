@@ -3,6 +3,7 @@ layout: page
 type: detail
 title: Print
 group: design
+status: in_progress
 permalink: /design/print.html
 description: Styles for treating pictures and graphics
 

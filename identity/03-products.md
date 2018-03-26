@@ -2,6 +2,7 @@
 layout: page
 title: Products
 group: identity
+status: complete
 permalink: /identity/products.html
 description: Azavea actively develops, maintains, and commercializes several SaaS products. Products should have the first letter capitalized, but other details of their punctuation vary.
 

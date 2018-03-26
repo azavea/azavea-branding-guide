@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Support
+status: in_progress
 description: The support page provides information about getting help with using the design system
 ---
 

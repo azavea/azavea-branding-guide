@@ -2,6 +2,7 @@
 layout: page
 title: Community Groups
 group: identity
+status: in_progress
 permalink: /identity/community-groups.html
 description: lorem ipsum.
 
