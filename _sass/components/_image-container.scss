@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #IMAGE CONTAINER
+\*------------------------------------*/
+
+.c-image-container {
+  display: block;
+  padding: 6rem $pad-spacious;
+  background: $ic-background;
+  border: $ic-border;
+  max-width: $l-max-width-narrow;
+}
+
+.c-image-container__inverted {
+  background: $ic-background-inverted;
+  border-color: $ic-border-color-inverted;
+}
+
+.c-image {
+  max-width: $ic-image-width;
+  margin: 0 auto;
+}
