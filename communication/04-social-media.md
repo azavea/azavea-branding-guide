@@ -2,6 +2,7 @@
 layout: page
 type: detail
 title: Social media
+status: in_progress
 group: communication
 permalink: /communication/social-media.html
 description: Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.

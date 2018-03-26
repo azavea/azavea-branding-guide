@@ -2,6 +2,7 @@
 layout: page
 type: detail
 title: Voice and tone
+status: in_progress
 group: communication
 permalink: /communication/voice-and-tone.html
 description: Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.

@@ -3,6 +3,7 @@ layout: page
 type: detail
 title: Typography
 group: design
+status: in_progress
 permalink: /design/typography.html
 description: Typography style description
 

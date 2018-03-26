@@ -2,6 +2,7 @@
 layout: page
 title: Company
 group: identity
+status: complete
 permalink: /identity/company.html
 description: Azavea is a mission-driven company. We focus on creating high-quality web and mobile solutions for clients who are themselves committed to having a positive, long-lasting impact on the communities they serve.
 

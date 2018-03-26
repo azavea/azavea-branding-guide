@@ -1,11 +1,14 @@
-{% if page.status == 'Deprecated' %}
-{% assign badge = "negative" %}
-{% elsif page.status == 'Complete' %}
-{% assign badge = "positive" %}
-{% else %}
-{% assign badge = "caution" %}
+{% if page.status == 'deprecated' %}
+  {% assign badge = "negative" %}
+  {% assign friendly_name = "Deprecated" %}
+{% elsif page.status == 'complete' %}
+  {% assign friendly_name = "Complete" %}
+  {% assign badge = "positive" %}
+{% elsif page.status == 'in_progress' %}
+  {% assign badge = "caution" %}
+  {% assign friendly_name = "In progress" %}
 {% endif %}
 
 {% if page.status %}
-<span class="c-badge c-badge--{{ badge }}">{{ page.status }}</span>
+<span class="c-badge c-badge--{{ badge }}">{{ friendly_name }}</span>
 {% endif %}
