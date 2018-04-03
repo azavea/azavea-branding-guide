@@ -50,14 +50,15 @@ $brand-light-forest: #53ae52; // Blog's Spatial Analysis section
 $brand-med-orchid: #d45db0; // Blog's Events section
 $brand-med-gold: #f1b210; // Blog's Software Dev section 
 
- $brand-primary-01: $brand-sky;
- $brand-primary-02: $brand-denim;
- $brand-primary-03: $brand-midnight;
- $brand-secondary-01: $brand-sapphire;
- $brand-secondary-02: $brand-light-forest;
- $brand-secondary-03: $brand-med-orchid;
- $brand-secondary-04: $brand-med-gold;
- $brand-semitransparent: rgba($brand-primary-01, 0.15);
+$brand-primary-01: $brand-sky;
+$brand-primary-02: $brand-denim;
+$brand-primary-03: $brand-midnight;
+$brand-secondary-01: $brand-sapphire;
+$brand-secondary-02: $brand-light-forest;
+$brand-secondary-03: $brand-med-orchid;
+$brand-secondary-04: $brand-med-gold;
+$brand-semitransparent: rgba($brand-primary-01, 0.15);
+
 /**
  * Neutral Colors
  * 1) Neutral colors are grayscale values used throughout the application
@@ -163,8 +164,20 @@ $color-border: $color-gray-300;
   font-style: normal;
   font-stretch: normal;
 }
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello/font/fontello.eot?5937259');
+  src: url('../fonts/fontello/font/fontello.eot?5937259#iefix') format('embedded-opentype'),
+       url('../fonts/fontello/font/fontello.woff2?5937259') format('woff2'),
+       url('../fonts/fontello/font/fontello.woff?5937259') format('woff'),
+       url('../fonts/fontello/font/fontello.ttf?5937259') format('truetype'),
+       url('../fonts/fontello/font/fontello.svg?5937259#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 $font: "Graphik", serif, helvetica, arial, sans-serif;
+$font-icon: "fontello";
 
 /**
  * Font Sizing
