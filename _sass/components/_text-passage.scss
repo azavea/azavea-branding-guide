@@ -41,10 +41,24 @@
 	 * Blockquote within text passage
 	 */
 	blockquote {
-		padding-left: 0.8rem;
-		border-left: 3px solid $color-gray-400;
-		color: $color-gray-400;
+		padding: 2rem 2rem 1rem 3rem;
 		font-size: 1rem;
+		position: relative;
+		background: $color-white;
+		border: 1px solid $color-gray-200;
+		border-bottom: 4px solid $color-gray-200;
+		max-width: $l-max-width-narrow;
+		width: fit-content;
+
+		:before {
+			content: "“";
+			font-family: $font-icon;
+			font-size: $font-size-jumbo;
+			color: $color-gray-400;
+			position: absolute;
+			top: 1rem;
+			left: 1rem;
+		}
 	 }
 
 	 /**

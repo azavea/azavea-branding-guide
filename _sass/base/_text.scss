@@ -39,11 +39,12 @@ p {
  * Blockquote base styles
  */
 blockquote {
-  font-style:italic;
-  border-left: 1px solid $color-gray-200;
-  color: $color-gray-600;
-	padding-left: 1rem;
-	margin-bottom: $space;
+  margin-bottom: $space;
+
+  p {
+    font-weight: $font-weight-medium;
+    color: $brand-ink;
+  }
 }
 
 /**
