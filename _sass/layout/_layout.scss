@@ -70,11 +70,18 @@
  */
 .l-home-layout {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
+  flex-direction: column;
+  height: 100%;
 }
-.l-home-layout__main {
 
+.l-home-layout__main {
+  display: flex;
+  height: 100%;
+
+  main {
+    margin: auto;
+    flex: 1 1 auto;
+  }
 }
 
 /**

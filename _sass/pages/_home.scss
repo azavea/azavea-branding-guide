@@ -71,24 +71,3 @@
     color: $link-color-inverted;
   }
 }
-
-
-/*------------------------------------*\
-    #HOME
-\*------------------------------------*/
-/**
- * Home layout
- * 
- */
-.l-home-layout {
-  display: flex;
-  flex: 1;
-  align-items: stretch;
-  overflow-y: scroll;
-  -ms-flex-direction: column;
-  flex-direction: column;
-
-  @media all and (min-width:87.500em) {
-    align-items: center;
-  }
-}
