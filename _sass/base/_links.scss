@@ -8,10 +8,74 @@
  a {
   text-decoration: none;
   outline: 0;
+  color: $link-color;
  }
-.l-page-layout__main a {
 
-	&:hover, &:focus {
+.l-page-layout__main,
+.l-home-layout__main {
+  a {
+    &:hover, &:focus {
+      outline: 0;
+    }
+  }
+
+  a:not(.c-btn):not(.c-card):not(.c-footer-nav__link) {
+    text-decoration: none;
     outline: 0;
-	}
+    box-shadow: none;
+    border: 0;
+    position: relative;
+    
+    &:before {
+      content: "";
+      display: block;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background-color: rgba($brand-primary-02, 0.45);
+      transition: bottom 0.15s;
+    }
+
+    &:after {
+      content: "\E810";
+      display: inline-block;
+      font-family: $font-icon;
+      font-size: 0.75rem;
+      margin-left: 0;
+      opacity: 0;
+      width: 0;
+      transition: margin-left 0.15s, opacity 0.15s;
+    }
+
+    &:focus, &.focus {
+      border-radius: $border-radius;
+      border-bottom-color: transparent;
+    }
+
+    &:hover, &.hover {
+      &:before {
+        bottom: -0.3rem;
+        background-color: $brand-primary-02;
+      }
+
+      &:after {
+        color: inherit;
+        opacity: 1;
+        width: auto;
+        margin-left: $pad-compact;
+      }
+    }
+
+    &:active, &.active {
+      box-shadow: none;
+    }
+
+    &:disabled, &.disabled {
+      opacity: .5;
+      cursor: not-allowed;
+    }
+}
 }

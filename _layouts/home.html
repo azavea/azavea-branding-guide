@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
+    {% include header.html %}
+    <div class="l-home-layout">
+
+      <div class="l-home-layout__main">
+        <main role="main">
+          <div class="l-container">
+            {{ content | markdownify }}
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

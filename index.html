@@ -1,18 +1,46 @@
 ---
-layout: page
+layout: home
 title: Branding Guidelines and Resources
+body_class: p-home
 ---
 
-<div class="u-margin-bottom-double"><a href="{{ "/getting-started.html" | prepend: site.baseurl }}" class="c-btn">Get Started</a></div>
+<header class="c-intro__container" markdown="1">
+  <div class="c-logo__container" markdown="1">
+  {% include logo.svg %}
+  {: .c-logo__white .c-logo }
+  </div>
 
-## Write a killer blog post
-Whether you're writing for one of our products or detailing your RnD project's outcomes, we have some advice from over the years to help you craft your post. [Writing](http://styleguides.io/writing).
+# Branding Guidelines and Resources
+</header>
 
-## Contribute to Azavea’s identity
-Find out do’s and don’ts for using the Azavea logo, access color specs and check out how we deal with the Azavea brand across platforms. [Design](http://styleguides.io/design)
+<div class="c-block__container" markdown="1">
+{% include block.html
+  title = "Azavea&rsquo;s identity"
+  description = "Learn about what makes us Azavea, from our mission to our partners to the community groups we support."
+  link-title = "Identity"
+  link = "/identity/"
+%}
 
-## Craft the perfect presentation
-Download assets for your presentation and get some tips on how to deliver a captivating speech. [Presentations](http://styleguides.io/presentations)
+{% include block.html
+  title = "Communication guidelines"
+  description = "Whether you&rsquo;re writing social media posts or a blog, we have some advice to help you communicate the Azavea way."
+  link-title = "Communication"
+  link = "/communication/"
+%}
 
-## Add to your toolbox
-We’ve compiled some resources for everything you may need to do as an employee of Azavea, whether it be checking the accesibility of your website or locating best practices for PRs. [Resources](http://styleguides.io/resources)
+{% include block.html
+  title = "Design assets"
+  description = "Read style guides for brand components and download assets like logos, color palettes, and print templates."
+  link-title = "Design"
+  link = "/design/"
+%}
+
+{% include block.html
+  title = "Resources"
+  description = "Explore helpful resources like links to external tools, internal how-to guides, and sample downloads."
+  link-title = "Resources"
+  link = "/resources.html"
+%}
+</div>
+
+<div class="u-margin-bottom-double"><a href="{{ "/welcome.html" | prepend: site.baseurl }}" class="c-btn">Enter guide</a></div>

@@ -1,0 +1,12 @@
+<div class="c-block">
+  {% if include.src %}
+  <div class="c-block__image-container">
+    <img src="{{ include.src }}" class="c-block__image"/>
+  </div>
+  {% endif %}
+  <div class="c-block__content">
+    <h2 class="c-block__title">{{ include.title }}</h2>
+    <div class="c-block__description">{{ include.description }}</div>
+    <a href="{{ include.link }}" class="c-block__link">{% if include.link-title %}Go to {{ include.link-title }}{% else %}Go to{% endif %}</a>
+  </div>
+</div>

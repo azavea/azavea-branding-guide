@@ -106,7 +106,13 @@ $color-body-text: $color-gray-900;
 $color-secondary-text: $color-gray-600;
 $color-page-background: $color-gray-100;
 $color-border: $color-gray-300;
+$color-border-inverted: rgba( $color-border, 0.3 );
 
+$background-inverted: $brand-primary-03;
+$font-color-inverted: $color-gray-200;
+
+$link-color: $brand-primary-03;
+$link-color-inverted: lighten($brand-primary-01, 10%);
 
 
 /*------------------------------------*\
@@ -180,6 +186,21 @@ $font: "Graphik", serif, helvetica, arial, sans-serif;
 $font-icon: "fontello";
 
 /**
+ * Icon Font
+ */
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello/font/fontello.eot?67858606');
+  src: url('../fonts/fontello/font/fontello.eot?67858606#iefix') format('embedded-opentype'),
+       url('../fonts/fontello/font/fontello.woff?67858606') format('woff'),
+       url('../fonts/fontello/font/fontello.ttf?67858606') format('truetype'),
+       url('../fonts/fontello/font/fontello.svg?67858606#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$font-icon: "fontello";
+
+/**
  * Font Sizing
  */
 $font-size-tiny: 0.65rem;
@@ -226,6 +247,7 @@ $l-max-width-narrow: 45rem;
 $space: 1rem;
 $pad-tiny: 2px;
 $pad-compact: 0.3rem;
+$pad-medium: 0.65rem;
 $pad-normal: 1rem; /* 1 */
 $pad-comfortable: 1.4rem;
 $pad-spacious: 2rem;
