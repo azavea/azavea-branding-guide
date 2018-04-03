@@ -8,11 +8,17 @@
   background: $ic-background;
   border: $ic-border;
   max-width: $l-max-width-narrow;
+  margin-bottom: $pad-comfortable;
 }
 
 .c-image-container__inverted {
   background: $ic-background-inverted;
   border-color: $ic-border-color-inverted;
+}
+
+.c-image-container__blue {
+  background: $ic-background-blue;
+  border-color: $ic-border-color-blue;
 }
 
 .c-image {

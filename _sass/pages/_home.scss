@@ -69,5 +69,30 @@
 
   .c-block__link {
     color: $link-color-inverted;
+
+    &:after {
+      content: "\E810";
+      display: inline-block;
+      font-family: $font-icon;
+      font-size: 0.75rem;
+      margin-left: 0;
+      opacity: 0;
+      width: 0;
+      transition: margin-left 0.15s, opacity 0.15s;
+    }
+    
+    &:hover, &.hover,
+    &:focus, &.focus {
+      &:before {
+        bottom: -0.3rem;
+      }
+
+      &:after {
+        color: inherit;
+        opacity: 1;
+        width: auto;
+        margin-left: $pad-compact;
+      }
+    }
   }
 }

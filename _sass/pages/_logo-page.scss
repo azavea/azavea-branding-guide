@@ -1,0 +1,84 @@
+.c-mark-container {
+  display: flex;
+  max-width: 45rem;
+
+  .c-image-container {
+    width: 50%;
+    position: relative;
+    padding: 0;
+
+    .c-image {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 50%;
+      }
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+}
+
+.c-logo--smallest {
+  width: 85px;
+}
+
+ul.c-list--logo-donts {
+  list-style-type: none;
+  margin-left: 0;
+
+  li p {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: $pad-spacious;
+  }
+
+  img {
+    width: 175px;
+    align-self: flex-start;
+    border: 1px solid $color-gray-200;
+  }
+}
+
+.c-list--explanation {
+  padding-left: $pad-comfortable;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    background-color: $color-gray-200;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 2px;
+    right: auto;
+    bottom: auto;
+    left: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right: 10px solid $color-gray-200;
+    transform: rotate(180deg);
+  }
+}
