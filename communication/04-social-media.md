@@ -5,11 +5,21 @@ title: Social media
 status: in_progress
 group: communication
 permalink: /communication/social-media.html
-description: Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.
+description: Our social media accounts allow us to connect with our community in a personal way.
 
 ---
+## Potential topics
+
+- Great articles on geospatial technology, social change, civic impact, etc.
+- News on our clients, partners, or community members
+- Project/Product releases, launches, feature updates, etc.
+- Upcoming event or conference participation
+- Company news like accomplishments, volunteering and service, office events, etc.
+- Things we learn at conferences and presentations (tweet from events)
 
 ## Twitter
+Our goal is to create or engage in conversation related to our work. The 280 character limit enables us share small snippets of material that can be shared by our audience. We can also send messaging much more frequently than with other communication methods.
+
 [Image]
 Specify image size for profile (profile and cover) and include template download <a href="" download>Download Template</a>
 

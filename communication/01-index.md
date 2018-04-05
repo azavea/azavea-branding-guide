@@ -5,9 +5,7 @@ group: communication
 permalink: /communication/
 
 title: Overview
-description: Includes information on objectives, etiquette, and procedures related to writing for Azavea. Our audience is frequently technologists for civic, social and environmental good or geospatial software developers.
-
-
+description: Includes information on objectives, etiquette, and procedures related to writing for Azavea.
 ---
 
-Whether you are writing a blog post, social media post on behalf of an Azavea account, this section has you covered.
+Whether you're writing a blog post, social media post, or other marketing copy on behalf of an Azavea account, this section has you covered.

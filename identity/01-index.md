@@ -5,9 +5,7 @@ group: identity
 permalink: /identity/
 
 title: Overview
-description: Includes information on objectives, etiquette, and procedures related to writing for Azavea. Our audience is frequently technologists for civic, social and environmental good or geospatial software developers.
+description: Learn about what makes us Azavea.
 
 
 ---
-
-Whether you are writing a blog post, social media post on behalf of an Azavea account, this section has you covered.
