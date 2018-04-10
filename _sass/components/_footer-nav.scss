@@ -13,6 +13,14 @@
 }
 
 /**
+ * Footer navigation button
+ * Align to the right even if --prev button is missing
+ */
+.c-footer-nav__item--next {
+	margin-left: auto;
+}
+
+/**
  * Footer navigation link
  */
 .c-footer-nav__link {

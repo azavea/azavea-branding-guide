@@ -1,18 +1,33 @@
-{% if page.layout != 'post' %}
-{% assign sorted_pages2 = site.pages | sort: 'order' %}
-{% else %}
-{% assign sorted_pages2 = site.posts reversed %}
-{% endif %}
+<!-- Find subpages of each page.group to and assign to _pages variable -->
+{% assign identity_pages = site.pages and page.group == "identity" %}
+{% assign communication_pages = site.pages and page.group == "communication" %}
+{% assign design_pages = site.pages and page.group == "design" %}
 
 {% assign sorted_pages = "" | split: "" %}
-{% for item in sorted_pages2 %}
-  {% if item.url != "/404.html" %}    
+<!-- Add Identity subpages to sorted_pages variable -->
+{% for item in identity_pages %}
+  {% if item.group == "identity" %}
     {% assign sorted_pages = sorted_pages | push: item %}
-  {% endif %} 
+  {% endif %}
 {% endfor %}
 
+<!-- Add Communication subpages to sorted_pages variable -->
+{% for item in communication_pages %}
+  {% if item.group == "communication" %}
+    {% assign sorted_pages = sorted_pages | push: item %}
+  {% endif %}
+{% endfor %}
+
+<!-- Add Design subpages to sorted_pages variable -->
+{% for item in design_pages %}
+  {% if item.group == "design" %}
+    {% assign sorted_pages = sorted_pages | push: item %}
+  {% endif %}
+{% endfor %}
+
+<!-- Loop through the pages in sorted_pages variable -->
 {% for item in sorted_pages %}
-  {% if item.url == page.url %}
+  {% if item.url == page.url and item.group == page.group %}
     {% assign this_i = forloop.index0 %}
     {% assign num_of_pages = forloop.length %}
     {% assign last_i = forloop.length | minus: 1 %}
@@ -21,13 +36,32 @@
   {% endif %}
 {% endfor %}
 
-
-<footer class="c-footer" role="contentinfo">
+<!-- Ensure that footer navigation only appears when there’s a page.group -->
+{% if page.group != null %}
+ <footer class="c-footer" role="contentinfo">
   <ul class="c-footer-nav">
-    <li class="c-footer-nav__item"><a class="next c-footer-nav__link" href="{% if prev_i < 0 %}{{ sorted_pages[last_i].url }}{% else %}{{ sorted_pages[prev_i].url }}{% endif %}"><i class="c-icon icon-left"></i> {% if prev_i < 0 %}{{ sorted_pages[last_i].title }}{% else %}{{ sorted_pages[prev_i].title }}{% endif %}</a></li>
-    <li class="c-footer-nav__item"><a class="next c-footer-nav__link" href="{% if num_of_pages > next_i %}{{ sorted_pages[next_i].url }}{% else %}{{ sorted_pages[0].url }}{% endif %}">{% if num_of_pages > next_i %}{{ sorted_pages[next_i].title }}{% else %}{{ sorted_pages[0].title }}{% endif %} <i class="c-icon icon-right"></i></a></li>
+    <!-- If there's a previous page, display the previous link. Don't loop. -->
+    {% if sorted_pages[prev_i] != null and sorted_pages[prev_i] != sorted_pages[last_i] %}
+    <li class="c-footer-nav__item c-footer-nav__item--prev">
+      <a class="c-footer-nav__link" href="{{ sorted_pages[prev_i].url }}">
+        <i class="c-icon icon-left"></i> 
+        {{ sorted_pages[prev_i].group | capitalize }}:
+        {{ sorted_pages[prev_i].title }}
+      </a>
+    </li>
+    {% endif %}
+    {% if sorted_pages[next_i] != null %}
+    <li class="c-footer-nav__item c-footer-nav__item--next">
+      <a class="c-footer-nav__link" href="{{ sorted_pages[next_i].url }}">
+        {{ sorted_pages[next_i].group | capitalize }}:
+        {{ sorted_pages[next_i].title }} 
+        <i class="c-icon icon-right"></i>
+      </a>
+    </li>
+    {% endif %}
   </ul>
-</footer><!--end c-footer-->
+</footer> <!--end c-footer--> 
+{% endif %} 
 
 <script src="{{ "/js/vendor/jquery-3.1.0.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/vendor/prism.js" | prepend: site.baseurl }}"></script>
