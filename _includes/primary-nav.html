@@ -74,17 +74,6 @@
 			</ul>
 		</li><!-- end c-nav__list__item -->
 
-		<li class="c-primary-nav__item {% if page.url contains '/workflows' %}is-active{% endif %}">
-			{% for my_page in site.pages %}
-				{% if my_page.url == "/workflows.html" %}
-				<a href="{{ "/workflows.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/workflows.html' %}is-active is-current{% endif %}">
-					<span class="c-primary-nav__text">Workflows</span>
-				</a>
-				{% endif %}
-			{% endfor %}
-
-		</li><!-- end c-nav__list__item -->
-
 		<li class="c-primary-nav__item">
 			{% for my_page in site.pages %}
 				{% if my_page.url == "/support.html" %}
