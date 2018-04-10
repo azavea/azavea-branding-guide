@@ -8,7 +8,7 @@
  *    and centers the container
  */
 .l-container {
-  // max-width: $l-max-width;
+  max-width: $l-max-width;
   margin: 0 auto;
 }
 
@@ -18,20 +18,9 @@
  *    and other singular objects that aren't dashboard-y
  *    kinds of displays
  */
-.l-container--narrow {
+.l-container--narrow { 
   max-width: $l-max-width-narrow;
-}
-
-/**
- *
- * 1) This narrow layout container is for lists, forms,
- *    and other singular objects that aren't dashboard-y
- *    kinds of displays
- */
-.l-linelength-container {
-  @media all and (min-width:87.500em) {
-    width: $l-max-width;
-  }
+  margin: 0 auto;
 }
 
 

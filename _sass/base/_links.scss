@@ -39,17 +39,6 @@
       transition: bottom 0.15s;
     }
 
-    &:after {
-      content: "\E810";
-      display: inline-block;
-      font-family: $font-icon;
-      font-size: 0.75rem;
-      margin-left: 0;
-      opacity: 0;
-      width: 0;
-      transition: margin-left 0.15s, opacity 0.15s;
-    }
-
     &:focus, &.focus {
       border-radius: $border-radius;
       border-bottom-color: transparent;
@@ -57,15 +46,8 @@
 
     &:hover, &.hover {
       &:before {
-        bottom: -0.3rem;
+        bottom: -0.1rem;
         background-color: $brand-primary-02;
-      }
-
-      &:after {
-        color: inherit;
-        opacity: 1;
-        width: auto;
-        margin-left: $pad-compact;
       }
     }
 

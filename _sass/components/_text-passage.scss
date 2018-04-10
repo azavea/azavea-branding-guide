@@ -72,15 +72,29 @@
 	 * Second-level heading within text passage
 	 */
 	h2 {
-		margin: $pad-spacious 0 $pad-compact;
+		margin: $pad-large 0 $pad-medium;
 		color: $brand-primary-03;
+		font-weight: $font-weight-medium;
+		position: relative;
+    padding-bottom: $pad-comfortable;
+
+		&:after {
+			content: "";
+			bottom: 0;
+			left: 0;
+			position: absolute;
+			background: $color-gray-400;
+			height: 3px;
+			width: 2.5rem;
+		}
 	}
 
 	/**
 	 * Third-level heading within text passage
 	 */
 	h3 {
-		margin: $pad-spacious 0 $pad-compact;
+		margin: $pad-spacious 0 $pad-medium;
+		color: $brand-primary-03;
 	}
 
 	/**
@@ -88,6 +102,7 @@
 	 */
 	h4 {
 		margin: $pad-normal 0 $pad-normal;
+		color: $brand-primary-03;
 	}
 
 	/**

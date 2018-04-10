@@ -251,6 +251,7 @@ $pad-medium: 0.65rem;
 $pad-normal: 1rem; /* 1 */
 $pad-comfortable: 1.4rem;
 $pad-spacious: 2rem;
+$pad-large: 3rem;
 
 $space-bullet-offset: 1.6rem; /* 2 */
 
@@ -314,8 +315,11 @@ $header-height: 4rem;
 \*------------------------------------*/
 $ic-background: $color-white;
 $ic-background-inverted: $color-gray-900;
+$ic-background-blue: $brand-primary-03;
+
 $ic-border: 1px solid $color-gray-200;
 $ic-border-color-inverted: $color-gray-400;
+$ic-border-color-blue: $brand-primary-01;
 $ic-image-width: 25rem;
 
 
