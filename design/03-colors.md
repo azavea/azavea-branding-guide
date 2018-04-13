@@ -5,7 +5,7 @@ title: Colors
 group: design
 status: complete
 permalink: /design/colors.html
-description: Azavea's color scheme helps perpetuate our personality. We try to use color meaningfully within our applications, and use these below colors as a part of our branding.
+description: Azavea's color scheme helps emote our company's personality. We do not typically align the branding colors with our applications, but do try to use color meaningfully in our work. The below colors will only cover color as it relates to Azavea's brand.
 
 ---
 
