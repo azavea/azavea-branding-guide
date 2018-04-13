@@ -221,7 +221,6 @@
 .c-primary-nav__subicon {
   color: $brand-primary-02;
   margin-left: auto;
-  margin-right: 0.4rem;
   transition: fill $fade-quick ease, transform $fade-quick ease, margin-right $fade-quick ease;
 
   /**
@@ -230,7 +229,6 @@
   .c-primary-nav__item.is-active &,
   .c-primary-nav__subitem.is-active & {
     color: $brand-primary-02;
-    margin-right: 0;
     transform: rotate(180deg);
   }
 
