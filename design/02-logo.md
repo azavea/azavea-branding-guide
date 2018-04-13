@@ -3,18 +3,18 @@ layout: page
 type: detail
 title: Logo
 group: design
-status: in_progress
+status: complete
 permalink: /design/logo.html
-description: Azavea's name is derived from the word &ldquo;zavea&rdquo;, which means &ldquo;perspective&rdquo; in [Urdu](https://en.wikipedia.org/wiki/Urdu).
+description: Azavea's name is derived from the word “zavea”, which means “perspective” in [Urdu](https://en.wikipedia.org/wiki/Urdu).
 
 ---
 
-Design guidelines for the Azavea company logo and product logos vary. Refer to [Products](/communication/products.html) to see all of our product logos. Following the design details associated with each logo ensures brand consistency across all communications.
+Design guidelines for the Azavea company logo and product logos vary. Refer to [Products](/identity/products.html) to see all of our product logos. Following the design details associated with each logo ensures brand consistency across all communications.
 
 ## Assets
 
 ### Full color
-The Azavea logo consists of two main elements: the icon to the left (internally referred to as the &ldquo;bones&rdquo;) and complete wordmark &ldquo;Azavea&rdquo;. The color Azavea logo with transparent background is the standard logo option. If it’s not possible to use the standard logo option, one of the other logo variations should be applied (see below).
+The Azavea logo consists of two main elements: the icon to the left (internally referred to as the “bones”) and complete wordmark “Azavea”. The color Azavea logo with transparent background is the standard logo option. If it’s not possible to use the standard logo option, one of the other logo variations should be applied (see below).
 
 {% include image-container.html
   src =  "../images/logo-donts/anatomy.svg"
