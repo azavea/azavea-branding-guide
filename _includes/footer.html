@@ -21,6 +21,8 @@
   {% endif %}
 {% endfor %}
 
+<!-- Hide the footer if there's no next/prev pages -->
+{% if prev_i >= 0 or num_of_pages > next_i %}
 <footer class="c-footer" role="contentinfo">
   <ul class="c-footer-nav">
     <!-- If there’s a previous page, display the previous link. Don’t loop. -->
@@ -51,6 +53,8 @@
       </li>
       {% endif %}
   </ul>
+</footer>
+{% endif %}
 
 <script src="{{ "/js/vendor/jquery-3.1.0.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/vendor/prism.js" | prepend: site.baseurl }}"></script>
