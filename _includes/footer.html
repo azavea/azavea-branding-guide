@@ -1,18 +1,18 @@
-{% if page.layout != 'post' %}
-{% assign sorted_pages2 = site.pages | sort: 'order' %}
-{% else %}
-{% assign sorted_pages2 = site.posts reversed %}
-{% endif %}
-
 {% assign sorted_pages = "" | split: "" %}
-{% for item in sorted_pages2 %}
-  {% if item.url != "/404.html" %}    
-    {% assign sorted_pages = sorted_pages | push: item %}
-  {% endif %} 
+{% for nav in site.data.nav %}
+  {% if nav.href contains ".html" %}
+    {% assign sorted_pages = sorted_pages | push: nav %}  
+  {% endif %}
+  
+  {% if nav.subpages %}
+    {% for subnav in nav.subpages %}
+      {% assign sorted_pages = sorted_pages | push: subnav %}  
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 
 {% for item in sorted_pages %}
-  {% if item.url == page.url %}
+  {% if item.href == page.url %}
     {% assign this_i = forloop.index0 %}
     {% assign num_of_pages = forloop.length %}
     {% assign last_i = forloop.length | minus: 1 %}
@@ -21,13 +21,40 @@
   {% endif %}
 {% endfor %}
 
-
+<!-- Hide the footer if there's no next/prev pages -->
+{% if prev_i >= 0 or num_of_pages > next_i %}
 <footer class="c-footer" role="contentinfo">
   <ul class="c-footer-nav">
-    <li class="c-footer-nav__item"><a class="next c-footer-nav__link" href="{% if prev_i < 0 %}{{ sorted_pages[last_i].url }}{% else %}{{ sorted_pages[prev_i].url }}{% endif %}"><i class="c-icon icon-left"></i> {% if prev_i < 0 %}{{ sorted_pages[last_i].title }}{% else %}{{ sorted_pages[prev_i].title }}{% endif %}</a></li>
-    <li class="c-footer-nav__item"><a class="next c-footer-nav__link" href="{% if num_of_pages > next_i %}{{ sorted_pages[next_i].url }}{% else %}{{ sorted_pages[0].url }}{% endif %}">{% if num_of_pages > next_i %}{{ sorted_pages[next_i].title }}{% else %}{{ sorted_pages[0].title }}{% endif %} <i class="c-icon icon-right"></i></a></li>
+    <!-- If there’s a previous page, display the previous link. Don’t loop. -->
+      {% if prev_i >= 0 %}
+      <li class="c-footer-nav__item c-footer-nav__item--prev">
+        <a class="c-footer-nav__link" href="{{ sorted_pages[prev_i].href }}">
+          <i class="c-icon icon-left"></i> 
+          <!-- Display subpage group titles -->
+          {% if sorted_pages[prev_i].group %}
+            {{ sorted_pages[prev_i].group }}: 
+          {% endif %}
+          {{ sorted_pages[prev_i].title }}
+        </a>
+      </li>
+      {% endif %}
+
+      <!-- If there’s a next page, display the next link. Don’t loop. -->
+      {% if num_of_pages > next_i %}
+      <li class="c-footer-nav__item c-footer-nav__item--next">
+        <a class="c-footer-nav__link" href="{{ sorted_pages[next_i].href }}">
+          <!-- Display subpage group titles -->
+          {% if sorted_pages[next_i].group %}
+            {{ sorted_pages[next_i].group }}: 
+          {% endif %}
+          {{ sorted_pages[next_i].title }}
+          <i class="c-icon icon-right"></i>
+        </a>
+      </li>
+      {% endif %}
   </ul>
-</footer><!--end c-footer-->
+</footer>
+{% endif %}
 
 <script src="{{ "/js/vendor/jquery-3.1.0.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/vendor/prism.js" | prepend: site.baseurl }}"></script>
