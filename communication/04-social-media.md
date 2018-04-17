@@ -8,6 +8,18 @@ permalink: /communication/social-media.html
 description: Our social media accounts allow us to connect with our community in a personal way.
 
 ---
+## Why do we maintain social media accounts?
+Our goal is to create or engage in conversation related to our work. We're also aiming to improve SEO and strengthen brand awareness.
+
+Social media posts enable us share small snippets of material that can be shared by our audience. We can also send messaging much more frequently than with other communication methods.
+
+### Desired results
+
+- Links back to our websites and blogs
+- Links to other, prominent websites
+- Following interesting, strong users
+- Being followed by interesting, strong users
+
 ## Potential topics
 
 - Great articles on geospatial technology, social change, civic impact, etc.
@@ -16,26 +28,3 @@ description: Our social media accounts allow us to connect with our community in
 - Upcoming event or conference participation
 - Company news like accomplishments, volunteering and service, office events, etc.
 - Things we learn at conferences and presentations (tweet from events)
-
-## Twitter
-Our goal is to create or engage in conversation related to our work. The 280 character limit enables us share small snippets of material that can be shared by our audience. We can also send messaging much more frequently than with other communication methods.
-
-[Image]
-Specify image size for profile (profile and cover) and include template download <a href="" download>Download Template</a>
-
-[Image]
-Specify image size for posts (square and rectangular) and include template download <a href="" download>Download Template</a>
-
-## Facebook
-[Image]
-Specify image size for profile (profile and cover) and include template download <a href="" download>Download Template</a>
-
-[Image]
-Specify image size for posts (square and rectangular) and include template download <a href="" download>Download Template</a>
-
-## LinkedIn
-[Image]
-Specify image size for profile (profile and cover) and include template download <a href="" download>Download Template</a>
-
-[Image]
-Specify image size for posts (square and rectangular) and include template download <a href="" download>Download Template</a>

@@ -9,11 +9,4 @@ description: We use specific communication strategies on our main marketing webs
 
 ---
 
-## Authentic voice
-Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.
-
-## Simplicity
-Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.
-
-## Gender neutrality
-Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.
+This page will include descriptions and images of top level pages.

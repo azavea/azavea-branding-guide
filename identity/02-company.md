@@ -13,6 +13,12 @@ Azavea's name is derived from the word &ldquo;zavea&rdquo;, which means &ldquo;p
 ## Who we are
 We build software and conduct data analyses for governments, non-profit organizations, academic research projects, and private firms on projects in an array of domains including: climate change, elections, conservation, water, forestry, planning, economic development, and public safety.
 
+## Pronunciation
+
+Azavea: &#477; &#39;z&#257;vy&#477;
+
+Add link to audio player for pronunciation (link on wiki [http://wiki.internal.azavea.com/doku.php?id=start](http://wiki.internal.azavea.com/doku.php?id=start))
+
 ## Elevator pitch
 This is our elevator pitch and can be used in conjunction with the mission statement. If there is a character length constraint, this statement can stand alone.
 
