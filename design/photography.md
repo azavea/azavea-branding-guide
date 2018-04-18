@@ -9,4 +9,4 @@ description: Styles for treating pictures and graphics
 
 ---
 
-Image style guidelines go here
+

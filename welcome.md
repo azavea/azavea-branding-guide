@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Welcome
-description: Adopting the principles and styles detailed in this library allows us to have an accessible and consistent brand. This guide contains everything you should need to create content on behalf of Azavea.
+description: Adopting the principles and styles detailed in this library allows us to have an accessible and consistent brand. This guide contains everything you need to create content on behalf of Azavea.
 ---
 
 ## How to use this guide
-This guide can be read from start to finish, but it should also be useful to you if you have any immediate questions. To this end, the guide is searchable so that you can quickly locate anything you need.
+This guide can be read from start to finish, but you can also search for specific topics to answer immediate questions.
 
-If you would like to contribute or have feedback, please add an issue to the [Github repo](http://ux.mailchimp.com/patterns/about).
+If you would like to contribute or have feedback, visit the [Contribute page](/contribute.html) to learn how to submit your suggestions.

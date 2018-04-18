@@ -5,7 +5,7 @@ title: Logo
 group: design
 status: complete
 permalink: /design/logo.html
-description: Azavea's name is derived from the word “zavea”, which means “perspective” in [Urdu](https://en.wikipedia.org/wiki/Urdu).
+description: Azavea’s name is derived from the word “zavea”, which means “perspective” in [Urdu](https://en.wikipedia.org/wiki/Urdu).
 
 ---
 
