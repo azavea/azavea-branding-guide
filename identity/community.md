@@ -3,7 +3,7 @@ layout: page
 title: Community
 group: identity
 status: in_progress
-permalink: /identity/community-groups.html
+permalink: /identity/community.html
 description: Defined branding for specific community groups and initiatives.
 
 ---

@@ -9,4 +9,6 @@ description: Styles for treating pictures and graphics
 
 ---
 
-Define sizes for images used in blogs including: featured image/blog hero image, wide blog images, 
+- Featured images
+- Blog hero images
+- Imagery for within a blog post
