@@ -18,3 +18,10 @@ highlighter: rouge
 
 # Build settings
 markdown: kramdown
+exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
