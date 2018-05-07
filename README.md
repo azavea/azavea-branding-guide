@@ -4,6 +4,8 @@ A design system for Azavea that contains visual assets (logos, color palettes, l
 ## How it works
 Azavea’s design system is built using [Jekyll](https://jekyllrb.com/), a static site generator, and [Style Guide Guide](https://github.com/bradfrost/style-guide-guide), a style guide boilerplate. The SCSS follows rules set in Brad Frost's article [CSS Architecture for Design Systems.](http://bradfrost.com/blog/post/css-architecture-for-design-systems/)
 
+Jekyll uses a plugin called [Hawkins](https://github.com/awood/hawkins) (specified in the `Gemfile`) that integrates with [LiveReload](http://livereload.com) to watch for changes and rebuild static files. 
+
 ## Requirements
 - Vagrant 2.0+
 - VirtualBox 5.1+
@@ -23,7 +25,7 @@ $ vagrant ssh
 $ ./scripts/server
 ```
 
-In order to build Jekyll's static website output, use:
+If `server` isn't running, or to trigger a build of Jekyll's static website output, use:
 
 ```bash
 $ ./scripts/update
@@ -35,4 +37,4 @@ The Vagrant configuration creates a host-only private network between the virtua
 
 | Service    | URL                                                    |
 |------------|--------------------------------------------------------|
-| Jekyll     | [`http://192.168.50.4:4000`](http://192.168.50.4:4000) |
+| Jekyll     | [`http://localhost:4000`](http://localhost:4000) |

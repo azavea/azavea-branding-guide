@@ -6,8 +6,9 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/src/app
-    network_mode: host
     environment:
       - JEKYLL_ENV=development
       - LANG=C.UTF-8
-    command: liveserve --force_polling --host 192.168.50.4
+    command: liveserve --force_polling --host 0.0.0.0
+    ports:
+            - '4000:4000'
