@@ -33,7 +33,7 @@ $ ./scripts/update
 
 ## URLS
 
-The Vagrant configuration creates a host-only private network between the virtual machine host and the Vagrant virtual machine. In order to access the content served by Jekyll, and the LiveReload endpoint, use the following links:
+In order to access the content served by Jekyll, and the LiveReload endpoint, use the following links:
 
 | Service    | URL                                                    |
 |------------|--------------------------------------------------------|
