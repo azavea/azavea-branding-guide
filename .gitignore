@@ -1,4 +1,14 @@
+# Ansible
+deployment/ansible/roles/azavea.*
+*.retry
+
+# Vagrant
+.vagrant
+
+# Jekyll
 _site
 .sass-cache
 .jekyll-metadata
+
+# OSX
 .DS_Store

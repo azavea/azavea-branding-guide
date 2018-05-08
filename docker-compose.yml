@@ -6,10 +6,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/src/app
-    ports:
-      - "4000:4000"
-      - "35729:35729"
     environment:
       - JEKYLL_ENV=development
       - LANG=C.UTF-8
-    command: liveserve --host 0.0.0.0
+    command: liveserve --force_polling --host 0.0.0.0
+    ports:
+        - '4000:4000'
+        - '35729:35729'
