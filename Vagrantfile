@@ -11,6 +11,10 @@ Vagrant.configure("2") do |config|
 
   # Jekyll 
   config.vm.network :forwarded_port, guest: 4000, host: 4000
+
+  # LiveReload
+  config.vm.network :forwarded_port, guest: 35729, host: 35729
+
   
   config.vm.provider "virtualbox" do |vb|
     vb.gui = false
