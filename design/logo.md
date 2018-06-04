@@ -5,16 +5,18 @@ title: Logo
 group: design
 status: complete
 permalink: /design/logo.html
-description: Azavea’s name is derived from the word “zavea”, which means “perspective” in [Urdu](https://en.wikipedia.org/wiki/Urdu).
+description: Asset downloads and guidelines for proper logo usage.
 
 ---
 
-Design guidelines for the Azavea company logo and product logos vary. Refer to [Products](/identity/products.html) to see all of our product logos. Following the design details associated with each logo ensures brand consistency across all communications.
+Design guidelines for the Azavea company logo and product logos vary. Refer to [Products](/identity/products.html) to see all of our product logos, though note that there are no brand guidelines for each at this time. Following the design details associated with the Azavea logo ensures brand consistency across all communications.
 
 ## Assets
 
-### Full color
-The Azavea logo consists of two main elements: the icon to the left (internally referred to as the “bones”) and complete wordmark “Azavea”. The color Azavea logo with transparent background is the standard logo option. If it’s not possible to use the standard logo option, one of the other logo variations should be applied (see below).
+### Color logo
+The Azavea logo consists of two main elements: the **symbol** to the left (you may hear it referred to as “the bones”) and **wordmark.** The color Azavea logo on a light (ideally, white) background should be used whenever possible. 
+
+If it’s not possible to use the full logo, one of the other logo variations may be used (see below). Do not alter the colors within the symbol or wordmark in any way.
 
 {% include image-container.html
   src =  "../images/logo-donts/anatomy.svg"
@@ -23,10 +25,10 @@ The Azavea logo consists of two main elements: the icon to the left (internally 
 
 <a href="/downloads/azavea-full-logo.zip" class="c-btn c-btn--small" download>Download assets</a>
 
-### Background colors
-The Azavea color logo should be used whenever possible. However, it may be necessary to use the white logo on a background color in some cases. 
+### Backgrounds
+The standard Azavea logo works best on white or very light background colors, but does not have a background color inherent to the branding. When overlaid atop non-white backgrounds, an effort should be made to provide clarity to the elements of the logo and to use solid or less busy backgrounds. 
 
-The Azavea logo works best on a white or very light background colors, but does not have a background inherent to the branding. When overlaid atop non-white backgrounds, an effort should be made to provide clarity to the elements of the logo and to overlay atop solid blocks of color. An alternate version is available that inverts the ‘azavea’ type for enhanced contrast on very dark backgrounds. Do not alter the triple-node mark.
+An alternate version is available that inverts the logo for enhanced contrast on very dark backgrounds. As with the standard logo, do not alter the colors in the symbol.
 
 {% include image-container.html
   src =  "../images/logo-white.svg"
@@ -36,18 +38,18 @@ The Azavea logo works best on a white or very light background colors, but does 
 
 <a href="/downloads/azavea-full-logo.zip" class="c-btn c-btn--small" download>Download assets</a>
 
-### Mark
-Use the full Azavea logo with wordmark in all cases possible. The triple node mark should be primarily used in social media instances where the full logo does ot work due to size/format restrictions.
+### Symbol only
+Whenever possible, it is best to use the full Azavea logo with symbol and wordmark. Using the symbol alone should primarily be reserved for cases in which the full logo does not work due to size or format restrictions, such as social media avatars.
 
 <div class="c-mark-container" markdown="1">
   {% include image-container.html
     src =  "../images/azavea-logo-bones.svg"
-    alt =  "Azavea triple node mark shown alone, in full color"
+    alt =  "Azavea symbol shown alone, in full color"
   %}
 
   {% include image-container.html
     src =  "../images/azavea-logo-bones-white.svg"
-    alt =  "Azavea triple node mark shown alone on a dark background, in white"
+    alt =  "Azavea symbol shown alone on a dark background, in white"
     style = "blue"
   %}
 </div>
@@ -57,7 +59,7 @@ Use the full Azavea logo with wordmark in all cases possible. The triple node ma
 ## Logo Usage
 
 ### Minimum Size
-The Azavea Logo should not be rendered at a size smaller than 16mm wide at 300dpi when resized proportionally, or 60px for screen display.
+The Azavea logo should not be rendered at a size smaller than **16mm wide at 300dpi,** or **60px** for screen displays.
 
 <div class="c-image-container">
   <div class="c-image c-logo--smallest">
@@ -67,11 +69,11 @@ The Azavea Logo should not be rendered at a size smaller than 16mm wide at 300dp
 </div>
 
 ### Minimum clearance
-Always keep a clear space around the Azavea Logo. The minimum required distance around the perimeter of a rectangle enclosing the Azavea logo is equal to the height of one of the icon&rsquo;s &ldquo;bones&rdquo;.
+Always keep a clear space around the Azavea logo. The minimum required distance around the perimeter of a rectangle enclosing the Azavea logo is equal to the height of one of the symbol’s “bones”.
 
 {% include image-container.html
   src =  "../images/logo-donts/space.svg"
-  alt =  "A display of the distance between the Azavea logo and any surrounding elements with the height of a bone"
+  alt =  "A display of the distance between the Azavea logo and any surrounding elements with the height of a “bone”"
   style = "blue"
 %}
 
