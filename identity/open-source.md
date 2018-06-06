@@ -29,7 +29,7 @@ Azavea develops and maintains several open source tools and libraries as long-te
 > Deep learning for aerial and satellite imagery.
 
 ## Open Data Philly
-“OpenDataPhilly” should always be written in upper camel case. View [OpenDataPhilly’s website](https://www.opendataphilly.org/) for more information about the catalog.
+“OpenDataPhilly” should always be written in upper camel case. View the [OpenDataPhilly website](https://www.opendataphilly.org/) for more information about the catalog.
 
 {% include image-container.html
   style = "inverted"

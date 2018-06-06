@@ -3,13 +3,14 @@ layout: page
 type: detail
 title: Typography
 group: design
-status: complete
+status: in_progress
 permalink: /design/typography.html
-description: We have two primary typefaces at Azavea – Graphik Web and Libre Franklin. What typeface you should use depends on the output of your project.
+description: Learn about the applications of different typefaces across our brand materials.
 
 ---
+We have two primary typefaces at Azavea – Graphik Web and Libre Franklin. What typeface you should use depends on the output of your project.
 
-## Libre Franklin 
+## Libre Franklin
 For print materials such as flyers, handouts, or business cards, we use Libre Franklin. Libre Franklin is an modern version of [Franklin Gothic](https://en.wikipedia.org/wiki/Franklin_Gothic): a popular sans-serif typeface developed in 1912. It’s a [open source project](https://github.com/impallari/Libre-Franklin) being led by Impallari Type, and is available for free on [Google Fonts](https://fonts.google.com/specimen/Libre+Franklin).
 
 {% include image-container.html

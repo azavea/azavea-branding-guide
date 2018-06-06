@@ -11,56 +11,42 @@ description: Brand assets and relationship descriptions related to business part
 ## CARTO
 Azavea is a CARTO business partner. "CARTO" should be referred to in all caps.
 
-### Website
+View the [CARTO Business Partner](https://carto.com/partners/) website for more information.
 
-[https://carto.com/partners/](https://carto.com/partners/)
-
-### Logo
+### Logos and marketing assets
+Multiple logos and interface examples are available.
 
 {% include image-container.html
-  src =  "../images/logo-opendatavote-blue.png"
-  alt =  "CARTO"
+  src =  "../images/logo-CARTO.png"
+  alt =  "CARTO logo"
 %}
 
+<a href="/downloads/CARTO-business-partner-assets.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ## Esri
+Azavea is an Esri business partner. "Esri" should be written in title case.
 
-### Website
+View the [Esri Business Partner](http://www.esri.com/partners) website for more information.
 
-[https://www.opendatavote.org/](https://www.opendatavote.org/)
-
-### Logo
+### Logos and marketing assets
 
 {% include image-container.html
-  src =  "../images/logo-opendatavote-blue.png"
-  alt =  "OpenDataVote"
+  src =  "../images/logo-Esri.png"
+  alt =  "Esri logo"
 %}
 
+<a href="/downloads/Esri-business-partner-assets.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ## LocationTech
 "LocationTech" should always be written in upper camel case.
 
-### Website
+View the [Azavea page](https://www.locationtech.org/content/azavea) on the LocationTech website for more information.
 
-[https://www.locationtech.org/content/azavea](https://www.locationtech.org/content/azavea)
-
-### Logo
+### Logos and marketing assets
 
 {% include image-container.html
   src =  "../images/logo-locationtech.png"
-  alt =  "LocationTech"
+  alt =  "LocationTech logo"
 %}
 
-## OSGeo
-"OSGeo" should always be written as "OS" in caps and "Geo" in title case.
-
-### Website
-
-[https://www.osgeo.org/service-providers/azavea/](https://www.osgeo.org/service-providers/azavea/)
-
-### Logo
-
-{% include image-container.html
-  src =  "../images/logo-locationtech.png"
-  alt =  "LocationTech"
-%}
+<a href="/downloads/LocationTech-business-partner-assets.zip" class="c-btn c-btn--small" download>Download assets</a>

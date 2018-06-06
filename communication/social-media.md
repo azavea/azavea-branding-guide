@@ -27,4 +27,10 @@ Social media posts enable us share small snippets of material that can be shared
 - Project/Product releases, launches, feature updates, etc.
 - Upcoming event or conference participation
 - Company news like accomplishments, volunteering and service, office events, etc.
-- Things we learn at conferences and presentations (tweet from events)
+- Things we learn at conferences and presentations
+
+## Account pages
+
+- [Twitter](https://twitter.com/azavea)
+- [Facebook](https://www.facebook.com/Azavea/)
+- [LinkedIn](https://www.linkedin.com/company/azavea/)

@@ -3,12 +3,11 @@ layout: page
 type: detail
 title: Logo
 group: design
-status: complete
+status: in_progress
 permalink: /design/logo.html
-description: Azavea’s name is derived from the word “zavea”, which means “perspective” in [Urdu](https://en.wikipedia.org/wiki/Urdu).
+description: Wave the Azavea flag proudly with these logo guidelines.
 
 ---
-
 Design guidelines for the Azavea company logo and product logos vary. Refer to [Products](/identity/products.html) to see all of our product logos. Following the design details associated with each logo ensures brand consistency across all communications.
 
 ## Assets
@@ -24,7 +23,7 @@ The Azavea logo consists of two main elements: the icon to the left (internally 
 <a href="/downloads/azavea-full-logo.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Background colors
-The Azavea color logo should be used whenever possible. However, it may be necessary to use the white logo on a background color in some cases. 
+The Azavea color logo should be used whenever possible. However, it may be necessary to use the white logo on a background color in some cases.
 
 The Azavea logo works best on a white or very light background colors, but does not have a background inherent to the branding. When overlaid atop non-white backgrounds, an effort should be made to provide clarity to the elements of the logo and to overlay atop solid blocks of color. An alternate version is available that inverts the ‘azavea’ type for enhanced contrast on very dark backgrounds. Do not alter the triple-node mark.
 
@@ -61,7 +60,7 @@ The Azavea Logo should not be rendered at a size smaller than 16mm wide at 300dp
 
 <div class="c-image-container">
   <div class="c-image c-logo--smallest">
-    <img src="../images/logo-donts/smallest.svg" 
+    <img src="../images/logo-donts/smallest.svg"
          alt="The Azavea full logo shown at the smallest size the logo should be shown">
   </div>
 </div>
