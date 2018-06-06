@@ -1,8 +1,8 @@
 - title: "Welcome"
   href: "/welcome.html"
-######################## 
+########################
 # IDENTITY
-######################## 
+########################
 - title: "Identity"
   href: "/identity"
   subpages:
@@ -27,9 +27,9 @@
   - title: "Partners"
     href: "/identity/partners.html"
     group: "Identity"
-######################## 
+########################
 # COMMUNICATION
-######################## 
+########################
 - title: "Communication"
   href: "/communication"
   subpages:
@@ -39,15 +39,18 @@
   - title: "Voice and tone"
     href: "/communication/voice-and-tone.html"
     group: "Communication"
+  - title: "Blog"
+    href: "/communication/blog.html"
+    group: "Communication"
   - title: "Social media"
     href: "/communication/social-media.html"
     group: "Communication"
   - title: "Email signature"
     href: "/communication/email-signature.html"
     group: "Communication"
-######################## 
+########################
 # DESIGN
-######################## 
+########################
 - title: "Design"
   href: "/design"
   subpages:
@@ -63,18 +66,7 @@
   - title: "Typography"
     href: "/design/typography.html"
     group: "Design"
-  - title: "Photography"
-    href: "/design/photography.html"
-    group: "Design"
-  - title: "Blog"
-    href: "/design/blog.html"
-    group: "Design"
-  - title: "Print"
-    href: "/design/print.html"
-    group: "Design"
-######################## 
-- title: "Support"
-  href: "/support.html"
+########################
 - title: "Contribute"
   href: "/contribute.html"
 - title: "Resources"
