@@ -8,17 +8,10 @@ permalink: /communication/blog.html
 description: Resources for writing, editing, and publishing a blog for our main marketing website.
 
 ---
+Our blog is one vehicle for sharing what we do with the world.
 
-The Azavea Blog Guidelines are documented in the [azavea-blog-tracking](https://github.com/azavea/azavea-blog-tracking) GitHub repository.
+Our posts cover a wide variety of topics, all within the realm of open source, open data, and geospatial technology. We aim to share examples, guides, and resources so that others can learn from our successes (and mistakes).
 
-The guidelines include information on all aspects of blog-writing, including:
+We encourage our team members to follow our [blog guidelines](https://github.com/azavea/azavea-blog-tracking) when writing for our website. These guidelines include instructions for writing, editing, publishing, and sharing blog posts.
 
-- Overview of blog objectives, topics, and general writing tips
-- Etiquette
-- Azavea Blog Publishing Process
-    - Generate a Blog Post Idea
-    - Document the Blog Post in Github
-    - Infrastructure
-    - Posting Your Blog in WP Engine
-    - Editing Process
-    - Publishing
+<a href="https://github.com/azavea/azavea-blog-tracking" class="c-btn c-btn--small">Visit blog guidelines</a>
