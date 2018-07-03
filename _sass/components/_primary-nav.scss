@@ -10,6 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+  z-index: 5;
   min-height: calc(100vh - #{$header-height});
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
@@ -257,7 +259,7 @@
  */
 .c-nav-container {
   display: none;
-  width: 100%;
+  left: -100%;
 
   @media all and (min-width: $bp-xl) {
     display: block;
@@ -278,14 +280,16 @@
  * Active header nav container
  */
 .c-nav-container.is-active {
-  display: block;
+  display: block;  
   position: absolute;
-  // background: $color-gray-07;
-  top: 100%;
+  top: $header-height;
+  bottom: 0;
   left: 0;
-  padding: 0 1rem;
-  width: 100%;
+  right: 0;
   z-index: 5;
+  width: 20rem;
+  overflow: auto;
+  transition: left 0.3s ease;
 
   @media all and (min-width: $bp-xl) {
     display: block;
@@ -294,6 +298,25 @@
     margin-left: auto;
     width: inherit;
   }
+
+  /**
+   * Style clickable backdrop
+   */
+   .backdrop {
+    @media all and (max-width: $bp-xl) {
+      position: fixed;
+      display: block;  
+      content: "";
+      left: 0;
+      top: $header-height;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background: $brand-ink;
+      background: rgba($brand-ink, 0.95);
+      cursor: default;
+    }
+   }
 
   /**
    * Active header nav container within vertical header
