@@ -5,7 +5,7 @@ title: Email signature
 status: in_progress
 group: communication
 permalink: /communication/email-signature.html
-description: How to create your Azavea email signature.
+description: Create your Azavea email signature.
 
 ---
 We standardize our email signature to make sure our contacts have access to company information like our address, phone numbers, websites, and social media accounts.
