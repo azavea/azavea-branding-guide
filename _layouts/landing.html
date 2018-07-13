@@ -5,17 +5,23 @@ layout: default
 <div class="l-container">
   {% include page-header.html %}
   <div class="c-text-passage">
-  	{{ content | markdownify }}
+    {{ content | markdownify }}
   </div><!--end c-text-passage-->
   <ul class="c-card-list l-grid l-grid--3up ">
-  	{% assign the_group = page.group %}
-  	{% for my_page in site.pages %}
-  		{% if my_page.group == the_group and my_page.layout != "landing" %}
-  		<li class="c-card-list__item l-grid__item">
-  			{% include card.html %}
-  		</li>
-  		{% endif %}
-  	{% endfor %}
-
+  {% for nav in site.data.nav %}
+    {% for subpage in nav.subpages %} <!-- Find subpages in YML nav file-->
+    {% assign the_group = subpage.group | downcase %} <!-- Create a lowercase variable -->
+    {% assign the_pages = site.pages | where:"title", subpage.title %} <!-- Find related pages, to get front matter -->
+      {% for the_page in the_pages %} <!-- Loop through all pages -->
+        {% if the_group == page.group and the_page.title != "Overview" %} <!-- Find only pages from this group that aren't called overview -->
+            <li class="c-card-list__item l-grid__item">
+              {% include card.html
+                title = the_page.title
+                description = the_page.description %}
+            </li>
+          {% endif %}
+        {%endfor%}
+    {% endfor %}
+  {% endfor %}
   </ul><!--end c-card-list-->
 </div><!--end l-container-->
