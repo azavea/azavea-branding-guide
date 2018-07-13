@@ -5,17 +5,17 @@ title: Colors
 group: design
 status: in_progress
 permalink: /design/colors.html
-description: Azavea's color scheme helps emote our company's personality.
+description: Azavea’s color scheme helps emote our company’s personality.
 
 ---
-We don't typically align the Azavea brand colors with our applications, but do try to use color meaningfully in our work. The below colors will only cover color as it relates to Azavea's brand.
+We don’t typically align the Azavea brand colors with our applications, but do try to use color meaningfully in our work. The below colors will only cover color as it relates to Azavea’s brand.
 
 As a company, Azavea is committed to complying with [WGAC 2.0 AA contrast ratios.](http://www.w3.org/TR/WCAG/) Refer to the [Resources](/resources.html) page for helpful tools.
 
 ## Color Usage
 
 ### Primary Palette
-The three main colors that make up Azavea's logo are the basis of color use in our website and print materials.
+The three main colors that make up Azavea’s logo are the basis of color use in our website and print materials.
 
 {% include color-patch.html
   type = "card"
