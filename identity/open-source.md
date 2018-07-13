@@ -11,7 +11,7 @@ Azavea develops and maintains several open source tools and libraries as long-te
 
 
 ## GeoTrellis
-“GeoTrellis” should always be written in upper camel case. View [GeoTrellis’ website](https://geotrellis.io/) for more information about the library.
+“GeoTrellis” should always be written in upper camel case. View [GeoTrellis’ website](https://geotrellis.io/) for more information about the library. GeoTrellis and the GeoTrellis logo are trademarks of the Eclipse Foundation, Inc.
 
 {% include image-container.html
   src =  "../images/logo-geotrellis.png"
@@ -22,14 +22,14 @@ Azavea develops and maintains several open source tools and libraries as long-te
 > An open source software toolkit based on Apache Spark that supports fast geospatial data processing by distributing tasks across computer clusters.
 
 
-## RasterVision
-“RasterVision” should always be written in upper camel case. View the [Raster Vision Github repo](https://github.com/azavea/raster-vision) for more information about the project.
+## Raster Vision
+“Raster Vision” should always be written in upper camel case. View the [Raster Vision Github repo](https://github.com/azavea/raster-vision) for more information about the project.
 
 ### Tagline
 > Deep learning for aerial and satellite imagery.
 
-## Open Data Philly
-“OpenDataPhilly” should always be written in upper camel case. View [OpenDataPhilly’s website](https://www.opendataphilly.org/) for more information about the catalog.
+## OpenDataPhilly
+“OpenDataPhilly” should always be written in upper camel case. View the [OpenDataPhilly website](https://www.opendataphilly.org/) for more information about the catalog.
 
 {% include image-container.html
   style = "inverted"

@@ -2,7 +2,7 @@
 layout: page
 title: Products
 group: identity
-status: complete
+status: in_progress
 permalink: /identity/products.html
 description: High-level brand guidelines and assets for each Azavea SaaS product.
 

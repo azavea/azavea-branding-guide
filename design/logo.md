@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Logo
 group: design
-status: complete
+status: in_progress
 permalink: /design/logo.html
 description: Asset downloads and guidelines for proper logo usage.
 
@@ -26,7 +26,7 @@ If it’s not possible to use the full logo, one of the other logo variations ma
 <a href="/downloads/azavea-full-logo.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Backgrounds
-The standard Azavea logo works best on white or very light background colors, but does not have a background color inherent to the branding. When overlaid atop non-white backgrounds, an effort should be made to provide clarity to the elements of the logo and to use solid or less busy backgrounds. 
+The standard Azavea logo works best on white or very light background colors, but does not have a background color inherent to the branding. When overlaid atop non-white backgrounds, an effort should be made to provide clarity to the elements of the logo and to use solid or less busy backgrounds.
 
 An alternate version is available that inverts the logo for enhanced contrast on very dark backgrounds. As with the standard logo, do not alter the colors in the symbol.
 
@@ -63,7 +63,7 @@ The Azavea logo should not be rendered at a size smaller than **16mm wide at 300
 
 <div class="c-image-container">
   <div class="c-image c-logo--smallest">
-    <img src="../images/logo-donts/smallest.svg" 
+    <img src="../images/logo-donts/smallest.svg"
          alt="The Azavea full logo shown at the smallest size the logo should be shown">
   </div>
 </div>
