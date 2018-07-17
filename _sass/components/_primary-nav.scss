@@ -157,9 +157,9 @@
    */
   .c-primary-nav__item.is-active & {
     background: none;
+    margin: $pad-tiny 0 $pad-tiny $pad-normal;
 
     @media all and (min-width: $bp-xl) {
-      margin: $pad-tiny 0 $pad-tiny $pad-normal;
       padding: 0;
       position: static;
 

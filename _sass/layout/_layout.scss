@@ -35,6 +35,7 @@
  */
  .l-page-layout--two-column-fixed {
     display: flex;
+    flex: 1;
  }
  /**
  * Main section of 2 column fixed layout
@@ -66,6 +67,7 @@
 .l-home-layout__main {
   display: flex;
   height: 100%;
+  overflow: auto;
 
   main {
     margin: auto;
