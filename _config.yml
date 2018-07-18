@@ -23,6 +23,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+include:
+  - _pages
+
 exclude:
   - Dockerfile
   - docker-compose.yml
