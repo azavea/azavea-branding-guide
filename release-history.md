@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Release History
-description: Jekyll's built-in [blogging feature](http://import.jekyllrb.com/) could be a good way to communicate changes and updates to the design system. See [Material Design's What's New page](https://material.io/guidelines/material-design/whats-new.html) for inspiration.
+description: Update announcements for the Azavea branding guide.
 ---
 
 <ul class="c-block-list">
