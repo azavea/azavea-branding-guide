@@ -7,4 +7,4 @@ description: Adopting the principles and styles detailed in this library allows 
 ## How to use this guide
 This guide can be read from start to finish, but you can also search for specific topics to answer immediate questions.
 
-If you would like to contribute or have feedback, visit the [Contribute page](/contribute.html) to learn how to submit your suggestions.
+If you would like to contribute or have feedback, visit the [Github repo](https://github.com/azavea/azavea-branding-guide/issues) to learn how to submit your suggestions.
