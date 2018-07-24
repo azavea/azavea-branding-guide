@@ -1,7 +1,4 @@
 ---
-- src: azavea.python-security
-  version: 0.1.0
-
 - src: azavea.pip
   version: 1.0.0
 
