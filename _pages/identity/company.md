@@ -12,7 +12,7 @@ Azavea's name is derived from the word “zavea”, which means “perspective�
 
 ### Pronunciation
 
-Azavea: ah-zay-vee-ah
+Azavea: uh-zay-vee-uh
 
 ## Who we are
 We build software and conduct data analyses for governments, nonprofit organizations, academic research institutions, and private firms on projects in an array of domains including: climate change, conservation, economic development, elections, energy, forestry, infrastructure asset management, planning, public safety, transportation, and water resources.
