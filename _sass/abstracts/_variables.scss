@@ -16,13 +16,11 @@
  * LAYOUT
  * Max-widths.................Maximum layout container width
  *
-
  * SPACING
  * Spacing defaults...........Spacing between elements
  *
  * BORDERS
- * Border Width...............Border thicknesses
- * Border Radius..............Border radius definitions
+ * Border radius..............Currently includes just the border radius used throughout
  *
  * ANIMATION
  * Animation Speed............Transition/animation speed variables
@@ -30,6 +28,15 @@
  *
  * BREAKPOINTS
  * Breakpoints................Global breakpoint definitions
+ *
+ * HEADER
+ * Style variables specific to the header component
+ *
+ * IMAGE CONTAINER
+ * Style variables specific to the image_container component
+ *
+ * BADGE
+ * Style variables specific to the badge component
  */
 
  /*------------------------------------*\
@@ -229,8 +236,6 @@ $font-weight-normal: 400;
  */
 $l-max-width: 60rem;
 $l-max-width-narrow: 45rem;
-
-
 
 
 

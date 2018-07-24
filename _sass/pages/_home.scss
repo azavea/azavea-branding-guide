@@ -4,8 +4,12 @@
   @include anti-alias();
 
   .c-intro__container {
-    text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: $pad-spacious;
+
+    @media all and (min-width: $bp-small-3) {
+      text-align: center;
+      margin-bottom: $pad-large;
+    }
 
     h1 {
       font-size: $font-size-display;
@@ -15,6 +19,11 @@
   .c-logo__container {
     max-width: 20rem;
     margin: 0 auto;
+    display: none;
+
+    @media all and (min-width: $bp-small-3) {
+      display: block;
+    }
 
     &:after {
       content: "";
@@ -27,8 +36,22 @@
   }
 
   .u-margin-bottom-double {
-    display: flex;
-    justify-content: flex-end;
+    @media all and (min-width: $bp-small-3) {
+      padding: 0 $pad-spacious;
+    }
+
+    @media all and (min-width: $bp-med) {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .c-btn {
+      width: 100%;
+
+      @media all and (min-width: $bp-med) {
+        width: auto;
+      }
+    }
   }
 
   .c-block__container {
@@ -52,9 +75,17 @@
   }
 
   .c-block__content {
-    max-width: 30rem;
     flex: 1 1 auto;
-    margin: $pad-comfortable;
+    margin: $pad-spacious;
+
+    @media all and (max-width: $bp-small-3) {
+      margin: 0 0 $pad-spacious;
+      max-width: auto;
+    }
+
+    @media all and (min-width: $bp-med) {
+      max-width: 30rem;
+    }
   }
 
   .c-block__title {

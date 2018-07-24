@@ -1,6 +1,6 @@
 <header class="c-header" role="banner">
   <div class="c-header__inner">
     {% include logo.html %}
-    <button class="c-btn c-btn--small c-header__nav-btn js-nav-trigger">Menu</button>
+    {% if page.body_class != "p-home" %}<button class="c-btn c-btn--small c-header__nav-btn js-nav-trigger">Menu</button>{% endif %}
   </div><!--end c-header__inner-->
 </header><!--end c-header-->

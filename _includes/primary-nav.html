@@ -1,5 +1,5 @@
 <nav class="c-primary-nav" role="navigation">
-	<ul class="c-primary-nav__list c-primary-nav__list--flush js-nav-panel" role="tablist" aria-multiselectable="true">
+	<ul class="c-primary-nav__list c-primary-nav__list--flush" role="tablist" aria-multiselectable="true">
 	{% for nav in site.data.nav %}
     {% if nav.subpages != null %}
       <li class="c-primary-nav__item {% if page.url contains nav.href %}is-active{% endif %}">
@@ -34,5 +34,4 @@
 			 class="c-guide-info__link {% if page.url == '/release-history.html' %}is-current{% endif %}">
 			 Release History</a>
 	</div>
-
 </nav><!-- end c-nav -->

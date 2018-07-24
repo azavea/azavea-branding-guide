@@ -65,11 +65,25 @@
  */
 .c-color-patch__card {
   display: inline-block;
-  margin-right: 0.33%;
-  width: 32.33%;
+  width: 100%;
+  margin: 0 0 $pad-medium 0;
 
-  &:last-child {
-    margin-right: 0;
+  @media all and (min-width: $bp-small) {
+    width: 49%;
+    margin: 0 0.5% $pad-medium 0;
+
+    &:nth-child(odd) {
+      margin: 0 0 $pad-medium 0;
+    }
+  }
+
+  @media all and (min-width: $bp-med) {
+    width: 32.33%;
+    margin: 0 0.33% $pad-compact 0;
+
+    &:last-child {
+      margin: 0 0 $pad-compact 0;
+    }
   }
 
   .c-color-patch__column {
@@ -99,25 +113,73 @@
  * Row-style color patch styles
  */
 .c-color-patch__row {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: $pad-compact;
+  margin-bottom: $pad-medium;
+
+  @media all and (min-width: $bp-small) {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  @media all and (min-width: $bp-med) {
+    flex-wrap: nowrap;
+  }
 
   .c-color-patch__block {
-    flex: 0 0 85px;
-    margin-right: $pad-normal;
+    height: 65px;
+    margin-bottom: $pad-normal;
+
+    @media all and (min-width: $bp-small) {
+      margin-bottom: 0;
+      flex: 0 30%;
+    }
+
+    @media all and (min-width: $bp-med) {
+      height: auto;
+      flex: 0 0 85px;
+      margin-right: $pad-normal;
+    }
   }
 
   .c-color-patch__column {
-    margin-right: $pad-normal;
     flex: 1;
+
+    @media all and (max-width: $bp-small) {
+      padding: $pad-compact 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    @media all and (min-width: $bp-small) and (max-width: $bp-med) {
+      flex: 0 33.33%;
+      margin-right: 0;
+      margin-top: $pad-normal;
+    }
 
     &:last-child {
       margin-right: 0;
     }
   }
+
   .c-color-patch__name {
-    @media all and (51.250em) {
+    @media all and (max-width: $bp-small) {
+      border-bottom: 1px solid $color-gray-200;    
+      padding-top: 0;
+
+      .c-color-patch__type {
+        display: none;
+      }
+    }
+
+    @media all and (min-width: $bp-small) and (max-width: $bp-med) {
+      flex: 0 50%;
+      padding-left: $pad-normal;
+      margin-top: 0;
+      margin-right: 0;
+    }
+
+    @media all and (min-width: $bp-med) {
       flex: 1 20%;
     }
   }

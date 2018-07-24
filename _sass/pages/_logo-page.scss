@@ -1,11 +1,23 @@
 .c-mark-container {
   display: flex;
-  max-width: 45rem;
+  flex-wrap: wrap;
+
+  @media all and (min-width: $bp-small) {
+    flex-wrap: nowrap;
+  }
 
   .c-image-container {
-    width: 50%;
+    flex: 0 100%;
     position: relative;
     padding: 0;
+
+    @media all and (min-width: $bp-small) {
+      flex: 0 48%;
+
+      &:first-child {
+        margin-right: 2%;
+      }
+    }
 
     .c-image {
       position: absolute;
@@ -39,46 +51,42 @@ ul.c-list--logo-donts {
   list-style-type: none;
   margin-left: 0;
 
+  li {
+    background: white;
+    border: 1px solid $color-gray-200;
+    padding: $pad-normal;
+    margin-bottom: $pad-normal;
+
+    @media all and (min-width: $bp-small-2) {
+      padding: $pad-medium;
+    }
+  }
+
   li p {
-    display: flex;
-    align-items: stretch;
-    margin-bottom: $pad-spacious;
+    margin-bottom: 0;
+
+    @media all and (min-width: $bp-small-2) {
+      display: flex;
+      align-items: center;
+    }
   }
 
   img {
-    width: 175px;
-    align-self: flex-start;
-    border: 1px solid $color-gray-200;
+    width: 100%;
+    display: block;
+    border: 1px solid $color-gray-100;
+
+    @media all and (min-width: $bp-small-2) {
+      width: 175px;
+    }
   }
 }
 
 .c-list--explanation {
-  padding-left: $pad-comfortable;
-  position: relative;
+  display: block;
+  padding: $pad-normal 0 0 0;
 
-  &:before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 0;
-    right: auto;
-    bottom: 0;
-    left: 0;
-    width: 4px;
-    background-color: $color-gray-200;
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 2px;
-    right: auto;
-    bottom: auto;
-    left: 0px;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    border-right: 10px solid $color-gray-200;
-    transform: rotate(180deg);
+  @media all and (min-width: $bp-small-2) {
+    padding: 0 0 0 $pad-normal;
   }
 }
