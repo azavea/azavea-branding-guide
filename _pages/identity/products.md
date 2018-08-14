@@ -66,7 +66,7 @@ Always capitalize the first letter of “Temperate”. View [Temperate’s websi
 > Temperate is a guided app for city-based climate change adaptation planners.
 
 ## OpenTreeMap
-“OpenTreeMap” should always be written in upper camel case. View [OpenTreeMap’s website](https://www.opentreemap.org/) to find out more about the product.
+“OpenTreeMap” should always be written in upper camel case. View [OpenTreeMap’s website](https://www.opentreemap.org/) to find out more about the product. Future development on OpenTreeMap has been suspended, but support of existing clients continues.
 
 {% include image-container.html
   src =  "../images/logo-opentreemap.png"
@@ -74,4 +74,4 @@ Always capitalize the first letter of “Temperate”. View [Temperate’s websi
 %}
 
 ### Tagline
-> Open source collaborative urban ecosystem tools for tree inventory, community engagement, ecosystem services calculations, and urban forestry analysis. Future development on OpenTreeMap has been suspended.
+> Open source collaborative urban ecosystem tools for tree inventory, community engagement, ecosystem services calculations, and urban forestry analysis.

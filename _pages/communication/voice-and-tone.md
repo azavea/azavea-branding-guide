@@ -2,7 +2,6 @@
 layout: page
 type: detail
 title: Voice and tone
-status: in_progress
 group: communication
 permalink: /communication/voice-and-tone.html
 description: Understand how we communicate across different mediums.

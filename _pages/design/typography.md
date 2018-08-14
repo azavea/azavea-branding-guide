@@ -3,7 +3,6 @@ layout: page
 type: detail
 title: Typography
 group: design
-status: in_progress
 permalink: /design/typography.html
 description: Learn about the applications of different typefaces across our brand materials.
 

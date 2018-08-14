@@ -3,7 +3,6 @@ layout: page
 type: detail
 title: Colors
 group: design
-status: in_progress
 permalink: /design/colors.html
 description: Azavea’s color scheme helps emote our company’s personality.
 

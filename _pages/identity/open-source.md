@@ -2,7 +2,6 @@
 layout: page
 title: Open source
 group: identity
-status: in_progress
 permalink: /identity/open-source.html
 description: Brand guidelines and assets for long-term open source projects.
 
