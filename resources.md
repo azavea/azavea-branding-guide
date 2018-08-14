@@ -19,6 +19,10 @@ description: Software Engineers, Designers, Operations Engineers, and Business D
 - [Color Brewer](http://colorbrewer2.org/)
 - [Viz Palette](http://projects.susielu.com/viz-palette)
 
+## Content marketing
+
+- [Azavea Blog Guidelines](https://github.com/azavea/azavea-blog)
+
 ## Email marketing
 
 - [MailChimp](https://mailchimp.com/): Main Azavea mass email marketing tool.
