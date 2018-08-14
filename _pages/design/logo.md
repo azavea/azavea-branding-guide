@@ -9,7 +9,7 @@ description: Asset downloads and guidelines for proper logo usage.
 
 ---
 
-Design guidelines for the Azavea company logo and product logos vary. Refer to [Products](/identity/products.html) to see all of our product logos, though note that there are no brand guidelines for each at this time. Following the design details associated with the Azavea logo ensures brand consistency across all communications.
+The Azavea company logo is a registered trademark. Design guidelines for the Azavea company logo and product logos vary. Refer to [Products](/identity/products.html) to see all of our product logos, though note that there are no brand guidelines for each at this time. Following the design details associated with the Azavea logo ensures brand consistency across all communications.
 
 ## Assets
 
