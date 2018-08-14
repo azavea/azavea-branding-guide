@@ -2,7 +2,6 @@
 layout: page
 title: Company
 group: identity
-status: in_progress
 permalink: /identity/company.html
 description: Core brand info like our elevator pitch, mission, and taglines.
 
@@ -22,7 +21,7 @@ This is our elevator pitch and can be used in conjunction with the mission state
 
 > Azavea is a B-Corporation that creates geospatial software and data analytics for the web.
 
-What is a B Corporation? Read our [B Corporation company page](http://www.bcorporation.net/community/azavea) to learn more.
+Our [B Corporation company page](http://www.bcorporation.net/community/azavea) includes details about our B Labs Impact Assessment scores and Best for the World Honoree awards.
 
 ### Mission statement
 Our mission statement describes why we do what we do. We use our mission statement as an introduction to the company ethos on our website and within proposals, marketing assets, and community presentations.

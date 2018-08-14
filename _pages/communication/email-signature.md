@@ -2,7 +2,6 @@
 layout: page
 type: detail
 title: Email signature
-status: in_progress
 group: communication
 permalink: /communication/email-signature.html
 description: Create your Azavea email signature.
@@ -22,12 +21,12 @@ To edit your email signature, login to Gmail and navigate to “Settings”, “
 ### Optional text
 Add this text below the links in your email signature to help the people you’re communicating with understand what we do:
 
-> Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – we apply geospatial technology, data analysis, and research for civic, social, and environmental impact.
+> Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact.
 
 Include “B Corporation” as a link to our company profile on the B Corporation website.
 
 You can also append “Join us.” as a link to the Azavea jobs website to help contacts find our open positions:
-> Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – we apply geospatial technology, data analysis, and research for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
+> Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
 
 ### Full email signature sample with optional text
 > First Name Last Name, Title  
@@ -35,7 +34,7 @@ You can also append “Join us.” as a link to the Azavea jobs website to help 
 > [youremail@azavea.com](mailto:youremail@azavea.com) &#124; Phone Number  
 > [Website](https://www.azavea.com/) &#124; [Blog](https://www.azavea.com/blog/) &#124; [GitHub](https://github.com/azavea) &#124; [Twitter](https://twitter.com/azavea)
 >
-> Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – we apply geospatial technology, data analysis, and research for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
+> Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
 
 ## Details
 ### Email address

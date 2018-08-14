@@ -3,7 +3,6 @@ layout: page
 type: detail
 title: Logo
 group: design
-status: in_progress
 permalink: /design/logo.html
 description: Asset downloads and guidelines for proper logo usage.
 
@@ -14,7 +13,7 @@ Design guidelines for the Azavea company logo and product logos vary. Refer to [
 ## Assets
 
 ### Color logo
-The Azavea logo consists of two main elements: the **symbol** to the left (you may hear it referred to as “the bones”) and **wordmark.** The color Azavea logo on a light (ideally, white) background should be used whenever possible. 
+The Azavea logo consists of two main elements: the **symbol** to the left (you may hear it referred to as “the bones”) and **wordmark.** The color Azavea logo on a light (ideally, white) background should be used whenever possible.
 
 If it’s not possible to use the full logo, one of the other logo variations may be used (see below). Do not alter the colors within the symbol or wordmark in any way.
 

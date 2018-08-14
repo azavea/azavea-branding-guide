@@ -74,4 +74,4 @@ Always capitalize the first letter of “Temperate”. View [Temperate’s websi
 %}
 
 ### Tagline
-> Open source collaborative urban ecosystem tools for tree inventory, community engagement, ecosystem services calculations, and urban forestry analysis. Future development on OpenTreeMap has been suspended.
+> Open source collaborative urban ecosystem tools for tree inventory, community engagement, ecosystem services calculations, and urban forestry analysis.
