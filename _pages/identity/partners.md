@@ -10,7 +10,7 @@ description: Brand assets and relationship descriptions related to business part
 ## CARTO
 Azavea is a CARTO business partner. "CARTO" should be referred to in all caps.
 
-View the [CARTO Business Partner](https://carto.com/partners/) website for more information. Login to the Partners Portal to download assets like logos.
+View the [CARTO Business Partner](https://carto.com/partners/) website for more information. Login to the Partners Resource Center to download assets like logos.
 
 {% include image-container.html
   src =  "../images/logo-CARTO.png"
