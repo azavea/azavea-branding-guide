@@ -5,6 +5,7 @@ title: Voice and tone
 group: communication
 permalink: /communication/voice-and-tone.html
 description: Understand how we communicate across different mediums.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 When writing on behalf of Azavea, whether on our website or in a blog post, we strive to always be friendly, professional, and humble.

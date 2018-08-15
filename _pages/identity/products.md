@@ -5,6 +5,7 @@ group: identity
 status: in_progress
 permalink: /identity/products.html
 description: High-level brand guidelines and assets for each Azavea SaaS product.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 Azavea actively develops, maintains, and commercializes several SaaS products. In general, you should capitalize the first letter of products, but other brand details vary.

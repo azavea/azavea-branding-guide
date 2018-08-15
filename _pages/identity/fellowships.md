@@ -5,6 +5,7 @@ group: identity
 status: in_progress
 permalink: /identity/fellowships.html
 description: Fellowship program descriptions and brand guidelines.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 Azavea manages two fellowship programs for 12 weeks each summer. Communicating the nuances of each program is important so that we can effectively recruit strong candidates, mentors, nonprofit partners, and sponsors.

@@ -5,6 +5,7 @@ title: Resources
 status: in_progress
 url: /resources.html
 description: Software Engineers, Designers, Operations Engineers, and Business Development Professionals alike, use tools to make their jobs easier. Here are some tried-and-true resources that folks at Azavea use.
+date: 2018-08-15 14:10:27 UTC
 ---
 
 ## Accessible Design

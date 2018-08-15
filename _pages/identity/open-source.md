@@ -4,6 +4,7 @@ title: Open source
 group: identity
 permalink: /identity/open-source.html
 description: Brand guidelines and assets for long-term open source projects.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 Azavea develops and maintains several open source tools and libraries as long-term projects. These projects are treated as pseudo-products and have their own branding guidelines and resources.

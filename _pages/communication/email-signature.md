@@ -5,6 +5,7 @@ title: Email signature
 group: communication
 permalink: /communication/email-signature.html
 description: Create your Azavea email signature.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 We standardize our email signature to make sure our contacts have access to company information like our address, phone numbers, websites, and social media accounts.

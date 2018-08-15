@@ -5,6 +5,7 @@ title: Blog
 group: communication
 permalink: /communication/blog.html
 description: Resources for writing, editing, and publishing a blog for our main marketing website.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 Our blog is one vehicle for sharing what we do with the world.

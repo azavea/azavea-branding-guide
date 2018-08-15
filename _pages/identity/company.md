@@ -4,6 +4,7 @@ title: Company
 group: identity
 permalink: /identity/company.html
 description: Core brand info like our elevator pitch, mission, and taglines.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 ## Our name

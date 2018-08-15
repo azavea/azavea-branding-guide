@@ -4,6 +4,7 @@ title: Partners
 group: identity
 permalink: /identity/partners.html
 description: Brand assets and relationship descriptions related to business partners.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 

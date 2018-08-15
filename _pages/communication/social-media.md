@@ -6,6 +6,7 @@ status: in_progress
 group: communication
 permalink: /communication/social-media.html
 description: Our social media accounts allow us to connect with our community in a personal way.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 ## Why do we maintain social media accounts?

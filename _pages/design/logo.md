@@ -5,6 +5,7 @@ title: Logo
 group: design
 permalink: /design/logo.html
 description: Asset downloads and guidelines for proper logo usage.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 

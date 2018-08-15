@@ -1,9 +1,18 @@
 <div class="c-page-header">
-  {% if page.group %}<div class="c-page-header__parent-title">{{ page.group }}</div>{% endif %}
-	<h1 class="c-page-header__title">{{ page.title }} {% if page.status %}{% include badge.html %}{% endif %}</h1>
-	{% if page.description %}
-	<div class="c-page-header__desc">
-		{{ page.description | markdownify }}
-	</div>
-	{% endif %}
+  <div class="c-page-header-titles">
+    {% if page.group %}<div class="c-page-header__parent-title">{{ page.group }}</div>{% endif %}
+  	<h1 class="c-page-header__title">{{ page.title }} {% if page.status %}{% include badge.html %}{% endif %}</h1>
+  </div>
+    
+  {% if page.description %}
+  <div class="c-page-header__desc">
+    {{ page.description | markdownify }}
+  </div>
+  {% endif %}
+  
+  {% if page.date != NULL %}
+    <div class="c-page-header__mod-date">
+      Last modified {{ page.date | date: "%b %-d, %Y" }}
+    </div>
+  {% endif %}
 </div><!-- end c-page-header -->
