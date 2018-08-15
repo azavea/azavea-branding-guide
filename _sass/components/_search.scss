@@ -3,15 +3,28 @@
 \*------------------------------------*/
 
 // Styles for input
-#tipue_search_input {
+.c-search {
+  font-family: $font-icon;
+  position: relative;
+
   &:before {
-    content: "\E800";
+    content: '\E801';
     display: block;
     font-family: $font-icon;
     color: $color-gray-600;
     position: absolute;
-    left: 0;
+    left: 0.5rem;
+    top: 0.25rem;
     z-index: 99;
+  }
+
+  #tipue_search_input {
+    font-family: $font;
+    padding-left: 1.75rem;
+  }
+
+  @media all and (max-width: $bp-small-2) {
+    display: none;
   }
 }
 

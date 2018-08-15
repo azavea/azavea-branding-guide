@@ -16,6 +16,13 @@ twitter_username: azavea
 github_username: azavea
 highlighter: rouge
 
+# Search settings
+tipue_search:
+  include:
+    pages: true
+  exclude:
+    files: [index.md, search.md]
+
 # Build settings
 markdown: kramdown
 
@@ -33,3 +40,4 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
