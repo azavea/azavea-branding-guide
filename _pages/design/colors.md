@@ -5,6 +5,7 @@ title: Colors
 group: design
 permalink: /design/colors.html
 description: Azavea’s color scheme helps emote our company’s personality.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 We don’t typically align the Azavea brand colors with our applications, but do try to use color meaningfully in our work. The below colors will only cover color as it relates to Azavea’s brand.

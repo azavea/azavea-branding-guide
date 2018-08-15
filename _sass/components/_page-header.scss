@@ -5,6 +5,18 @@
  * 1) Container that consists of of a page header title and description
  */
 
+.c-page-header {
+  @media all and (min-width: $bp-small-2) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.c-page-header-titles {
+  @media all and (min-width: $bp-small-2) {
+    flex: 1 0 50%;
+  }
+}
 
 .c-page-header__parent-title {
   color: $color-gray-500;
@@ -23,6 +35,24 @@
 
 .c-page-header__desc {
   font-size: $font-size-med-2;
-  margin-bottom: $pad-spacious;
   max-width: $l-max-width-narrow;
+
+  @media all and (min-width: $bp-small-2) {
+    margin-bottom: $pad-spacious;
+    flex: 1 0 100%;
+    order: 3;
+  }
+}
+
+.c-page-header__mod-date {
+  font-size: $font-size-sm;
+  margin-bottom: $pad-spacious;
+  font-style: italic;
+
+  @media all and (min-width: $bp-small-2) {
+    margin-bottom: $pad-normal;
+    text-align: right;
+    align-self: flex-end;
+    order: 2; 
+  }
 }

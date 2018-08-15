@@ -2,6 +2,7 @@
 layout: page
 title: Welcome
 description: Adopting the principles and styles detailed in this library allows us to have an accessible and consistent brand. This guide contains everything you need to create content on behalf of Azavea.
+date: 2018-08-15 14:10:28 UTC
 ---
 
 ## How to use this guide

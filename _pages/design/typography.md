@@ -5,6 +5,7 @@ title: Typography
 group: design
 permalink: /design/typography.html
 description: Learn about the applications of different typefaces across our brand materials.
+date: 2018-08-15 14:10:27 UTC
 
 ---
 We have two primary typefaces at Azavea – Graphik Web and Libre Franklin. What typeface you should use depends on the output of your project.
