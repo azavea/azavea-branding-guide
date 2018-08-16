@@ -22,7 +22,12 @@
     // console.info('Action:', e.action);
     // console.info('Text:', e.text);
     // console.info('Trigger:', e.trigger);
+    var origBtnText = e.trigger.innerHTML;
     e.trigger.textContent = 'Copied';
+
+    window.setTimeout( function() {
+      e.trigger.innerHTML = origBtnText
+    }, 2000);
   });
 
   clipboard.on('error', function(e) {
