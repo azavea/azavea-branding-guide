@@ -12,6 +12,11 @@
 	width: 100%;
 	display: block;
 	flex-shrink: 0;
+  
+  // Search form
+  form {
+    margin-left: auto;
+  }
 }
 
 /**
@@ -37,7 +42,7 @@
  * 1) Button used to toggle the navigation on/off on small screens
  */
 .c-header__nav-btn {
-	margin-left: auto;
+	margin-left: $pad-normal;
 
 	@media all and (min-width: $bp-xl) {
 		display: none;

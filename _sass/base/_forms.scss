@@ -10,15 +10,15 @@
   * Input placeholder text base styles
   */
 ::-webkit-input-placeholder {
-   color: $color-gray-300;
+  color: $color-gray-300;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: $color-gray-300;
+  color: $color-gray-300;
 }
 
 :-ms-input-placeholder {
-   color: $color-gray-300;
+  color: $color-gray-300;
 }
 
 /**
@@ -34,8 +34,8 @@ fieldset {
  * Legend base styles
  */
 legend {
-    text-transform: lowercase;
-    margin-bottom: 0.25em;
+  text-transform: lowercase;
+  margin-bottom: 0.25em;
 }
 
 /**
@@ -50,9 +50,9 @@ label {
  * Add font size 100% of form element and margin 0 to these elements
  */
 button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
 }
 
 /**
@@ -69,6 +69,7 @@ input, textarea {
 	width: 100%;
 	border: 1px solid $color-gray-300;
 	padding: 0.5rem 0.65rem;
+  border-radius: $border-radius;
 }
 
 /**
@@ -83,16 +84,16 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
  */
 input[type="checkbox"],
 input[type="radio"] {
-    width: auto;
-    margin-right: 0.3em;
+  width: auto;
+  margin-right: 0.3em;
 }
 
 /**
  * Search input base styles
  */
 input[type="search"] {
-    -webkit-appearance: none;
-    border-radius: 0;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 /**
@@ -100,7 +101,7 @@ input[type="search"] {
  */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 /**
@@ -108,21 +109,21 @@ input[type="search"]::-webkit-search-decoration {
  * 1) Remove default styling
  */
 select {
-    display: block;
+  display: block;
 	font-size: $font-size-sm-2;
-    height: 2rem;
+  height: 2rem;
 	width: 100%;
-    border: 1px solid $color-gray-200;
-    padding: 0.3rem;
-    border-radius: $border-radius;
-    background: $color-white;
-    color: $color-gray-900;
+  border: 1px solid $color-gray-200;
+  padding: 0.3rem;
+  border-radius: $border-radius;
+  background: $color-white;
+  color: $color-gray-900;
 	-moz-appearance: none;
-    -webkit-appearance: none;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTIgMTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEyIDExOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZmlsbD0iIzgwODA4MCI+PHBhdGggZD0iTTIsNGw0LDRsNC00SDJ6Ii8+PC9zdmc+);
-    background-position: calc(100% - 0.3rem) 50%;
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
+  -webkit-appearance: none;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTIgMTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEyIDExOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZmlsbD0iIzgwODA4MCI+PHBhdGggZD0iTTIsNGw0LDRsNC00SDJ6Ii8+PC9zdmc+);
+  background-position: calc(100% - 0.3rem) 50%;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
 
 	&:focus {
     outline: none;
