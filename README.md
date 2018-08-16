@@ -26,6 +26,8 @@ $ ./scripts/setup
 
 Next, login to the Vagrant virtual machine and launch the Jekyll services:
 
+[You may need to `vagrant reload` to properly display fonts and images.]
+
 ```bash
 $ vagrant ssh
 $ ./scripts/server
