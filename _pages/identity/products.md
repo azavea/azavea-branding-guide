@@ -45,7 +45,7 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
 
 ### Tagline
 {% include copy-paste.html
-  description = "Advanced predictive policing application built into a unified forecast of crime risk for sophisticated prevention analysis. When writing its name, it should always be in upper camel case."
+  description = "Advanced predictive policing application built into a unified forecast of crime risk for sophisticated prevention analysis."
 %}
 
 ## DistrictBuilder
@@ -59,7 +59,7 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
 
 ### Tagline
 {% include copy-paste.html
-  description = "DistrictBuilder is web-based, open source software for collaborative redistricting. When writing the name, it should always be in upper camel case."
+  description = "DistrictBuilder is web-based, open source software for collaborative redistricting."
 %}
 
 ## Temperate
