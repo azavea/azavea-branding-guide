@@ -16,12 +16,13 @@
   }
 
   // Copy to clipboard functionality
-  var clipboard = new Clipboard('.js-copy-paste-btn');
+  var clipboard = new ClipboardJS('.js-copy-paste-btn', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
 
   clipboard.on('success', function(e) {
-    // console.info('Action:', e.action);
-    // console.info('Text:', e.text);
-    // console.info('Trigger:', e.trigger);
     var origBtnText = e.trigger.innerHTML;
     e.trigger.textContent = 'Copied';
 
