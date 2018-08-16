@@ -10,7 +10,7 @@ Azavea develops and maintains several open source tools and libraries as long-te
 
 
 ## GeoTrellis
-“GeoTrellis” should always be written in upper camel case. View [GeoTrellis’ website](https://geotrellis.io/) for more information about the library. GeoTrellis and the GeoTrellis logo are trademarks of the Eclipse Foundation, Inc.
+“GeoTrellis” should always be written in upper camel case. View the [GeoTrellis website](https://geotrellis.io/) for more information about the library. GeoTrellis and the GeoTrellis logo are trademarks of the Eclipse Foundation, Inc.
 
 {% include image-container.html
   src =  "../images/logo-geotrellis.png"
