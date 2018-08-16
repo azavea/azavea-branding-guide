@@ -10,7 +10,7 @@ description: High-level brand guidelines and assets for each Azavea SaaS product
 Azavea actively develops, maintains, and commercializes several SaaS products. In general, you should capitalize the first letter of products, but other brand details vary.
 
 ## Cicero
-Always capitalize the first letter of “Cicero”. View [Cicero’s website](https://www.cicerodata.com/) to find out more about the product.
+Always capitalize the first letter of “Cicero”. View the [Cicero website](https://www.cicerodata.com/) to find out more about the product.
 
 {% include image-container.html
   src =  "../images/logo-cicero.png"
@@ -23,7 +23,7 @@ Always capitalize the first letter of “Cicero”. View [Cicero’s website](ht
 %}
 
 ## Raster Foundry
-Always capitalize the first letter of each word in “Raster Foundry”. It should never be written in upper camel case. View [Raster Foundry’s website](https://www.rasterfoundry.com/) to find out more about the product.
+Always capitalize the first letter of each word in “Raster Foundry”. It should never be written in upper camel case. View the [Raster Foundry website](https://www.rasterfoundry.com/) to find out more about the product.
 
 {% include image-container.html
   src =  "../images/logo-rasterfoundry.png"
@@ -36,7 +36,7 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
 %}
 
 ## HunchLab
-“HunchLab” should always be written in upper camel case. View [HunchLab’s website](https://www.hunchlab.com/) to find out more about the product.
+“HunchLab” should always be written in upper camel case. View the [HunchLab website](https://www.hunchlab.com/) to find out more about the product.
 
 {% include image-container.html
   src =  "../images/logo-hunchlab.png"
@@ -45,11 +45,11 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
 
 ### Tagline
 {% include copy-paste.html
-  description = "Advanced predictive policing application built into a unified forecast of crime risk for sophisticated prevention analysis. When writing its name, it should always be in upper camel case."
+  description = "Advanced predictive policing application built into a unified forecast of crime risk for sophisticated prevention analysis."
 %}
 
 ## DistrictBuilder
-“DistrictBuilder” should always be written in upper camel case. View [DistrictBuilder’s website](http://www.districtbuilder.org/) to find out more about the product.
+“DistrictBuilder” should always be written in upper camel case. View the [DistrictBuilder website](http://www.districtbuilder.org/) to find out more about the product.
 
 ### Tagline
 {% include image-container.html
@@ -59,11 +59,11 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
 
 ### Tagline
 {% include copy-paste.html
-  description = "DistrictBuilder is web-based, open source software for collaborative redistricting. When writing the name, it should always be in upper camel case."
+  description = "DistrictBuilder is web-based, open source software for collaborative redistricting."
 %}
 
 ## Temperate
-Always capitalize the first letter of “Temperate”. View [Temperate’s website](https://www.temperate.io/) to find out more about the product.
+Always capitalize the first letter of “Temperate”. View the [Temperate website](https://www.temperate.io/) to find out more about the product.
 
 {% include image-container.html
   src =  "../images/logo-temperate.png"
@@ -76,7 +76,7 @@ Always capitalize the first letter of “Temperate”. View [Temperate’s websi
 %}
 
 ## OpenTreeMap
-“OpenTreeMap” should always be written in upper camel case. View [OpenTreeMap’s website](https://www.opentreemap.org/) to find out more about the product. Future development on OpenTreeMap has been suspended, but support of existing clients continues.
+“OpenTreeMap” should always be written in upper camel case. View the [OpenTreeMap website](https://www.opentreemap.org/) to find out more about the product. Future development on OpenTreeMap has been suspended, but support of existing clients continues.
 
 {% include image-container.html
   src =  "../images/logo-opentreemap.png"
