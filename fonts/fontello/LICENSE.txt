@@ -10,12 +10,21 @@ Font license info
    Homepage:  http://www.mfglabs.com/
 
 
-## Web Symbols
+## Entypo
 
-   Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
+   Copyright (C) 2012 by Daniel Bruce
 
-   Author:    Just Be Nice studio
+   Author:    Daniel Bruce
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.justbenicestudio.com/
+   Homepage:  http://www.entypo.com
+
+
+## Font Awesome
+
+   Copyright (C) 2016 by Dave Gandy
+
+   Author:    Dave Gandy
+   License:   SIL ()
+   Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 

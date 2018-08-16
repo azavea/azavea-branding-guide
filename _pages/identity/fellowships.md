@@ -21,12 +21,16 @@ Always capitalize the first letter of each word in “Azavea Open Source Fellows
 ### Elevator pitch
 This is a generalized description of the Azavea Open Source Fellowship program and can stand alone in communications.
 
->The Azavea Open Source Fellowship Program is a 12-week professional training fellowship that matches software engineering fellows with open source projects at Azavea.
+{% include copy-paste.html
+  description = "The Azavea Open Source Fellowship Program is a 12-week professional training fellowship that matches software engineering fellows with open source projects at Azavea."
+%}
 
 ### Tagline
 The tagline should either be used in combination with the program name or with the elevator pitch. This ensures brand association with the shortened description.
 
->Software engineering and design professional training fellowship that matches fellows with open source projects.
+{% include copy-paste.html
+  description = "Software engineering and design professional training fellowship that matches fellows with open source projects."
+%}
 
 ## Azavea Summer of Maps
 Always write “Azavea Summer of Maps" in title case. View the [Azavea Summer of Maps website](http://www.summerofmaps.com/) for more information about the program, including completed project descriptions.
@@ -39,9 +43,13 @@ Always write “Azavea Summer of Maps" in title case. View the [Azavea Summer of
 ### Elevator pitch
 This is a generalized description of the Azavea Summer of Maps program and can stand alone in communications.
 
->The Azavea Summer of Maps program is a 12-week fellowship where geospatial data analysis students work alongside experienced mentors to complete projects for nonprofit organizations.
+{% include copy-paste.html
+  description = "The Azavea Summer of Maps program is a 12-week fellowship where geospatial data analysis students work alongside experienced mentors to complete projects for nonprofit organizations."
+%}
 
 ### Tagline
 The tagline should either be used in combination with the program name or with the elevator pitch. This ensures brand association with the shortened description.
 
->Fellowship program for students and mapping service for nonprofits focused on completing challenging, high impact projects.
+{% include copy-paste.html
+  description = "Fellowship program for students and mapping service for nonprofits focused on completing challenging, high impact projects."
+%}

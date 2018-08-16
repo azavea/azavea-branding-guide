@@ -18,14 +18,17 @@ Azavea develops and maintains several open source tools and libraries as long-te
 %}
 
 ### Tagline
-> An open source software toolkit based on Apache Spark that supports fast geospatial data processing by distributing tasks across computer clusters.
-
+{% include copy-paste.html
+  description = "An open source software toolkit based on Apache Spark that supports fast geospatial data processing by distributing tasks across computer clusters."
+%}
 
 ## Raster Vision
 “Raster Vision” should always be written in upper camel case. View the [Raster Vision Github repo](https://github.com/azavea/raster-vision) for more information about the project.
 
 ### Tagline
-> Deep learning for aerial and satellite imagery.
+{% include copy-paste.html
+  description = "Deep learning for aerial and satellite imagery."
+%}
 
 ## OpenDataPhilly
 “OpenDataPhilly” should always be written in upper camel case. View the [OpenDataPhilly website](https://www.opendataphilly.org/) for more information about the catalog.
@@ -37,10 +40,14 @@ Azavea develops and maintains several open source tools and libraries as long-te
 %}
 
 ### Elevator pitch
-> OpenDataPhilly is a catalog of open data in the Philadelphia region. In addition to being the official open data repository for the city, it includes data sets from many organizations in the region.
+{% include copy-paste.html
+  description = "OpenDataPhilly is a catalog of open data in the Philadelphia region. In addition to being the official open data repository for the city, it includes data sets from many organizations in the region."
+%}
 
 ### Tagline
-> Your source for open data in the Philadelphia region.
+{% include copy-paste.html
+  description = "Your source for open data in the Philadelphia region."
+%}
 
 ## Climate API
 Always capitalize “Climate” and write “API” in all caps. It should never be written in upper camel case. Visit the [Climate API website](https://climate.azavea.com/) to find out more information. The Climate API powers the Climate Lab project and Temperate product.
@@ -52,7 +59,11 @@ Always capitalize “Climate” and write “API” in all caps. It should never
 %}
 
 ### Elevator pitch
-> Plan for the future with reliable data. Our Lab interface lets you experiment with different models and scenarios for universally-recognized temperature and precipitation indicators. Access the same data for your research and application development through our API.
+{% include copy-paste.html
+  description = "Plan for the future with reliable data. Our Lab interface lets you experiment with different models and scenarios for universally-recognized temperature and precipitation indicators. Access the same data for your research and application development through our API."
+%}
 
 ### Tagline
-> Climate change data made easy.
+{% include copy-paste.html
+  description = "Climate change data made easy."
+%}
