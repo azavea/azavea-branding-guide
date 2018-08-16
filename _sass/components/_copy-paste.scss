@@ -1,0 +1,36 @@
+
+/**
+ * Blockquote within text passage
+ */
+.c-copy-paste {
+  padding: $pad-spacious;
+  background: $color-white;
+  border: 1px solid $color-gray-200;
+  border-bottom: 4px solid $color-gray-200;
+  margin: $pad-spacious 0;
+  align-items: center;
+
+  @media all and (min-width: $bp-small-3) {
+    display: flex;
+  }
+}
+
+.c-copy-paste__content {
+  @media all and (min-width: $bp-small-3) {
+    padding-right: $pad-normal;
+  }
+}
+
+.c-copy-paste__description {
+  font-size: 1rem;
+  font-weight: $font-weight-medium;
+}
+
+.js-copy-paste-btn {
+  margin: $pad-normal 0 0 auto;
+
+  @media all and (min-width: $bp-small-3) {
+    margin-top: 0;
+    flex: 0 0 9rem;
+  }
+}

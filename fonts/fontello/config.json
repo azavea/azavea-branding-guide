@@ -61,10 +61,16 @@
       "src": "mfglabs"
     },
     {
-      "uid": "221947bea81f49a11b863c686a7bd235",
-      "css": "search-1",
-      "code": 59393,
-      "src": "websymbols"
+      "uid": "c8585e1e5b0467f28b70bce765d5840c",
+      "css": "docs",
+      "code": 59491,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "7222571caa5c15f83dcfd447c58d68d9",
+      "css": "search",
+      "code": 59394,
+      "src": "entypo"
     },
     {
       "uid": "780f1e00ef7c663b8ca7d0d691c3a473",

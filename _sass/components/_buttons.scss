@@ -100,6 +100,8 @@
 	fill: $color-gray-200;
 	position: relative;
 	transition: fill $fade-quick $anim-ease;
+	font-family: $font-icon;
+	padding-right: $pad-compact;
 
 	/*
 	 * Button icon within button hover
