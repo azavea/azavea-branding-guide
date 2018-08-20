@@ -33,6 +33,10 @@
  * Main section
  * 1) The main section is the primary content container
  */
+.l-page-layout {
+  min-height: 0; // For Firefox bug
+}
+
  .l-page-layout--two-column-fixed {
     display: flex;
     flex: 1;
