@@ -91,7 +91,7 @@ Neither the Azavea logo nor any of its parts may be augmented or altered in any 
 
 - ![Full-color Azavea logo overtop of an image](../images/logo-donts/image.png)
   <span class="c-list--explanation">
-    Don’t overlay the full-color logo onto an image. Please refer to [Photography](/design/photography.html) for more information.
+    Don’t overlay the full-color logo onto an image. 
   </span>
 
 - ![Full-color Azavea logo overtop of an image](../images/logo-donts/low-contrast.svg)
