@@ -36,6 +36,8 @@
   }
 
   .u-margin-bottom-double {
+    padding: 0 0 $pad-spacious;
+
     @media all and (min-width: $bp-small-3) {
       padding: 0 $pad-spacious;
     }
