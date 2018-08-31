@@ -48,6 +48,9 @@
   - title: "Email signature"
     href: "/communication/email-signature.html"
     group: "Communication"
+  - title: "Attribution"
+    href: "/communication/attribution.html"
+    group: "Communication"
 ########################
 # DESIGN
 ########################
