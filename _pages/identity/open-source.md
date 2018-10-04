@@ -16,6 +16,7 @@ Azavea develops and maintains several open source tools and libraries as long-te
   src =  "../images/logo-geotrellis.png"
   alt =  "GeoTrellis"
 %}
+<a href="/downloads/geotrellis.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Tagline
 {% include copy-paste.html
@@ -24,6 +25,13 @@ Azavea develops and maintains several open source tools and libraries as long-te
 
 ## Raster Vision
 “Raster Vision” should always be written in upper camel case. View the [Raster Vision Github repo](https://github.com/azavea/raster-vision) for more information about the project.
+
+{% include image-container.html
+  src =  "../images/logo-rastervision.svg"
+  alt =  "RasterVision"
+  style = "inverted"
+%}
+<a href="/downloads/geotrellis.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Tagline
 {% include copy-paste.html
@@ -38,6 +46,7 @@ Azavea develops and maintains several open source tools and libraries as long-te
   src =  "../images/logo-opendataphilly.png"
   alt =  "OpenDataPhilly"
 %}
+<a href="/downloads/opendataphilly.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Elevator pitch
 {% include copy-paste.html
@@ -57,6 +66,7 @@ Always capitalize “Climate” and write “API” in all caps. It should never
   alt =  "Climate API logo"
   style = "inverted"
 %}
+<a href="/downloads/climate-api.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Elevator pitch
 {% include copy-paste.html

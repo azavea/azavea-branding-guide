@@ -17,6 +17,8 @@ Always capitalize the first letter of “Cicero”. View the [Cicero website](ht
   alt =  "Cicero"
 %}
 
+<a href="/downloads/cicero.zip" class="c-btn c-btn--small" download>Download assets</a>
+
 ### Tagline
 {% include copy-paste.html
   description = "Legislative district and elected officials database for district assignment, advocacy, and district mapping to support citizen engagement in the US and other countries."
@@ -29,6 +31,7 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
   src =  "../images/logo-rasterfoundry.png"
   alt =  "Raster Foundry"
 %}
+<a href="/downloads/rasterfoundry.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Tagline
 {% include copy-paste.html
@@ -43,6 +46,7 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
   src =  "../images/logo-districtbuilder.png"
   alt =  "DistrictBuilder"
 %}
+<a href="/downloads/districtbuilder.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Tagline
 {% include copy-paste.html
@@ -56,6 +60,7 @@ Always capitalize the first letter of “Temperate”. View the [Temperate websi
   src =  "../images/logo-temperate.png"
   alt =  "Temperate"
 %}
+<a href="/downloads/temperate.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Tagline
 {% include copy-paste.html
@@ -69,6 +74,7 @@ Always capitalize the first letter of “Temperate”. View the [Temperate websi
   src =  "../images/logo-opentreemap.png"
   alt =  "OpenTreeMap"
 %}
+<a href="/downloads/opentreemap.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Tagline
 {% include copy-paste.html

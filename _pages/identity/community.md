@@ -46,5 +46,4 @@ GeoPhilly is a community group managed by Azavea staff that organizes open, publ
   src =  "../images/logo-geophilly.png"
   alt =  "GeoPhilly logo"
 %}
-
-<a href="/downloads/GeoPhilly-assets.zip" class="c-btn c-btn--small" download>Download assets</a>
+<a href="/downloads/geophilly.zip" class="c-btn c-btn--small" download>Download assets</a>
