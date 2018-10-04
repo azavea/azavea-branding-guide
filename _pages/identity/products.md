@@ -35,19 +35,6 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
   description = "Raster Foundry helps users find, combine and analyze earth imagery at any scale, and share it on the web."
 %}
 
-## HunchLab
-“HunchLab” should always be written in upper camel case. View the [HunchLab website](https://www.hunchlab.com/) to find out more about the product.
-
-{% include image-container.html
-  src =  "../images/logo-hunchlab.png"
-  alt =  "HunchLab"
-%}
-
-### Tagline
-{% include copy-paste.html
-  description = "Advanced predictive policing application built into a unified forecast of crime risk for sophisticated prevention analysis."
-%}
-
 ## DistrictBuilder
 “DistrictBuilder” should always be written in upper camel case. View the [DistrictBuilder website](http://www.districtbuilder.org/) to find out more about the product.
 
