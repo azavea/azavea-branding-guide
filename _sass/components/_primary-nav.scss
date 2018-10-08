@@ -338,7 +338,7 @@
 .c-guide-info {
   font-size: $font-size-sm;
   border-top: 1px solid $color-gray-600;
-  margin: $pad-compact $pad-normal $pad-spacious;
+  margin: $pad-compact $pad-normal $pad-normal;
   padding: $pad-compact 0 0;
 }
 
@@ -363,4 +363,8 @@
 .c-guide-info__link.is-current {
   color: $color-gray-100;
   text-decoration: underline;
+}
+
+.c-guide-info__azavea-link {
+  margin-top: $pad-normal;
 }
