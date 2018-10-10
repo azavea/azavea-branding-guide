@@ -338,13 +338,14 @@
 .c-guide-info {
   font-size: $font-size-sm;
   border-top: 1px solid $color-gray-600;
-  margin: $pad-compact $pad-normal $pad-normal;
+  margin: $pad-compact 0 0;
   padding: $pad-compact 0 0;
 }
 
 .c-guide-info__link {
   display: block;
   color: $color-gray-300;
+  margin: 0 $pad-normal;
 
   &:hover {
     color: $color-gray-200;
@@ -366,5 +367,8 @@
 }
 
 .c-guide-info__azavea-link {
-  margin-top: $pad-normal;
+  background: darken($brand-midnight, 15%);
+  margin: $pad-normal 0 0;
+  padding: 1.25rem $pad-normal;
+  text-align: left;
 }
