@@ -17,6 +17,7 @@ Always capitalize the first letter of each word in “Azavea Open Source Fellows
   alt =  "White Azavea Open Source Fellowship logo"
   style = "inverted"
 %}
+<a href="/downloads/fellowship.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Elevator pitch
 This is a generalized description of the Azavea Open Source Fellowship program and can stand alone in communications.
@@ -39,6 +40,7 @@ Always write “Azavea Summer of Maps" in title case. View the [Azavea Summer of
   src =  "../images/logo-azavea-summer-of-maps.svg"
   alt =  "White Azavea full logo"
 %}
+<a href="/downloads/summer-of-maps.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Elevator pitch
 This is a generalized description of the Azavea Summer of Maps program and can stand alone in communications.
