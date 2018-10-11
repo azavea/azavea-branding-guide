@@ -21,8 +21,7 @@ OpenDataVote is a cooperative open data advocacy initiative organized by Azavea 
   src =  "../images/logo-opendatavote-blue.png"
   alt =  "OpenDataVote logo"
 %}
-
-<a href="/downloads/OpenDataVote-assets.zip" class="c-btn c-btn--small" download>Download assets</a>
+<a href="/downloads/opendatavote.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ## &#35;HOTLunch
 An Azavea-lead initiative aimed at promoting volunteering for Humanitarian OpenStreetMap Team (HOT) by curating monthly events and a recurring opportunity for Azavea employees to use paid volunteer time. Read the [Azavea blog post](https://www.azavea.com/blog/2017/10/02/hotlunch-volunteer-lunch-break-support-disaster-relief-efforts/) for more details about &#35;HOTLunch. "&#35;HOTLunch" should be written as a pound sign, or hashtag (#), followed by "HOT" in all caps and title case "Lunch".
