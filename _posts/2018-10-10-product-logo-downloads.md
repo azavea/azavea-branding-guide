@@ -8,11 +8,11 @@ categories: update
 We have added product logo .zip files to each of our products, community programs, and fellowship programs!
 
 ## What is in this release
-Upon launch, we included download buttons for the Azavea wordmark and mark. It was impressed upon us that it would also be useful to include downloads for other ventures, such as each of our products and programs. Changes have been made to each of the logos pictured on the following pages (under the Identity section of the site):
-- Products
-- Open Source
-- Fellowships
-- Community
+Upon launch, we included download buttons for the Azavea wordmark and mark. It was impressed upon us that it would also be useful to include downloads for other ventures, such as each of our products and programs. Changes have been made to each of the logos pictured on the following pages:
+- [Products](/identity/products.html)
+- [Open Source](/identity/open-source.html)
+- [Fellowships](/identity/fellowships.html)
+- [Community](/identity/community.html)
 
 Since RasterVision has been branded since the launch of the Branding Guide, the new logo and respective branding download has also been added to the Open Source page.
 

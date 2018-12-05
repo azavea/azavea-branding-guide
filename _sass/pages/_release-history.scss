@@ -1,0 +1,55 @@
+.p-release-history {
+  .c-text-passage h2 {
+    &:after {
+      display: none;
+    }
+  }
+
+  .c-block__date {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+    margin: $pad-spacious 0 0;
+  }
+
+  .c-block__heading {
+    padding-bottom: 0;
+    margin: 0 0 $pad-normal;
+  }
+
+  .c-block__link {
+    &:after {
+      content: "\E812";
+      font-family: $font-icon;
+      display: inline-block;
+      padding-left: $pad-compact;
+      color: $color-gray-400;
+    }
+  }
+
+  .c-block__desc p:first-child {
+    font-size: $font-size-med-2;
+    margin-bottom: $pad-spacious;
+  }
+
+  .c-block__desc h2 {
+    font-size: $font-size-med-2;
+    margin: $pad-comfortable 0 $pad-compact;
+    padding-bottom: 0;
+  }
+
+  .c-block__desc h3 {
+    font-size: $font-size-med;
+    margin: $pad-comfortable 0 $pad-compact;
+    font-weight: $font-weight-medium;
+  } 
+
+  .c-block-list {
+    margin-left: 0;
+    list-style-type: none;
+  }
+
+  .c-block-list__item {
+    padding: 0 0 $pad-comfortable;
+    border-top: 1px solid $color-border;
+  }
+}
