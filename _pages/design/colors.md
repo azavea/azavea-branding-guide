@@ -75,6 +75,14 @@ Colors from our secondary palette should be used sparingly. They are for categor
   cmyk = "0, 26, 93, 5"
 %}
 
+{% include color-patch.html
+  type = "row"
+  name = "Vivid orange"
+  hex =  "FA7921"
+  rgb =  "250, 121, 33"
+  cmyk = "0, 52, 87, 2"
+%}
+
 ### Neutral colors
 Our grayscale is based upon the Azavea <strong>Midnight</strong> color. These colors all have a blueish tint as a result.
 
