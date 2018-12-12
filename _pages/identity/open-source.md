@@ -31,7 +31,7 @@ Azavea develops and maintains several open source tools and libraries as long-te
   alt =  "RasterVision"
   style = "inverted"
 %}
-<a href="/downloads/geotrellis.zip" class="c-btn c-btn--small" download>Download assets</a>
+<a href="/downloads/raster-vision.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Tagline
 {% include copy-paste.html
