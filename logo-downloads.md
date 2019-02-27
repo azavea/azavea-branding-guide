@@ -25,3 +25,7 @@ For more information and guidance about usage, refer to the [Logo Guidelines](/d
 - <a href="/downloads/temperate.zip" download>Temperate <span class="c-btn__icon">&#xe844;</span></a>
 - <a href="/downloads/climate-api.zip" download>Climate API <span class="c-btn__icon">&#xe844;</span></a>
 - <a href="/downloads/opendataphilly.zip" download>OpenDataPhilly <span class="c-btn__icon">&#xe844;</span></a>
+
+### Community
+- <a href="/downloads/opendatavote.zip" download>OpenDataVote <span class="c-btn__icon">&#xe844;</span></a>
+- <a href="/downloads/geophilly.zip" download>GeoPhilly <span class="c-btn__icon">&#xe844;</span></a>
