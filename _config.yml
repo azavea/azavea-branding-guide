@@ -33,6 +33,9 @@ sass:
 include:
   - _pages
 
+plugins: 
+  - jekyll-redirect-from
+
 exclude:
   - Dockerfile
   - docker-compose.yml

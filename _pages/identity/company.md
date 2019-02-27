@@ -3,14 +3,13 @@ layout: page
 title: Company
 group: identity
 permalink: /identity/company.html
-description: Core brand info like our elevator pitch, mission, and taglines.
+description: Core brand info like our elevator pitch, mission, taglines, and logo assets.
 
 ---
 ## Our name
 Azavea's name is derived from the word “zavea”, which means “perspective” in [Urdu](https://en.wikipedia.org/wiki/Urdu).
 
 ### Pronunciation
-
 Azavea: "uh-zay-vee-uh"
 
 ## Who we are
@@ -42,3 +41,13 @@ Each of the below taglines can accompany our logo. They should never be used tog
 {% include copy-paste.html
   description = "Advanced geospatial technology and research for civic and social impact"
 %}
+
+## Brand Assets
+You can download all of Azavea’s logos below. For more information and guidance about its usage, refer to the [Logo Guidelines](/logo-guidelines.html)
+
+{% include image-container.html
+  src =  "../images/logo-white.svg"
+  alt =  "White Azavea full logo"
+  style = "blue"
+%}
+<a href="/downloads/azavea.zip" class="c-btn c-btn--small" download>Download assets</a>
