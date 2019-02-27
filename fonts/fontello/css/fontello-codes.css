@@ -4,6 +4,7 @@
 .icon-left:before { content: '\e80f'; } /* '' */
 .icon-right:before { content: '\e810'; } /* '' */
 .icon-link:before { content: '\e812'; } /* '' */
+.icon-download-cloud:before { content: '\e844'; } /* '' */
 .icon-docs:before { content: '\e863'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */

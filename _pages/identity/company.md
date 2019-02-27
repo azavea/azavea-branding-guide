@@ -43,7 +43,7 @@ Each of the below taglines can accompany our logo. They should never be used tog
 %}
 
 ## Brand Assets
-You can download all of Azavea’s logos below. For more information and guidance about its usage, refer to the [Logo Guidelines](/logo-guidelines.html)
+You can download all of Azavea’s logos below. For more information and guidance about its usage, refer to the [Logo Guidelines](/design/logo-guidelines.html)
 
 {% include image-container.html
   src =  "../images/logo-white.svg"

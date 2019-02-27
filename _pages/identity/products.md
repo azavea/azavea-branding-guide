@@ -68,6 +68,20 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
   description = "An open source software toolkit based on Apache Spark that supports fast geospatial data processing by distributing tasks across computer clusters."
 %}
 
+## OpenTreeMap
+“OpenTreeMap” should always be written in upper camel case. View the [OpenTreeMap website](https://www.opentreemap.org/) to find out more about the product. Future development on OpenTreeMap has been suspended, but support of existing clients continues.
+
+{% include image-container.html
+  src =  "../images/logo-opentreemap.png"
+  alt =  "OpenTreeMap"
+%}
+<a href="/downloads/opentreemap.zip" class="c-btn c-btn--small" download>Download assets</a>
+
+### Tagline
+{% include copy-paste.html
+  description = "Open source collaborative urban ecosystem tools for tree inventory, community engagement, ecosystem services calculations, and urban forestry analysis."
+%}
+
 ## Raster Vision
 “Raster Vision” should always be written in upper camel case. View the [Raster Vision Github repo](https://github.com/azavea/raster-vision) for more information about the project.
 
@@ -82,16 +96,6 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
 {% include copy-paste.html
   description = "Deep learning for aerial and satellite imagery."
 %}
-
-## OpenDataPhilly
-“OpenDataPhilly” should always be written in upper camel case. View the [OpenDataPhilly website](https://www.opendataphilly.org/) for more information about the catalog.
-
-{% include image-container.html
-  style = "inverted"
-  src =  "../images/logo-opendataphilly.png"
-  alt =  "OpenDataPhilly"
-%}
-<a href="/downloads/opendataphilly.zip" class="c-btn c-btn--small" download>Download assets</a>
 
 ### Elevator pitch
 {% include copy-paste.html
@@ -137,16 +141,12 @@ Always capitalize “Climate” and write “API” in all caps. It should never
   description = "Climate change data made easy."
 %}
 
-## OpenTreeMap
-“OpenTreeMap” should always be written in upper camel case. View the [OpenTreeMap website](https://www.opentreemap.org/) to find out more about the product. Future development on OpenTreeMap has been suspended, but support of existing clients continues.
+## OpenDataPhilly
+“OpenDataPhilly” should always be written in upper camel case. View the [OpenDataPhilly website](https://www.opendataphilly.org/) for more information about the catalog.
 
 {% include image-container.html
-  src =  "../images/logo-opentreemap.png"
-  alt =  "OpenTreeMap"
+  style = "inverted"
+  src =  "../images/logo-opendataphilly.png"
+  alt =  "OpenDataPhilly"
 %}
-<a href="/downloads/opentreemap.zip" class="c-btn c-btn--small" download>Download assets</a>
-
-### Tagline
-{% include copy-paste.html
-  description = "Open source collaborative urban ecosystem tools for tree inventory, community engagement, ecosystem services calculations, and urban forestry analysis."
-%}
+<a href="/downloads/opendataphilly.zip" class="c-btn c-btn--small" download>Download assets</a>
