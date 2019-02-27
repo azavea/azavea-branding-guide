@@ -4,7 +4,7 @@ title: Products
 group: identity
 status: in_progress
 permalink: /identity/products.html
-description: High-level brand guidelines and assets for each Azavea SaaS product and long-term open source projects.---
+description: High-level brand guidelines and assets for each Azavea SaaS product and long-term open source projects.
 redirect_from: /identity/open-source.html
 
 ---
