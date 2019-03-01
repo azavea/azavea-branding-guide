@@ -4,28 +4,74 @@ type: detail
 title: Logo downloads
 url: /logo-downloads.html
 description: Downloads page containing all company-related logos.
+
+downloads:
+    - 
+        title: "Fellowships"
+        list:
+            - 
+                title: "Azavea Open Source Fellowship"
+                url: "/downloads/fellowship.zip"
+            - 
+                title: "Azavea Summer of Maps"
+                url: "/downloads/summer-of-maps.zip"
+    - 
+        title: "Products and open source projects"
+        list:
+            - 
+                title: "Cicero"
+                url: "/downloads/cicero.zip"
+            - 
+                title: "Raster Foundry"
+                url: "/downloads/rasterfoundry.zip"
+            -
+                title: "DistrictBuilder"
+                url: "/downloads/districtbuilder.zip"
+            -
+                title: "GeoTrellis"
+                url: "/downloads/geotrellis.zip"
+            -
+                title: "OpenTreeMap"
+                url: "/downloads/opentreemap.zip"
+            -
+                title: "Raster Vision"
+                url: "/downloads/raster-vision.zip"
+            -
+                title: "Temperate"
+                url: "/downloads/temperate.zip"
+            -
+                title: "Climate API"
+                url: "/downloads/climate-api.zip"
+            -
+                title: "OpenDataPhilly"
+                url: "/downloads/opendataphilly.zip"
+    - 
+        title: "Community"
+        list:
+            - 
+                title: "OpenDataVote"
+                url: "/downloads/opendatavote.zip"
+            - 
+                title: "GeoPhilly"
+                url: "/downloads/geophilly.zip"
+
 ---
 
 ### <a href="/downloads/azavea-full-logo.zip" download>Azavea logotype and mark <span class="c-btn__icon">&#xe844;</span></a>
 For more information and guidance about usage, refer to the [Logo Guidelines](/design/logo-guidelines.html)
 
----
+{% for section in page.downloads %}
+<h3>
+    {{ section.title }}
+</h3>
 
-### Fellowships
-- <a href="/downloads/fellowship.zip" download>Azavea Open Source Fellowship <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/summer-of-maps.zip" download>Azavea Summer of Maps <span class="c-btn__icon">&#xe844;</span></a>
-
-### Products and open source projects
-- <a href="/downloads/cicero.zip" download>Cicero <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/rasterfoundry.zip" download>Raster Foundry <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/districtbuilder.zip" download>DistrictBuilder <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/geotrellis.zip" download>GeoTrellis <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/opentreemap.zip" download>OpenTreeMap <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/raster-vision.zip" download>Raster Vision <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/temperate.zip" download>Temperate <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/climate-api.zip" download>Climate API <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/opendataphilly.zip" download>OpenDataPhilly <span class="c-btn__icon">&#xe844;</span></a>
-
-### Community
-- <a href="/downloads/opendatavote.zip" download>OpenDataVote <span class="c-btn__icon">&#xe844;</span></a>
-- <a href="/downloads/geophilly.zip" download>GeoPhilly <span class="c-btn__icon">&#xe844;</span></a>
+<ul>
+{% for list-item in section.list %}
+    <li>
+        <a href="{{ list-item.url }}" download>
+            {{ list-item.title }} <span class="c-btn__icon">&#xe844;</span>
+        </a>
+    </li>
+{% endfor %}
+</ul>
+{% endfor %}
