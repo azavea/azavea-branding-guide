@@ -57,7 +57,7 @@ downloads:
 
 ---
 
-### <a href="/downloads/azavea-full-logo.zip" download>Azavea logotype and mark <span class="c-btn__icon">&#xe844;</span></a>
+### <a href="/downloads/azavea-full-logo.zip" download>Azavea logotype and mark <span class="c-icon">&#xe844;</span></a>
 For more information and guidance about usage, refer to the [Logo Guidelines](/design/logo-guidelines.html)
 
 {% for section in page.downloads %}
@@ -69,7 +69,7 @@ For more information and guidance about usage, refer to the [Logo Guidelines](/d
 {% for list-item in section.list %}
     <li>
         <a href="{{ list-item.url }}" download>
-            {{ list-item.title }} <span class="c-btn__icon">&#xe844;</span>
+            {{ list-item.title }} <span class="c-icon">&#xe844;</span>
         </a>
     </li>
 {% endfor %}
