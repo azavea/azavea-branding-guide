@@ -97,16 +97,6 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
   description = "Deep learning for aerial and satellite imagery."
 %}
 
-### Elevator pitch
-{% include copy-paste.html
-  description = "OpenDataPhilly is a catalog of open data in the Philadelphia region. In addition to being the official open data repository for the city, it includes data sets from many organizations in the region."
-%}
-
-### Tagline
-{% include copy-paste.html
-  description = "Your source for open data in the Philadelphia region."
-%}
-
 ## Temperate
 Always capitalize the first letter of “Temperate”. View the [Temperate website](https://www.temperate.io/) to find out more about the product.
 
@@ -150,3 +140,13 @@ Always capitalize “Climate” and write “API” in all caps. It should never
   alt =  "OpenDataPhilly"
 %}
 <a href="/downloads/opendataphilly.zip" class="c-btn c-btn--small" download>Download assets</a>
+
+### Elevator pitch
+{% include copy-paste.html
+  description = "OpenDataPhilly is a catalog of open data in the Philadelphia region. In addition to being the official open data repository for the city, it includes data sets from many organizations in the region."
+%}
+
+### Tagline
+{% include copy-paste.html
+  description = "Your source for open data in the Philadelphia region."
+%}
