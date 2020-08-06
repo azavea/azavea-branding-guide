@@ -22,6 +22,11 @@
 }
 
 .c-image {
+  width: 100%;
   max-width: $ic-image-width;
   margin: 0 auto;
+}
+
+.c-image > img {
+  width: 100%;
 }

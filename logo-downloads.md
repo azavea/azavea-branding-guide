@@ -25,6 +25,9 @@ downloads:
                 title: "Raster Foundry"
                 url: "/downloads/rasterfoundry.zip"
             -
+                title: "GroundWork"
+                url: "/downloads/groundwork.zip"
+            -
                 title: "DistrictBuilder"
                 url: "/downloads/districtbuilder.zip"
             -
