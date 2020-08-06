@@ -2,7 +2,6 @@
 layout: page
 type: detail
 title: Social media
-status: in_progress
 group: communication
 permalink: /communication/social-media.html
 description: Our social media accounts allow us to connect with our community in a personal way.

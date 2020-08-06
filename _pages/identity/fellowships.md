@@ -2,7 +2,6 @@
 layout: page
 title: Fellowships
 group: identity
-status: in_progress
 permalink: /identity/fellowships.html
 description: Fellowship program descriptions and brand guidelines.
 
