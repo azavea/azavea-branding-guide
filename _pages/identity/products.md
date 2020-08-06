@@ -2,7 +2,6 @@
 layout: page
 title: Products
 group: identity
-status: in_progress
 permalink: /identity/products.html
 description: High-level brand guidelines and assets for each Azavea SaaS product and long-term open source projects.
 redirect_from: /identity/open-source.html
@@ -39,6 +38,27 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
   description = "Raster Foundry helps users find, combine and analyze earth imagery at any scale, and share it on the web."
 %}
 
+## GroundWork
+“GroundWork” should always be written in upper camel case. View the [GroundWork Github repo](https://github.com/raster-foundry/annotate) for more information about the project.
+
+{% include image-container.html
+  src =  "../images/logo-groundwork.svg"
+  alt =  "GroundWork"
+%}
+<a href="/downloads/groundwork.zip" class="c-btn c-btn--small" download>Download assets</a>
+
+### Tagline
+{% include copy-paste.html
+  description = "The first annotation tool designed for geospatial data."
+%}
+
+{% include copy-paste.html
+  description = "An annotation tool designed for geospatial data, including satellite, aerial, and drone imagery. GroundWork supports object detection, chip classification and semantic segmentation projects, ideal for creating training datasets for machine learning projects."
+%}
+
+
+
+
 ## DistrictBuilder
 “DistrictBuilder” should always be written in upper camel case. View the [DistrictBuilder website](http://www.districtbuilder.org/) to find out more about the product.
 
@@ -51,7 +71,11 @@ Always capitalize the first letter of each word in “Raster Foundry”. It shou
 
 ### Tagline
 {% include copy-paste.html
-  description = "DistrictBuilder is web-based, open source software for collaborative redistricting."
+  description = "DistrictBuilder is a free and open source redistricting tool."
+%}
+
+{% include copy-paste.html
+  description = "DistrictBuilder is the free and open redistricting tool for everyone. Pick any state, draw your map, and make your voice heard for fair districts. Down to block level. All with an intuitive interface powered by a decade of redistricting experience."
 %}
 
 ## GeoTrellis
