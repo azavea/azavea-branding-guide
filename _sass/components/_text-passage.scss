@@ -69,9 +69,9 @@
 	h2 {
 		margin: $pad-large 0 $pad-medium;
 		color: $brand-primary-03;
-		font-weight: $font-weight-medium;
+		font-weight: $font-weight-normal;
 		position: relative;
-    padding-bottom: $pad-comfortable;
+    	padding-bottom: $pad-comfortable;
 
 		&:after {
 			content: "";

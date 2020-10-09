@@ -46,12 +46,12 @@
   background-color: $color-white;
   border: 1px solid $color-gray-200;
 	padding: $pad-normal;
-  font-weight: $font-weight-medium;
 }
 
 .c-color-patch__type {
   color: $color-gray-500;
   font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
 }
 
 .c-color-patch__hex {
@@ -104,7 +104,7 @@
     .c-color-patch__value {
       color: $color-black;
       font-size: $font-size-med;
-      font-weight: $font-weight-medium;
+      font-weight: $font-weight-normal;
     }
   }
 }
@@ -113,7 +113,7 @@
  * Row-style color patch styles
  */
 .c-color-patch__row {
-  margin-bottom: $pad-medium;
+  margin-bottom: $pad-normal;
 
   @media all and (min-width: $bp-small) {
     display: flex;

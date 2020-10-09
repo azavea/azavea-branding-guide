@@ -2,13 +2,14 @@
     #HEADINGS
 \*------------------------------------*/
 h1, h2, h3 {
-	font-weight: 400;
+	font-weight: $font-weight-normal;
 }
 /**
  * Heading 1 base styles
  */
 h1 {
 	font-size: $font-size-large;
+	font-weight: $font-weight-thin;
 	line-height: 1;
 	word-wrap: break-word;
 

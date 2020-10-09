@@ -126,73 +126,7 @@ $link-color-inverted: lighten($brand-primary-01, 10%);
     #TYPOGRAPHY
 \*------------------------------------*/
 
-/**
- * Font Family
- */
-@font-face {
-  font-family: 'Graphik';
-  src: url('../fonts/graphik/Graphik-Medium-Web.eot');
-  src: url('../fonts/graphik/Graphik-Medium-Web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/graphik/Graphik-Medium-Web.woff2') format('woff2'),
-       url('../fonts/graphik/Graphik-Medium-Web.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-}
-.Graphik-Medium {
-  font-family: 'Graphik';
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: 'Graphik';
-  src: url('../fonts/graphik/Graphik-RegularItalic-Web.eot');
-  src: url('../fonts/graphik/Graphik-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/graphik/Graphik-RegularItalic-Web.woff2') format('woff2'),
-       url('../fonts/graphik/Graphik-RegularItalic-Web.woff') format('woff');
-  font-weight: 400;
-  font-style: italic;
-  font-stretch: normal;
-}
-.Graphik-RegularItalic {
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-style: italic;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: 'Graphik';
-  src: url('../fonts/graphik/Graphik-Regular-Web.eot');
-  src: url('../fonts/graphik/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/graphik/Graphik-Regular-Web.woff2') format('woff2'),
-       url('../fonts/graphik/Graphik-Regular-Web.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-}
-.Graphik-Regular {
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-}
-/**
- * Icon Font
- */
-@font-face {
-  font-family: 'fontello';
-  src: url('../fonts/fontello/font/fontello.eot?5937259');
-  src: url('../fonts/fontello/font/fontello.eot?5937259#iefix') format('embedded-opentype'),
-       url('../fonts/fontello/font/fontello.woff2?5937259') format('woff2'),
-       url('../fonts/fontello/font/fontello.woff?5937259') format('woff'),
-       url('../fonts/fontello/font/fontello.ttf?5937259') format('truetype'),
-       url('../fonts/fontello/font/fontello.svg?5937259#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-$font: "Graphik", serif, helvetica, arial, sans-serif;
+$font: "hero-new", serif, helvetica, arial, sans-serif;
 $font-icon: "fontello";
 
 /**
@@ -210,8 +144,9 @@ $font-size-jumbo: 2.75rem;
 /**
  * Font Weight
  */
-$font-weight-medium: 500;
+$font-weight-semibold: 600;
 $font-weight-normal: 400;
+$font-weight-thin: 300;
 
 
 
