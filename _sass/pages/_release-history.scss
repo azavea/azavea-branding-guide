@@ -7,7 +7,7 @@
 
   .c-block__date {
     font-size: $font-size-sm;
-    font-weight: $font-weight-medium;
+    font-weight: $font-weight-normal;
     margin: $pad-spacious 0 0;
   }
 
@@ -40,7 +40,7 @@
   .c-block__desc h3 {
     font-size: $font-size-med;
     margin: $pad-comfortable 0 $pad-compact;
-    font-weight: $font-weight-medium;
+    font-weight: $font-weight-normal;
   } 
 
   .c-block-list {
