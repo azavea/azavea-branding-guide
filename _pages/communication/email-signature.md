@@ -81,7 +81,7 @@ Include “B Corporation” as a link to our company profile on the B Corporatio
   description = join_text
 %}
 
-Alternatively, add a link to our newsletter:
+Alternatively, add a link to our newsletter sign-up:
 {% include copy-paste.html
   description = subscribe_text
 %}
