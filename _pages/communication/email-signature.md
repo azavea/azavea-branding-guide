@@ -32,6 +32,12 @@ description: Create your Azavea email signature.
 {% endcapture %}
 {% assign join_text = join_text | markdownify %}
 
+<!-- Subscribe to newsletter text -->
+{% capture subscribe_text %}
+  [Subscribe to our newsletter](https://www.azavea.com/newsletter) to learn about more positive applications of geospatial data and technology.
+{% endcapture %}
+{% assign subscribe_text = subscribe_text | markdownify %}
+
 <!-- Full email signature text -->
 {% capture full_text %}
   First Name Last Name, Title  
@@ -69,11 +75,15 @@ Add this text below the links in your email signature to help the people you’r
   description = optional_text
 %}
 
-Include “B Corporation” as a link to our company profile on the B Corporation website.
+Include “B Corporation” as a link to our company profile on the B Corporation website. You can also append “Join us.” as a link to the Azavea jobs website to help contacts find our open positions:
 
-You can also append “Join us.” as a link to the Azavea jobs website to help contacts find our open positions:
 {% include copy-paste.html
   description = join_text
+%}
+
+Alternatively, add a link to our newsletter sign-up:
+{% include copy-paste.html
+  description = subscribe_text
 %}
 
 ### Full email signature sample with optional text
