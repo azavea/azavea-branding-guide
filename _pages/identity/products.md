@@ -21,7 +21,7 @@ Always capitalize the first letter of “Cicero”. View the [Cicero website](ht
 
 ### Tagline
 {% include copy-paste.html
-  description = "Legislative district and elected officials database for district assignment, advocacy, and district mapping to support citizen engagement in the US and other countries."
+  description = "Democracy's Database. Cicero is a global resource for elected officials and legislative district boundaries. Cicero provides address to district matching and legislator lookups at all levels of government."
 %}
 
 ## Raster Foundry
