@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Update to Email Signatures"
-date:   2020-08-06
+date:   2020-10-14
 categories: update
 ---
 
