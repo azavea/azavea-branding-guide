@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Add new Cicero logo"
-date:   2020-12-18
+date:   2020-12-21
 categories: update
 ---
 
