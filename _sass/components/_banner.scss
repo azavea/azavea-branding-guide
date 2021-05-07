@@ -3,20 +3,52 @@
 \*------------------------------------*/
 
 .c-banner {
-	@media all and (min-width: $bp-small) {
-		margin-bottom: 1em;
-	}
+    background: $banner-background;
+    color: $banner-color;
+    font-size: $banner-font-size;
+    margin-left: 4px;
+    padding: $banner-padding;
+    vertical-align: middle;
+    width: 100%;
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        font-weight: $font-weight-semibold;
+        color: $color-white;
+        background-image: none!important;
+        text-decoration: underline!important;
+        text-decoration-color: inherit!important;
+    }
+
+    @media screen and (min-width: $bp-small) {
+        margin-bottom: $pad-spacious;
+    }
+}
+
+.c-banner--negative {
+    background-color: $color-utility-error;
+}
+
+.c-banner--positive {
+    background-color: $color-utility-success;
+}
+
+.c-banner--caution {
+    background-color: $color-utility-warning;
 }
 
 /**
  * Heading Within the Banner
  */
 .c-banner__heading {
-	@media all and (min-width: $bp-small) {
-		font-size: 3.2rem;
-	}
+    @media all and (min-width: $bp-small) {
+        font-size: 3.2rem;
+    }
 
-	@media all and (min-width: $bp-large) {
-		font-size: 4.5rem;
-	}
+    @media all and (min-width: $bp-large) {
+        font-size: 4.5rem;
+    }
 }

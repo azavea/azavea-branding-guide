@@ -9,6 +9,7 @@
   border: $ic-border;
   max-width: $l-max-width-narrow;
   margin-bottom: $pad-comfortable;
+  position: relative;
 }
 
 .c-image-container__inverted {
@@ -29,4 +30,10 @@
 
 .c-image > img {
   width: 100%;
+}
+
+.c-assets-download {
+  position: absolute;
+  right: $pad-normal;
+  bottom: $pad-normal;
 }

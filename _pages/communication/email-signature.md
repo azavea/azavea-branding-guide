@@ -56,10 +56,6 @@ description: Create your Azavea email signature.
 
 We standardize our email signature to make sure our contacts have access to company information like our address, phone numbers, websites, and social media accounts. 
 
-{% include note.html 
-   text="Note: If you do business development, please contact a member of the Marketing Team to get help with the links in your email signature!"
-   style="caution" %}
-
 ## Edit your email signature
 
 {% include copy-paste.html

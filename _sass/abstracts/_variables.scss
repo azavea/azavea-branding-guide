@@ -94,14 +94,14 @@ $color-black: #000;
  * 1) Utility colors are colors used to provide feedback, such as alert messages,
  * form validation, etc.
  */
-$color-utility-info: #0192d0;
-$color-utility-info-light: #d3f2ff;
-$color-utility-error: #b12a0b;
-$color-utility-error-light: #fdded8;
-$color-utility-success: #03804d;
-$color-utility-success-light: #d4f3e6;
-$color-utility-warning: #a59b15;
-$color-utility-warning-light: #fffecf;
+$color-utility-info: #4A52B7;
+$color-utility-info-light: #D3D9FF;
+$color-utility-error: #931F4B;
+$color-utility-error-light: #FFCBC0;
+$color-utility-success: #229D26;
+$color-utility-success-light: #C4F7AE;
+$color-utility-warning: #DB8500;
+$color-utility-warning-light: #FFE699;
 
 
 /**
@@ -258,6 +258,14 @@ $badge-color: $color-white;
 $badge-font-size: $font-size-tiny;
 $badge-background: $color-gray-500;
 $badge-padding: 4px;
+
+/*------------------------------------*\
+    #BANNER
+\*------------------------------------*/
+$banner-color: $color-white;
+$banner-font-size: $font-size-sm;
+$banner-background: $color-gray-500;
+$banner-padding: 8px;
 
 /*------------------------------------*\
     #NOTE

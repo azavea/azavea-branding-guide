@@ -2,23 +2,35 @@
   #NOTES
 \*------------------------------------*/
 .c-note {
-  background: $note-background;
-  border-radius: $border-radius;
-  color: $note-color;
-  font-size: $note-font-size;
-  margin-left: 4px;
-  padding: $note-padding;
-  vertical-align: middle;
+    background: $note-background;
+    border-radius: $border-radius;
+    color: $note-color;
+    font-size: $note-font-size;
+    margin-left: 4px;
+    padding: $note-padding;
+    vertical-align: middle;
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        font-weight: $font-weight-semibold;
+        color: $color-white;
+        background-image: none!important;
+        text-decoration: underline!important;
+        text-decoration-color: inherit!important;
+    }
 }
 
 .c-note--negative {
-  background-color: $color-utility-error;
+    background-color: $color-utility-error;
 }
 
 .c-note--positive {
-  background-color: $color-utility-success;
+    background-color: $color-utility-success;
 }
 
 .c-note--caution {
-  background-color: $color-utility-warning;
+    background-color: $color-utility-warning;
 }

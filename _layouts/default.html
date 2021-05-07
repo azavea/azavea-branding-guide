@@ -15,6 +15,11 @@
 			</div><!--end l-page-layout__secondary-->
 
 			<div class="l-page-layout__main">
+				{% if page.url == "/communication/email-signature.html" %}
+					{% include banner.html 
+   						text="Note: If you do business development, please contact a member of the Marketing Team or follow instructions [here](https://github.com/azavea/azavea-marketing/wiki/Creating-Tracking-Links-for-Better-Analytics) to get help with the links in your email signature!"
+   						style="caution" %}
+				{% endif %}
 				<main role="main">
 					{{ content }}
 				</main><!--end role=main-->
