@@ -3,9 +3,9 @@ layout: page
 type: detail
 title: Logo Guidelines
 group: design
-permalink: /design/logo-guidelines.html
+permalink: /design/logo-guidelines
 description: Asset downloads and guidelines for proper logo usage.
-redirect_from: /design/logo.html
+redirect_from: /design/logo
 
 ---
 

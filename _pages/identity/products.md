@@ -2,9 +2,9 @@
 layout: page
 title: Products & Tools
 group: identity
-permalink: /identity/products.html
+permalink: /identity/products
 description: High-level brand guidelines and assets for each Azavea SaaS product and long-term open source projects.
-redirect_from: /identity/open-source.html
+redirect_from: /identity/open-source
 
 ---
 Azavea actively develops, maintains, and commercializes several SaaS products. We also develop and maintain several open source tools and libraries as long-term projects. Asset downloads and official marketing copy for each of these are listed below.

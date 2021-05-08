@@ -2,7 +2,7 @@
 layout: page
 title: Attribution
 group: communication
-permalink: /communication/attribution.html
+permalink: /communication/attribution
 description: Copy suggestions for referencing the company on projects or products.
 
 ---

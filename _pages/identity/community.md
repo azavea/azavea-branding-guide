@@ -2,7 +2,7 @@
 layout: page
 title: Community
 group: identity
-permalink: /identity/community.html
+permalink: /identity/community
 description: Defined branding for specific community groups and initiatives.
 
 ---

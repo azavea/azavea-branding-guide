@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Social media
 group: communication
-permalink: /communication/social-media.html
+permalink: /communication/social-media
 description: Our social media accounts allow us to connect with our community in a personal way.
 
 ---

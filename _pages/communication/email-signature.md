@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Email signature
 group: communication
-permalink: /communication/email-signature.html
+permalink: /communication/email-signature
 description: Create your Azavea email signature.
 
 

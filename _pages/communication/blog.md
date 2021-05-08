@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Blog
 group: communication
-permalink: /communication/blog.html
+permalink: /communication/blog
 description: Resources for writing, editing, and publishing a blog for our main marketing website.
 
 ---

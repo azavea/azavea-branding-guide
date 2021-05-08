@@ -2,7 +2,7 @@
 layout: page
 title: Partners
 group: identity
-permalink: /identity/partners.html
+permalink: /identity/partners
 description: Brand assets and relationship descriptions related to business partners.
 
 ---

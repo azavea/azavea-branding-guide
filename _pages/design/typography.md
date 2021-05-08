@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Typography
 group: design
-permalink: /design/typography.html
+permalink: /design/typography
 description: Learn about the applications of typefaces across our brand materials.
 
 ---

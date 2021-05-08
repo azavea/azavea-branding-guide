@@ -2,7 +2,7 @@
 layout: page
 title: Company
 group: identity
-permalink: /identity/company.html
+permalink: /identity/company
 description: Core brand info like our elevator pitch, mission, taglines, and logo assets.
 
 ---

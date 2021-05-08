@@ -2,7 +2,7 @@
 layout: page
 title: Fellowships
 group: identity
-permalink: /identity/fellowships.html
+permalink: /identity/fellowships
 description: Fellowship program descriptions and brand guidelines.
 
 ---
