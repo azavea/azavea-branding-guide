@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Add library logos & Adjustments to Email Signature Page"
+title:  "Design Additions and Edited Email Signature Page"
 date:   2021-05-07
 categories: update
 ---
@@ -35,3 +35,7 @@ For including information about how to pronounce your name (including a recordin
 
 ### New step-by-step instructions
 Finally, we updated the instructions for adding an email signature [here.](/communication/email-signature.html#steps) Unfortunately, Gmail gets funky with copy/pasting in links, it appears (thank you, Niki for noticing this!) As a result, there are considerably more detailed instructions included for how to strip styles and manually add in links. 
+
+## Patterns
+
+A new [Patterns page](/design/patterns) in the Design section, including downloads.
