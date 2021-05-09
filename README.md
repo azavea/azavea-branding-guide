@@ -179,9 +179,9 @@ The `nav.yml` file sets up the footer previous/next navigation as well as the pr
 **Entries with no children should look like the following:**
 ```yaml
 - title: "Page Title"
-  href: "/permalink.html"
+  href: "/permalink"
 - title: "Welcome"
-  href: "/welcome.html"
+  href: "/welcome"
   ...
 ```
 **Entries with children should look like the following:**
@@ -190,7 +190,7 @@ The `nav.yml` file sets up the footer previous/next navigation as well as the pr
   href: "/identity/"
   subpages:
   - title: "Company"
-    href: /identity/company.html
+    href: /identity/company
     group: "Identity"
   ...
 ```

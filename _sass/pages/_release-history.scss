@@ -7,19 +7,22 @@
 
   .c-block__date {
     font-size: $font-size-sm;
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-semibold;
     margin: $pad-spacious 0 0;
+    text-transform: uppercase;
   }
 
   .c-block__heading {
     padding-bottom: 0;
     margin: 0 0 $pad-normal;
+    line-height: 1.5;
   }
 
   .c-block__link {
     &:after {
-      content: "\E812";
+      content: "\f0c1";
       font-family: $font-icon;
+      font-weight: $font-weight-thin;
       display: inline-block;
       padding-left: $pad-compact;
       color: $color-gray-400;

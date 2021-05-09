@@ -37,6 +37,9 @@ include:
 plugins: 
   - jekyll-redirect-from
 
+whitelist:
+  - jekyll-redirect-from
+
 exclude:
   - Dockerfile
   - docker-compose.yml
@@ -44,4 +47,3 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-

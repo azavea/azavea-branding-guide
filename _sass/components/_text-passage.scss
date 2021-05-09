@@ -45,7 +45,7 @@
 		font-size: 1rem;
 		position: relative;
 
-		:before {
+		&:before {
 			content: "“";
 			font-family: $font-icon;
 			font-size: $font-size-jumbo;
@@ -61,6 +61,7 @@
 	  */
 	 h1 {
 		margin-bottom: $pad-normal;
+		font-weight: $font-weight-thin;
 	 }
 
 	/**
@@ -69,7 +70,7 @@
 	h2 {
 		margin: $pad-large 0 $pad-medium;
 		color: $brand-primary-03;
-		font-weight: $font-weight-normal;
+		font-weight: $font-weight-thin;
 		position: relative;
     	padding-bottom: $pad-comfortable;
 

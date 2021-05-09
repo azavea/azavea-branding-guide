@@ -4,17 +4,15 @@
 
 // Styles for input
 .c-search {
-  font-family: $font-icon;
   position: relative;
 
-  &:before {
-    content: '\E802';
-    display: block;
-    font-family: $font-icon;
+  &__icon {
     color: $color-gray-600;
+    display: block;
     position: absolute;
     left: 0.5rem;
-    top: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 99;
   }
 
