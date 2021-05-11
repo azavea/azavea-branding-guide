@@ -66,8 +66,10 @@ We standardize our email signature to make sure our contacts have access to comp
 1. Login to your Azavea Gmail account.
 2. Navigate to “Settings” through the little gear icon.
 3. Click “See all settings” and scroll to find the “Signature” section.
-4. Create a new signature and paste the example text from below into your email signature. 
-5. We will need to remove all styling and add links manually via the text editor (otherwise they get a weird blue background). Find the little down caret icon to the far right of the toolbar and click the crossed off T icon (if you hover, it will say “Remove formatting”).
+4. Create a new signature (name it whatever you want). Copy the example text from above and paste it into the editor. 
+5. We will need to remove all styling and add links manually via the text editor (otherwise they get a weird blue background). 
+    - Select all text in the editor. 
+    - Find the little down caret icon to the far right of the toolbar and click the crossed off T icon (if you hover, it will say “Remove formatting”).
 5. Now bold the first line. 
 6. Replace the placeholder first and last name, title, name pronunciation link (you can use [NameDrop](https://namedrop.io/) to create this), pronouns, email address, phone number (optional).
 7. Add / update the following links:
