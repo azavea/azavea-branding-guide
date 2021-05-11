@@ -1,11 +1,9 @@
-{% if page.status == 'deprecated' %}
+{% if include.status == 'deprecated' %}
   {% assign badge = "negative" %}
   {% assign friendly_name = "Deprecated" %}
-{% elsif page.status == 'in_progress' %}
+{% elsif include.status == 'in_progress' %}
   {% assign badge = "caution" %}
   {% assign friendly_name = "In progress" %}
 {% endif %}
 
-{% if page.status %}
-<span class="c-badge c-badge--{{ badge }}">{{ friendly_name }}</span>
-{% endif %}
+<span class="c-badge c-badge--{{ badge }}">{{ include.friendly_name }}</span>

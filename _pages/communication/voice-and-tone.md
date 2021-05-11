@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Voice and tone
 group: communication
-permalink: /communication/voice-and-tone.html
+permalink: /communication/voice-and-tone
 description: Understand how we communicate across different mediums.
 
 ---

@@ -2,4 +2,9 @@
   <div class="c-image {% if include.size %}c-image--{{ include.size }}{% endif %}">
     <img src="{{ include.src }}" alt="{{ include.alt }}" />
   </div>
+  {% if include.download %}
+  <div class="c-assets-download">
+      <a href="{{ include.download }}" class="c-assets-download__btn c-btn c-btn--small" download>Download assets</a>
+  </div>
+  {% endif %}
 </div>

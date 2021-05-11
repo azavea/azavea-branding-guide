@@ -5,7 +5,7 @@
       <li class="c-primary-nav__item {% if page.url contains nav.href %}is-active{% endif %}">
         <a href="{{ nav.url | prepend: site.baseurl }}" class="c-primary-nav__link c-primary-nav__link--has-children js-nav-dropdown-trigger {% if page.url contains nav.href %} is-active is-current{% endif %}">
         	<span class="c-primary-nav__text">{{ nav.title }}</span>
-        	<i class="c-icon c-primary-nav__icon icon-right-open"></i>
+          <i class="c-icon c-primary-nav__icon fal fa-chevron-right"></i>
         </a>
         <ul class="c-primary-nav__sublist js-nav-dropdown {% if page.url contains nav.href %} is-active{% endif %}">
         {% for subpage in nav.subpages %}
@@ -30,13 +30,13 @@
 		  	 {{ post.title }}
 		  	</a>
 		{% endfor %}
-		<a href="{{ "/release-history.html" | prepend: site.baseurl}}" 
-			 class="c-guide-info__link {% if page.url == '/release-history.html' %}is-current{% endif %}">
+		<a href="{{ "/release-history" | prepend: site.baseurl}}" 
+			 class="c-guide-info__link {% if page.url == '/release-history' %}is-current{% endif %}">
 			 Release History</a>
     <a href="https://www.azavea.com" 
        class="c-btn c-guide-info__link c-guide-info__azavea-link">
        Go to azavea.com
-       <i class="c-icon">&#xf081;</i>
+      <i class="c-icon far fa-external-link"></i>
     </a>
 	</div>
 </nav><!-- end c-nav -->

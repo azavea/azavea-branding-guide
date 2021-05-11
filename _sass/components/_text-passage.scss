@@ -45,7 +45,7 @@
 		font-size: 1rem;
 		position: relative;
 
-		:before {
+		&:before {
 			content: "“";
 			font-family: $font-icon;
 			font-size: $font-size-jumbo;
@@ -61,6 +61,7 @@
 	  */
 	 h1 {
 		margin-bottom: $pad-normal;
+		font-weight: $font-weight-thin;
 	 }
 
 	/**
@@ -69,7 +70,7 @@
 	h2 {
 		margin: $pad-large 0 $pad-medium;
 		color: $brand-primary-03;
-		font-weight: $font-weight-normal;
+		font-weight: $font-weight-thin;
 		position: relative;
     	padding-bottom: $pad-comfortable;
 
@@ -96,7 +97,7 @@
 	 * Fourth-level heading within text passage
 	 */
 	h4 {
-		margin: $pad-normal 0 $pad-normal;
+		margin: $pad-spacious 0 $pad-medium;
 		color: $brand-primary-03;
 	}
 
@@ -104,14 +105,14 @@
 	 * Fifth-level heading within text passage
 	 */
 	h5 {
-		margin: $pad-normal 0 $pad-normal;
+		margin: $pad-spacious 0 $pad-medium;
 	}
 
 	/**
 	 * Sixth-level heading within text passage
 	 */
 	h6 {
-		margin: $pad-normal 0 $pad-normal;
+		margin: $pad-spacious 0 $pad-medium;
 	}
 
 

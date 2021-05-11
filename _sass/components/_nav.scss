@@ -112,8 +112,8 @@
 	     */
 		.c-nav__item--has-children--is-active & {
 			max-height: 800px;
-      padding: 0.3rem 0;
-      transition-timing-function: ease-in;
+      		padding: 0.3rem 0;
+      		transition-timing-function: ease-in;
 		}
 		
 	} 
@@ -149,7 +149,7 @@
 		    &:after {
 			    transform: rotate(180deg);
 			}
-    }
+    	}
 	}
 }
 

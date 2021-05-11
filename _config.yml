@@ -25,6 +25,7 @@ tipue_search:
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 sass:
   sass_dir: _sass
@@ -36,6 +37,9 @@ include:
 plugins: 
   - jekyll-redirect-from
 
+whitelist:
+  - jekyll-redirect-from
+
 exclude:
   - Dockerfile
   - docker-compose.yml
@@ -43,4 +47,3 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-

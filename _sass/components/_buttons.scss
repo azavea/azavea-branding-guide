@@ -13,7 +13,8 @@
 	cursor: pointer;
 	color: $color-white;
 	line-height: 1;
-	font-weight: bold;
+	font-weight: $font-weight-semibold;
+	font-size: $font-size-med;
 	padding: 1rem 2rem;
 	border: 0;
 	box-shadow: none; /* 2 */
@@ -95,8 +96,6 @@
  * Button icon
  */
 .c-btn__icon {
-	font-size: inherit;
-	font-family: $font-icon;
 	font-style: normal;
 	font-weight: normal;
 	speak: none;
@@ -115,7 +114,6 @@
 	-moz-osx-font-smoothing: grayscale;
 	position: relative;
 	transition: fill $fade-quick $anim-ease;
-	font-family: $font-icon;
 	padding-right: $pad-compact;
 
 	/*

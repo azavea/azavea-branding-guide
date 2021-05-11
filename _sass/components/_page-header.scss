@@ -17,7 +17,7 @@
 
 .c-page-header__title {
   color: $brand-primary-03;
-  font-size: $font-size-display;
+  font-size: $font-size-jumbo;
   margin-bottom: $pad-normal;
 }
 
@@ -25,4 +25,10 @@
   font-size: $font-size-med-2;
   margin-bottom: $pad-spacious;
   max-width: $l-max-width-narrow;
+}
+
+.post-meta {
+  font-size: $font-size-sm-2;
+  text-transform: uppercase;
+  font-weight: $font-weight-semibold;
 }

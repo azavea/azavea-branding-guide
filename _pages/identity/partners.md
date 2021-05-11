@@ -2,12 +2,12 @@
 layout: page
 title: Partners
 group: identity
-permalink: /identity/partners.html
+permalink: /identity/partners
 description: Brand assets and relationship descriptions related to business partners.
 
 ---
 
-## CARTO
+### CARTO
 Azavea is a CARTO business partner. "CARTO" should be referred to in all caps.
 
 View the [CARTO Business Partner](https://carto.com/partners/) website for more information. Login to the Partners Resource Center to download assets like logos.
@@ -17,7 +17,7 @@ View the [CARTO Business Partner](https://carto.com/partners/) website for more 
   alt =  "CARTO logo"
 %}
 
-## Esri
+### Esri
 Azavea is an Esri business partner. "Esri" should be written in title case.
 
 View the [Esri Business Partner](http://www.esri.com/partners) website for more information. Login to the Partners Portal to download assets like logos.
@@ -27,7 +27,7 @@ View the [Esri Business Partner](http://www.esri.com/partners) website for more 
   alt =  "Esri logo"
 %}
 
-## LocationTech
+### LocationTech
 "LocationTech" should always be written in upper camel case.
 
 View the [Azavea page](https://www.locationtech.org/content/azavea) on the LocationTech website for more information.

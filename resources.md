@@ -2,7 +2,7 @@
 layout: page
 type: detail
 title: Resources
-url: /resources.html
+url: /resources
 description: Software Engineers, Designers, Operations Engineers, and Business Development Professionals alike, use tools to make their jobs easier. Here are some tried-and-true resources that folks at Azavea use.
 ---
 
