@@ -16,7 +16,7 @@ description: Create your Azavea email signature.
   **First Name Last Name, Title** <br />
   Pronouns: they/them/theirs | [click for name pronunciation](https://namedrop.io/)  <br />
   Azavea | 990 Spring Garden Street, 5th Floor, Philadelphia, PA  <br />
-  [youremail@azavea.com](mailto:youremail@azavea.com) | Phone Number  <br /> 
+  [youremail@azavea.com](mailto:youremail@azavea.com) | Phone Number  <br />
   [Website](https://www.azavea.com/) | [Blog](https://www.azavea.com/blog/) | [GitHub](https://github.com/azavea) | [Twitter](https://twitter.com/azavea)
 {% endcapture %}
 {% assign email_signature = email_signature | markdownify %}
@@ -41,9 +41,9 @@ description: Create your Azavea email signature.
 
 <!-- Full email signature text -->
 {% capture full_text %}
-  First Name Last Name, Title  
-  Azavea &#124; 990 Spring Garden Street, 5th Floor, Philadelphia, PA  
-  [youremail@azavea.com](mailto:youremail@azavea.com) &#124; Phone Number  
+  First Name Last Name, Title
+  Azavea &#124; 990 Spring Garden Street, 5th Floor, Philadelphia, PA
+  [youremail@azavea.com](mailto:youremail@azavea.com) &#124; Phone Number
   [Website](https://www.azavea.com/) &#124; [Blog](https://www.azavea.com/blog/) &#124; [GitHub](https://github.com/azavea) &#124; [Twitter](https://twitter.com/azavea)
 
   Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
@@ -54,7 +54,9 @@ description: Create your Azavea email signature.
 
 
 
-We standardize our email signature to make sure our contacts have access to company information like our address, phone numbers, websites, and social media accounts. 
+We standardize our email signature to make sure our contacts have access to company information like our address, phone numbers, websites, and social media accounts.
+
+As we are committed to providing an inclusive environment, we invite you to include your pronouns and/or name pronunciation if you are comfortable doing so.
 
 ## Edit your email signature
 
@@ -66,19 +68,20 @@ We standardize our email signature to make sure our contacts have access to comp
 1. Login to your Azavea Gmail account.
 2. Navigate to “Settings” through the little gear icon.
 3. Click “See all settings” and scroll to find the “Signature” section.
-4. Create a new signature (name it whatever you want). Copy the example text from above and paste it into the editor. 
-5. We will need to remove all styling and add links manually via the text editor (otherwise they get a weird blue background). 
-    - Select all text in the editor. 
+4. Create a new signature (name it whatever you want). Copy the example text from above and paste it into the editor.
+5. We will need to remove all styling and add links manually via the text editor (otherwise they get a weird blue background).
+    - Select all text in the editor.
     - Find the little down caret icon to the far right of the toolbar and click the crossed off T icon (if you hover, it will say “Remove formatting”).
-5. Now bold the first line. 
-6. Replace the placeholder first and last name, title, name pronunciation link (you can use [NameDrop](https://namedrop.io/) to create this), pronouns, email address, phone number (optional).
-7. Add / update the following links:
+5. Now bold the first line.
+6. Replace placeholders for first name, last name, title, and email address.
+7. Replace or remove placeholders for optional items: name pronunciation link (you can use [NameDrop](https://namedrop.io/) to create this), pronouns, phone number.
+8. Add / update the following links:
     - **youremail@azavea.com:** `mailto:youremail@azavea.com`
     - **Website:** `https://www.azavea.com/`
     - **Blog:** `https://www.azavea.com/blog/`
     - **GitHub:** `https://github.com/azavea`
     - **Twitter:** `https://twitter.com/azavea`
-7. At the bottom of the page, click “Save Changes”.
+9. At the bottom of the page, click “Save Changes”.
 
 ### Optional text
 Add this text below the links in your email signature to help the people you’re communicating with understand what we do:
