@@ -1,12 +1,12 @@
 {% assign sorted_pages = "" | split: "" %}
 {% for nav in site.data.nav %}
   {% if nav.href contains ".html" %}
-    {% assign sorted_pages = sorted_pages | push: nav %}  
+    {% assign sorted_pages = sorted_pages | push: nav %}
   {% endif %}
-  
+
   {% if nav.subpages %}
     {% for subnav in nav.subpages %}
-      {% assign sorted_pages = sorted_pages | push: subnav %}  
+      {% assign sorted_pages = sorted_pages | push: subnav %}
     {% endfor %}
   {% endif %}
 {% endfor %}
@@ -29,10 +29,10 @@
       {% if prev_i >= 0 %}
       <li class="c-footer-nav__item c-footer-nav__item--prev">
         <a class="c-footer-nav__link" href="{{ sorted_pages[prev_i].href }}">
-          <i class="c-icon far fa-long-arrow-left"></i>
+          <i class="far fa-long-arrow-left"></i>
           <!-- Display subpage group titles -->
           {% if sorted_pages[prev_i].group %}
-            {{ sorted_pages[prev_i].group }}: 
+            {{ sorted_pages[prev_i].group }}:
           {% endif %}
           {{ sorted_pages[prev_i].title }}
         </a>
@@ -45,10 +45,10 @@
         <a class="c-footer-nav__link" href="{{ sorted_pages[next_i].href }}">
           <!-- Display subpage group titles -->
           {% if sorted_pages[next_i].group %}
-            {{ sorted_pages[next_i].group }}: 
+            {{ sorted_pages[next_i].group }}:
           {% endif %}
           {{ sorted_pages[next_i].title }}
-          <i class="c-icon far fa-long-arrow-right"></i>
+          <i class="far fa-long-arrow-right"></i>
         </a>
       </li>
       {% endif %}
