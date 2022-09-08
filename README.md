@@ -14,28 +14,20 @@ Azavea’s branding guide is built using [Jekyll](https://jekyllrb.com/), a stat
 Jekyll uses a plugin called [Hawkins](https://github.com/awood/hawkins) (specified in the `Gemfile`) that integrates with [LiveReload](http://livereload.com) to watch for changes and rebuild static files. 
 
 ## Requirements
-- Vagrant 2.0+
-- VirtualBox 5.1+
+- Docker
 
 ## Getting Started
 
-From your workstation, execute the following command to bring up a Vagrant virtual machine with all of the necessary dependencies installed:
-
-```bash
-$ ./scripts/setup
-```
-
-Next, login to the Vagrant virtual machine and launch the Jekyll services:
-
-```bash
-$ vagrant ssh
-$ ./scripts/server
-```
-
-If `server` isn't running, or to trigger a build of Jekyll's static website output, use:
+To get started or trigger a rebuild of Jekyll's static website output, use:
 
 ```bash
 $ ./scripts/update
+```
+
+Then you can have Jekyll run locally so you can see your changes in a browser. 
+
+```bash
+$ ./scripts/server
 ```
 
 ## URLS
