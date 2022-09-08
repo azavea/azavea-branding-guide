@@ -23,13 +23,13 @@ description: Create your Azavea email signature.
 
 <!-- Optional mission statement text -->
 {% capture optional_text %}
-  Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact.
+  Azavea is a [B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact.
 {% endcapture %}
 {% assign optional_text = optional_text | markdownify %}
 
 <!-- Join us text -->
 {% capture join_text %}
-  Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
+  Azavea is a [B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
 {% endcapture %}
 {% assign join_text = join_text | markdownify %}
 
@@ -46,7 +46,7 @@ description: Create your Azavea email signature.
   [youremail@azavea.com](mailto:youremail@azavea.com) &#124; Phone Number
   [Website](https://www.azavea.com/) &#124; [Blog](https://www.azavea.com/blog/) &#124; [GitHub](https://github.com/azavea) &#124; [Twitter](https://twitter.com/azavea)
 
-  Azavea is a [B Corporation](http://www.bcorporation.net/community/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
+  Azavea is a [B Corporation](https://www.bcorporation.net/en-us/find-a-b-corp/company/azavea) – our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact. [Join us.](http://jobs.azavea.com/)
 {% endcapture %}
 {% assign full_text = full_text | markdownify %}
 
